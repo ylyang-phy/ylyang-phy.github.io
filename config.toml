@@ -21,16 +21,18 @@ publishDir = "docs"
 		weight = -8 
 	[[menu.main]]
 		name = "Notes"
-		url = "/notes"
+		url = "/notes/"
 		weight = -6
 	[[menu.main]]
 		name = "About"
-		url = "/about"
+		url = "/about/"
 		weight = -1
 
 [social]
 	zhihu="https://www.zhihu.com/people/sci-mad"
 	github="http://github.com/yangsos123"
+	mail = "mailto:yilun.yang@mpq.mpg.de"
+
 
 
 [markup]
