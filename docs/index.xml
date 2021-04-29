@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Yilun Yang</title>
     <link>https://yangsos123.github.io/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Yilun Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Apr 2021 21:24:45 +0800</lastBuildDate><atom:link href="https://yangsos123.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Apr 2021 21:24:45 +0800</lastBuildDate>
+    
+	<atom:link href="https://yangsos123.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>My First Post</title>
       <link>https://yangsos123.github.io/posts/my-first-post/</link>
       <pubDate>Wed, 28 Apr 2021 21:24:45 +0800</pubDate>
       
       <guid>https://yangsos123.github.io/posts/my-first-post/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>get in touch</title>
-      <link>https://yangsos123.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yangsos123.github.io/contact/</guid>
       <description></description>
     </item>
     
