@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yilun Yang</title>
+    <title>Yilun Yang&#39; Homepage</title>
     <link>https://yangsos123.github.io/</link>
-    <description>Recent content on Yilun Yang</description>
+    <description>Recent content on Yilun Yang&#39; Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 28 Apr 2021 21:24:45 +0800</lastBuildDate>
@@ -12,17 +12,31 @@
     
     
     <item>
+      <title>Research</title>
+      <link>https://yangsos123.github.io/research/</link>
+      <pubDate>Thu, 29 Apr 2021 17:55:56 +0800</pubDate>
+      
+      <guid>https://yangsos123.github.io/research/</guid>
+      <description>&lt;h2 id=&#34;thermalization-probes-of-quantum-many-body-systems&#34;&gt;Thermalization probes of quantum many body systems&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Probing Thermalization through Spectral Analysis with Matrix Product Operators, &lt;strong&gt;Yilun Yang&lt;/strong&gt;, &lt;em&gt;Sofyan Iblisdir, J. Ignacio Cirac, and Mari Carmen Bañuls&lt;/em&gt;, &lt;a href=&#34;https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.100602&#34;&gt;PhysRevLett.124.100602&lt;/a&gt; (&lt;a href=&#34;https://yangsos123.github.io/files/posters/slides_VaQuM_Yilun_Yang.pdf&#34;&gt;poster&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We provide a technique for spectral analysis of quantum many body systems with tensor networks, which can be applied to detect both initial state thermalization and energy eigenstate thermalization.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Notes</title>
       <link>https://yangsos123.github.io/notes/</link>
       <pubDate>Thu, 29 Apr 2021 15:43:46 +0800</pubDate>
       
       <guid>https://yangsos123.github.io/notes/</guid>
       <description>&lt;h2 id=&#34;some-lecture-notes--course-projects&#34;&gt;Some lecture notes / course projects&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/UCQG.pdf&#34;&gt;Notes for Ultracold Quantum Gases (LMU WS2020/21)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/IMC.pdf&#34;&gt;Notes for Introduction to Modern Cryptography (LMU WS2020/21)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/MSP.pdf&#34;&gt;Notes for Mathematical Statistical Physics (LMU SS2020)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/QI.pdf&#34;&gt;Notes for Quantum Information (TUM WS2019/20)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/DFT.pdf&#34;&gt;Computation of Energy Bands&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/UCQG.pdf&#34;&gt;Ultracold Quantum Gases (LMU WS2020/21)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/IMC.pdf&#34;&gt;Introduction to Modern Cryptography (LMU WS2020/21)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/MSP.pdf&#34;&gt;Mathematical Statistical Physics (LMU SS2020)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/QI.pdf&#34;&gt;Quantum Information (TUM WS2019/20)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/DFT.pdf&#34;&gt;Computation of Energy Bands&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/intro_WZW.pdf&#34;&gt;Wess-Zumino-Witten Model as a Conformal Field Theory (Report of Seminar on Geometry, Physics and Relevant Mathematics, UCAS 2017 Spring)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/Clifford_Algebras_and_Spin_Groups.pdf&#34;&gt;Clifford Algebras and Spin Groups (term paper of Lie Groups, UCAS 2017 Spring)&lt;/a&gt;&lt;/p&gt;
 </description>
@@ -34,17 +48,30 @@
       <pubDate>Thu, 29 Apr 2021 15:02:33 +0800</pubDate>
       
       <guid>https://yangsos123.github.io/about/</guid>
-      <description>&lt;p&gt;PhD Student @ Max Planck Institute of Quantum Optics, Garching, Germany&lt;/p&gt;
+      <description>&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PhD Student @ Max Planck Institute of Quantum Optics, Germany, 05.2021 - Present&lt;/li&gt;
+&lt;li&gt;MSc Theoretical and Mathematical Physics @ Ludwig-Maximilian University of Munich and Technical University of Munich, Germany, 10.2019 - 04.2021 (with high distinction, &lt;a href=&#34;https://yangsos123.github.io/files/master_thesis.pdf&#34;&gt;Thesis&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;BSc Physics @ University of Chinese Academy of Sciences, China, 09.2014 - 06.2018&lt;/li&gt;
+&lt;li&gt;Visiting student @ St Edmund Hall, University of Oxford, UK, 10.2017 - 05.2018&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Address: G2.26, Hans-Kopfermann-Str.1 85748 Garching, Germany&lt;/li&gt;
+&lt;li&gt;Email: &lt;a href=&#34;mailto:yilun.yang@mpq.mpg.de&#34;&gt;yilun.yang@mpq.mpg.de&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://orcid.org/0000-0002-1039-4432&#34;&gt;ORCiD&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>My First Post</title>
+      <title>Test post</title>
       <link>https://yangsos123.github.io/posts/my-first-post/</link>
       <pubDate>Wed, 28 Apr 2021 21:24:45 +0800</pubDate>
       
       <guid>https://yangsos123.github.io/posts/my-first-post/</guid>
-      <description></description>
+      <description>&lt;p&gt;Under construction&lt;/p&gt;
+</description>
     </item>
     
   </channel>
