@@ -1,4 +1,7 @@
 baseURL = "https://yangsos123.github.io/"
+publishDir = "docs"
+
+
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 googleAnalytics = "UA-FAKE"
@@ -10,9 +13,6 @@ theme = "hugo-theme-tokiwa"
 author = "Yilun Yang"
 
 math = true
-bannerFont = "fonts/exampleFont"
-
-publishDir = "docs"
 	
 	
 
