@@ -18,11 +18,6 @@ math = true
 
 [menu]
 	[[menu.main]]
-		name = "Home"
-		identifier = "home"
-		url = "/"
-		weight = -5
-	[[menu.main]]
 		name = "Research"
 		identifier = "research"
 		url = "/research/"

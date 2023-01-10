@@ -6,7 +6,6 @@
     <description>Recent content on Yilun Yang&#39; Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Apr 2021 21:24:45 +0800</lastBuildDate>
     
 	<atom:link href="https://yangsos123.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,7 +22,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;thermalization-probes-of-quantum-many-body-systems-by-filtering&#34;&gt;Thermalization probes of quantum many body systems by filtering&lt;/h2&gt;
 &lt;p&gt;We provide a filtering technique for spectral analysis of quantum many body systems with tensor networks, which can be applied to detect both initial state thermalization and energy eigenstate thermalization.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://yangsos123.github.io/static/research_filtering.pdf&#34; alt=&#34;Filtering&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yangsos123.github.io/img/research_filtering.pdf&#34; alt=&#34;Filtering&#34;&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Probing Thermalization through Spectral Analysis with Matrix Product Operators, &lt;strong&gt;Yilun Yang&lt;/strong&gt;, &lt;em&gt;Sofyan Iblisdir, J. Ignacio Cirac, and Mari Carmen Bañuls&lt;/em&gt;, &lt;a href=&#34;https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.100602&#34;&gt;PhysRevLett.124.100602&lt;/a&gt; (&lt;a href=&#34;https://yangsos123.github.io/files/posters/slides_VaQuM_Yilun_Yang.pdf&#34;&gt;poster&lt;/a&gt;)&lt;/p&gt;
@@ -74,16 +73,6 @@
 &lt;li&gt;Email: &lt;a href=&#34;mailto:yilun.yang@mpq.mpg.de&#34;&gt;yilun.yang@mpq.mpg.de&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://orcid.org/0000-0002-1039-4432&#34;&gt;ORCiD&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Test post</title>
-      <link>https://yangsos123.github.io/posts/my-first-post/</link>
-      <pubDate>Wed, 28 Apr 2021 21:24:45 +0800</pubDate>
-      
-      <guid>https://yangsos123.github.io/posts/my-first-post/</guid>
-      <description>&lt;p&gt;Under construction&lt;/p&gt;
 </description>
     </item>
     
