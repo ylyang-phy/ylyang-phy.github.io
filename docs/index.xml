@@ -17,11 +17,20 @@
       <pubDate>Thu, 29 Apr 2021 17:55:56 +0800</pubDate>
       
       <guid>https://yangsos123.github.io/research/</guid>
-      <description>&lt;h2 id=&#34;thermalization-probes-of-quantum-many-body-systems&#34;&gt;Thermalization probes of quantum many body systems&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;error-mitigated-digital-quantum-simulation-of-thermalization&#34;&gt;Error-mitigated digital quantum simulation of thermalization&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Probing Thermalization through Spectral Analysis with Matrix Product Operators, &lt;strong&gt;Yilun Yang&lt;/strong&gt;, &lt;em&gt;Sofyan Iblisdir, J. Ignacio Cirac, and Mari Carmen Bañuls&lt;/em&gt;, &lt;a href=&#34;https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.100602&#34;&gt;PhysRevLett.124.100602&lt;/a&gt; (&lt;a href=&#34;https://yangsos123.github.io/files/posters/slides_VaQuM_Yilun_Yang.pdf&#34;&gt;poster&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;To be available soon&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;We provide a technique for spectral analysis of quantum many body systems with tensor networks, which can be applied to detect both initial state thermalization and energy eigenstate thermalization.&lt;/p&gt;
+&lt;h2 id=&#34;thermalization-probes-of-quantum-many-body-systems-by-filtering&#34;&gt;Thermalization probes of quantum many body systems by filtering&lt;/h2&gt;
+&lt;p&gt;We provide a filtering technique for spectral analysis of quantum many body systems with tensor networks, which can be applied to detect both initial state thermalization and energy eigenstate thermalization.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Probing Thermalization through Spectral Analysis with Matrix Product Operators, &lt;strong&gt;Yilun Yang&lt;/strong&gt;, &lt;em&gt;Sofyan Iblisdir, J. Ignacio Cirac, and Mari Carmen Bañuls&lt;/em&gt;, &lt;a href=&#34;https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.100602&#34;&gt;PhysRevLett.124.100602&lt;/a&gt; (&lt;a href=&#34;https://yangsos123.github.io/files/posters/slides_VaQuM_Yilun_Yang.pdf&#34;&gt;poster&lt;/a&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Classical algorithms for many-body quantum systems at finite energies, &lt;strong&gt;Yilun Yang&lt;/strong&gt;, &lt;em&gt;J. Ignacio Cirac, and Mari Carmen Bañuls&lt;/em&gt;, &lt;a href=&#34;https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307&#34;&gt;PhysRevB.106.024307(Editor&amp;rsquo;s suggestion)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

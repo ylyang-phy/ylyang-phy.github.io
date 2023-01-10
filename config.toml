@@ -21,11 +21,6 @@ math = true
 		name = "Home"
 		identifier = "home"
 		url = "/"
-		weight = -6
-	[[menu.main]]
-		name = "Posts"
-		identifier = "posts"
-		url = "/posts/"
 		weight = -5
 	[[menu.main]]
 		name = "Research"
