@@ -9,33 +9,22 @@ hasCJKLanguage = true
 
 languageCode = "en-us"
 title = "Yilun Yang' Homepage"
-theme = "hugo-theme-tokiwa"
+theme = "hugo-book"
 author = "Yilun Yang"
 
 math = true
-	
-	
 
-[menu]
-	[[menu.main]]
-		name = "Research"
-		identifier = "research"
-		url = "/research/"
-		weight = -4
-	[[menu.main]]
-		name = "Notes"
-		identifier = "notes"
-		url = "/notes/"
-		weight = -3
-	[[menu.main]]
-		name = "About"
-		identifier = "about"
-		url = "/about/"
-		weight = -2
 
 [social]
-	github="http://github.com/yangsos123"
+	github="http://github.com/ylyang-phy"
 	mail = "mailto:yilun.yang@mpq.mpg.de"
+
+
+
+[params]
+	BookTheme = 'auto'
+	BookMenuBundle = '/menu'
+
 
 
 [markup]

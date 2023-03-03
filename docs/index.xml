@@ -5,33 +5,14 @@
     <link>https://yangsos123.github.io/</link>
     <description>Recent content on Yilun Yang&#39; Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://yangsos123.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://yangsos123.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Research</title>
       <link>https://yangsos123.github.io/research/</link>
       <pubDate>Tue, 10 Jan 2023 11:51:56 +0100</pubDate>
       
       <guid>https://yangsos123.github.io/research/</guid>
-      <description>&lt;h2 id=&#34;error-mitigated-digital-quantum-simulation-of-thermalization&#34;&gt;Error-mitigated digital quantum simulation of thermalization&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;To be available soon&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;thermalization-probes-of-quantum-many-body-systems-by-filtering&#34;&gt;Thermalization probes of quantum many body systems by filtering&lt;/h2&gt;
-&lt;p&gt;We provide a filtering technique for spectral analysis of quantum many body systems with tensor networks, which can be applied to detect both initial state thermalization and energy eigenstate thermalization.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://yangsos123.github.io/img/research_filtering.png&#34; alt=&#34;Filtering&#34;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Probing Thermalization through Spectral Analysis with Matrix Product Operators, &lt;strong&gt;Yilun Yang&lt;/strong&gt;, &lt;em&gt;Sofyan Iblisdir, J. Ignacio Cirac, and Mari Carmen Bañuls&lt;/em&gt;, &lt;a href=&#34;https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.100602&#34;&gt;PhysRevLett.124.100602&lt;/a&gt; (&lt;a href=&#34;https://yangsos123.github.io/files/posters/slides_VaQuM_Yilun_Yang.pdf&#34;&gt;poster&lt;/a&gt;)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Classical algorithms for many-body quantum systems at finite energies, &lt;strong&gt;Yilun Yang&lt;/strong&gt;, &lt;em&gt;J. Ignacio Cirac, and Mari Carmen Bañuls&lt;/em&gt;, &lt;a href=&#34;https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307&#34;&gt;PhysRevB.106.024307(Editor&amp;rsquo;s suggestion)&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Error-mitigated digital quantum simulation of thermalization#To be available soon Thermalization probes of quantum many body systems by filtering#We provide a technique for spectral analysis of quantum many body systems, which can be applied to detect both initial state thermalization and energy eigenstate thermalization. A (Gaussian) filter \( P_{\delta} (E) = \exp[-(E-H)^2 / 2\delta^2] \) as a energy projector can filter out irrelevant energy eigenstates of the spectrum.</description>
     </item>
     
     <item>
@@ -40,18 +21,14 @@
       <pubDate>Thu, 29 Apr 2021 15:43:46 +0800</pubDate>
       
       <guid>https://yangsos123.github.io/notes/</guid>
-      <description>&lt;h2 id=&#34;some-lecture-notes--course-projects&#34;&gt;Some lecture notes / course projects&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/UCQG.pdf&#34;&gt;Ultracold Quantum Gases (LMU WS2020/21)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/IMC.pdf&#34;&gt;Introduction to Modern Cryptography (LMU WS2020/21)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/MSP.pdf&#34;&gt;Mathematical Statistical Physics (LMU SS2020)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/QI.pdf&#34;&gt;Quantum Information (TUM WS2019/20)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/DFT.pdf&#34;&gt;Computation of Energy Bands&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/intro_WZW.pdf&#34;&gt;Wess-Zumino-Witten Model as a Conformal Field Theory (Report of Seminar on Geometry, Physics and Relevant Mathematics, UCAS 2017 Spring)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://yangsos123.github.io/files/notes/Clifford_Algebras_and_Spin_Groups.pdf&#34;&gt;Clifford Algebras and Spin Groups (term paper of Lie Groups, UCAS 2017 Spring)&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&#34;some-online-seminars&#34;&gt;Some online seminars&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://quantumscienceseminar.com/&#34;&gt;Quantum Science Seminar&lt;/a&gt;  &lt;a href=&#34;https://www.youtube.com/channel/UCYfq48NHj6zbudywnLW3aYw&#34;&gt;(Youtube)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://quantumtensor.pks.mpg.de/&#34;&gt;European Tensor Network&lt;/a&gt; &lt;a href=&#34;https://www.youtube.com/channel/UCYCOGWQN5ZBT96b-WEBI9pQ&#34;&gt;(Youtube)&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Some lecture notes / course projects#Ultracold Quantum Gases (LMU WS2020/21)
+Introduction to Modern Cryptography (LMU WS2020/21)
+Mathematical Statistical Physics (LMU SS2020)
+Quantum Information (TUM WS2019/20)
+Computation of Energy Bands
+Wess-Zumino-Witten Model as a Conformal Field Theory (Report of Seminar on Geometry, Physics and Relevant Mathematics, UCAS 2017 Spring)
+Clifford Algebras and Spin Groups (term paper of Lie Groups, UCAS 2017 Spring)
+Some online seminars#Quantum Science Seminar (Youtube)</description>
     </item>
     
     <item>
@@ -60,20 +37,7 @@
       <pubDate>Thu, 29 Apr 2021 15:02:33 +0800</pubDate>
       
       <guid>https://yangsos123.github.io/about/</guid>
-      <description>&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;PhD Student @ Max Planck Institute of Quantum Optics, Germany, 05.2021 - Present&lt;/li&gt;
-&lt;li&gt;MSc Theoretical and Mathematical Physics @ Ludwig-Maximilian University of Munich and Technical University of Munich, Germany, 10.2019 - 04.2021 (with high distinction, &lt;a href=&#34;https://yangsos123.github.io/files/master_thesis.pdf&#34;&gt;Thesis&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;BSc Physics @ University of Chinese Academy of Sciences, China, 09.2014 - 06.2018&lt;/li&gt;
-&lt;li&gt;Visiting student @ St Edmund Hall, University of Oxford, UK, 10.2017 - 03.2018&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Address: G2.26, Hans-Kopfermann-Str.1 85748 Garching, Germany&lt;/li&gt;
-&lt;li&gt;Email: &lt;a href=&#34;mailto:yilun.yang@mpq.mpg.de&#34;&gt;yilun.yang@mpq.mpg.de&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://orcid.org/0000-0002-1039-4432&#34;&gt;ORCiD&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>Education#PhD Student @ Max Planck Institute of Quantum Optics, Germany, 05.2021 - Present MSc Theoretical and Mathematical Physics @ Ludwig-Maximilian University of Munich and Technical University of Munich, Germany, 10.2019 - 04.2021 (with high distinction, Thesis) BSc Physics @ University of Chinese Academy of Sciences, China, 09.2014 - 06.2018 Visiting student @ St Edmund Hall, University of Oxford, UK, 10.2017 - 03.2018 Contact#Address: G2.26, Hans-Kopfermann-Str.1 85748 Garching, Germany Email: yilun.</description>
     </item>
     
   </channel>
