@@ -1,6 +1,6 @@
 ---
 title: "Notes"
-date: 2021-04-29T15:43:46+08:00
+date: 2021-04-29
 ---
 
 ## Some lecture notes / course projects

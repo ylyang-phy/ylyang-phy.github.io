@@ -1,6 +1,6 @@
 ---
 title: "Research"
-date: 2023-01-10T11:51:56+01:00
+date: 2023-03-03
 ---
 
 ## Error-mitigated digital quantum simulation of thermalization
@@ -13,7 +13,7 @@ date: 2023-01-10T11:51:56+01:00
 
 ## Thermalization probes of quantum many body systems by filtering
 
-We provide a technique for spectral analysis of quantum many body systems, which can be applied to detect both initial state thermalization and energy eigenstate thermalization. A (Gaussian) filter \\( P_{\delta} (E) = \exp[-(E-H)^2 / 2\delta^2] \\) as a energy projector can filter out irrelevant energy eigenstates of the spectrum. Such filters can be efficiently implemented with tensor networks in one-dimensional systems.
+We provide a technique for spectral analysis of quantum many body systems, which can be applied to detect both initial state thermalization and energy eigenstate thermalization. A (Gaussian) filter `\( P_{\delta} (E) = \exp[-(E-H)^2 / 2\delta^2] \)` as a energy projector can filter out irrelevant energy eigenstates of the spectrum. Such filters can be efficiently implemented with tensor networks in one-dimensional systems.
 
 ![Filtering](/img/research_filtering.png "{width='50%'}")
 

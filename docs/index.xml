@@ -9,16 +9,25 @@
     <item>
       <title>Research</title>
       <link>https://yangsos123.github.io/research/</link>
-      <pubDate>Tue, 10 Jan 2023 11:51:56 +0100</pubDate>
+      <pubDate>Fri, 03 Mar 2023 00:00:00 +0000</pubDate>
       
       <guid>https://yangsos123.github.io/research/</guid>
       <description>Error-mitigated digital quantum simulation of thermalization#To be available soon Thermalization probes of quantum many body systems by filtering#We provide a technique for spectral analysis of quantum many body systems, which can be applied to detect both initial state thermalization and energy eigenstate thermalization. A (Gaussian) filter \( P_{\delta} (E) = \exp[-(E-H)^2 / 2\delta^2] \) as a energy projector can filter out irrelevant energy eigenstates of the spectrum.</description>
     </item>
     
     <item>
+      <title>About</title>
+      <link>https://yangsos123.github.io/about/</link>
+      <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://yangsos123.github.io/about/</guid>
+      <description>Education#PhD Student @ Max Planck Institute of Quantum Optics, Germany, 05.2021 - Present MSc Theoretical and Mathematical Physics @ Ludwig-Maximilian University of Munich and Technical University of Munich, Germany, 10.2019 - 04.2021 (with high distinction, Thesis) BSc Physics @ University of Chinese Academy of Sciences, China, 09.2014 - 06.2018 Visiting student @ St Edmund Hall, University of Oxford, UK, 10.2017 - 03.2018 Contact#Address: G2.26, Hans-Kopfermann-Str.1 85748 Garching, Germany Email: yilun.</description>
+    </item>
+    
+    <item>
       <title>Notes</title>
       <link>https://yangsos123.github.io/notes/</link>
-      <pubDate>Thu, 29 Apr 2021 15:43:46 +0800</pubDate>
+      <pubDate>Thu, 29 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://yangsos123.github.io/notes/</guid>
       <description>Some lecture notes / course projects#Ultracold Quantum Gases (LMU WS2020/21)
@@ -29,15 +38,6 @@ Computation of Energy Bands
 Wess-Zumino-Witten Model as a Conformal Field Theory (Report of Seminar on Geometry, Physics and Relevant Mathematics, UCAS 2017 Spring)
 Clifford Algebras and Spin Groups (term paper of Lie Groups, UCAS 2017 Spring)
 Some online seminars#Quantum Science Seminar (Youtube)</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://yangsos123.github.io/about/</link>
-      <pubDate>Thu, 29 Apr 2021 15:02:33 +0800</pubDate>
-      
-      <guid>https://yangsos123.github.io/about/</guid>
-      <description>Education#PhD Student @ Max Planck Institute of Quantum Optics, Germany, 05.2021 - Present MSc Theoretical and Mathematical Physics @ Ludwig-Maximilian University of Munich and Technical University of Munich, Germany, 10.2019 - 04.2021 (with high distinction, Thesis) BSc Physics @ University of Chinese Academy of Sciences, China, 09.2014 - 06.2018 Visiting student @ St Edmund Hall, University of Oxford, UK, 10.2017 - 03.2018 Contact#Address: G2.26, Hans-Kopfermann-Str.1 85748 Garching, Germany Email: yilun.</description>
     </item>
     
   </channel>
