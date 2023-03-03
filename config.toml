@@ -24,6 +24,7 @@ math = true
 [params]
 	BookTheme = 'auto'
 	BookMenuBundle = '/menu'
+	BookSearch = false
 
 
 [markup]
