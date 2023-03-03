@@ -26,7 +26,6 @@ math = true
 	BookMenuBundle = '/menu'
 
 
-
 [markup]
 	defaultMarkdownHandler = "goldmark"
   	[markup.asciidocExt]
@@ -73,7 +72,7 @@ math = true
 				title = true
     	[markup.goldmark.renderer]
 			hardWraps = false
-			unsafe = false
+			unsafe = true
 			xhtml = false
   	[markup.highlight]
 		anchorLineNos = false
