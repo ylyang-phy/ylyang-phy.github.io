@@ -3,7 +3,8 @@ title: "Notes"
 date: 2021-04-29
 ---
 
-# ***Some lecture notes / course projects***
+
+## ***Some lecture notes / course projects***
 
 [Ultracold Quantum Gases (LMU WS2020/21)](/files/notes/UCQG.pdf)
 
@@ -20,7 +21,7 @@ date: 2021-04-29
 [Clifford Algebras and Spin Groups (term paper of Lie Groups, UCAS 2017 Spring)](/files/notes/Clifford_Algebras_and_Spin_Groups.pdf)
 
 
-# ***Online seminars***
+## ***Online seminars***
 
 [Quantum Science Seminar](https://quantumscienceseminar.com/)  [(Youtube)](https://www.youtube.com/channel/UCYfq48NHj6zbudywnLW3aYw)
 
