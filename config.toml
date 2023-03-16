@@ -13,18 +13,20 @@ theme = "hugo-book"
 author = "Yilun Yang"
 
 math = true
+bookCollapseSection = true
 
 
 [social]
 	github="http://github.com/ylyang-phy"
 	mail = "mailto:yilun.yang@mpq.mpg.de"
 
+[menu]
 
 
 [params]
 	BookTheme = 'auto'
-	BookMenuBundle = '/menu'
 	BookSearch = false
+	BookSection = '*'
 
 
 [markup]

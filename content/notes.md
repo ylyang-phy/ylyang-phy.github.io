@@ -1,13 +1,13 @@
 ---
-title: "Notes"
-date: 2021-04-29
+title: "Miscellaneous"
+weight: 30
 ---
 
 
 ## ***Some lecture notes / course projects***
 
 [Ultracold Quantum Gases (LMU WS2020/21)](/files/notes/UCQG.pdf)
-
+ 
 [Introduction to Modern Cryptography (LMU WS2020/21)](/files/notes/IMC.pdf)
 
 [Mathematical Statistical Physics (LMU SS2020)](/files/notes/MSP.pdf)
