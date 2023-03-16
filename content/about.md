@@ -11,7 +11,7 @@ weight: 10
 - BSc Physics @ University of Chinese Academy of Sciences, China, 09.2014 - 06.2018
 - Visiting student @ St Edmund Hall, University of Oxford, UK, 10.2017 - 03.2018
 
-
+ 
 ## ***Contact***
 
 - Address: G2.26, Hans-Kopfermann-Str.1 85748 Garching, Germany
