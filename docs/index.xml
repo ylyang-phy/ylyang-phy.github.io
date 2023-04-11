@@ -37,7 +37,7 @@ Online seminars#Quantum Science Seminar (Youtube)</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yangsos123.github.io/research/pevp/</guid>
-      <description>Error-mitigated digital quantum simulation of thermalization#Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. As a key ingredient, we show that it is possible to study thermalization even with a relatively coarse Trotter decomposition of the Hamiltonian evolution of interest.</description>
+      <description>Error-mitigated digital quantum simulation of thermalization#Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:</description>
     </item>
     
     <item>
@@ -46,7 +46,8 @@ Online seminars#Quantum Science Seminar (Youtube)</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yangsos123.github.io/research/filter/</guid>
-      <description>Thermalization probes of many body systems by filtering#A (Gaussian) filter \( P_{\delta} (E) = \exp[-(E-H)^2 / 2\delta^2] \)as a energy projector can filter out irrelevant energy eigenstates, which can be efficiently implemented with tensor networks in one-dimensional systems. We provide a technique for spectral analysis of quantum many body systems using such filters, which can be applied to detect in and out of equilibrium properties of both fixed initial states and the whole spectrum.</description>
+      <description>Thermalization probes of many body systems by filtering#The thermal properties of many body systems at finite energies, or microcanonical ensemble, have subtle differences from those at finite temperatures, or the canonical ensemble, when the eigenstate thermalization hypothesis does not hold. They can help to detect the out of equilibrium behaviors of given Hamiltonians, which could be difficult due to the growing entanglement entropy during time evolution.
+We provide a technique for spectral analysis of quantum many body systems using filters that can be applied to both fixed initial states and the whole spectrum.</description>
     </item>
     
   </channel>

@@ -24,7 +24,7 @@ bookCollapseSection = true
 
 
 [params]
-	BookTheme = 'auto'
+	BookTheme = 'light'
 	BookSearch = false
 	BookSection = '*'
 

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en-us" dir="ltr">
+<html lang="en-us" dir=" ltr">
+
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Error-mitigated digital quantum simulation of thermalization#Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. As a key ingredient, we show that it is possible to study thermalization even with a relatively coarse Trotter decomposition of the Hamiltonian evolution of interest.">
+<meta name="description" content="Error-mitigated digital quantum simulation of thermalization#Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:">
 <meta name="theme-color" content="#FFFFFF">
 <meta name="color-scheme" content="light dark"><meta property="og:title" content="Error-mitigated digital quantum simulation of thermalization" />
-<meta property="og:description" content="Error-mitigated digital quantum simulation of thermalization#Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. As a key ingredient, we show that it is possible to study thermalization even with a relatively coarse Trotter decomposition of the Hamiltonian evolution of interest." />
+<meta property="og:description" content="Error-mitigated digital quantum simulation of thermalization#Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://yangsos123.github.io/research/pevp/" /><meta property="article:section" content="research" />
 
@@ -14,7 +15,7 @@
 <title>Error-mitigated digital quantum simulation of thermalization | Yilun Yang&#39; Homepage</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="/book.min.a82d7e77ceb134d151c4d7e381eeb30623fbd5a524d58c584d8716ecec0205bd.css" integrity="sha256-qC1&#43;d86xNNFRxNfjge6zBiP71aUk1YxYTYcW7OwCBb0=" crossorigin="anonymous">
+<link rel="stylesheet" href="/book.min.c58292d36b18b675680ab9baea2029204537b839ea72f258746ec0f32ce8d6c8.css" integrity="sha256-xYKS02sYtnVoCrm66iApIEU3uDnqcvJYdG7A8yzo1sg=" crossorigin="anonymous">
 <script type="application/javascript">
 var doNotTrack = false;
 if (!doNotTrack) {
@@ -31,15 +32,17 @@ Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
   
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body dir="ltr">
+
+<body dir=" ltr">
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
   <main class="container flex">
     <aside class="book-menu">
       <div class="book-menu-content">
         
-  <nav>
+<nav>
 <h2 class="book-brand">
   <a class="flex align-center" href="/"><span>Yilun Yang&#39; Homepage</span>
   </a>
@@ -170,7 +173,7 @@ https://github.com/alex-shpak/hugo-book
     <div class="book-page">
       <header class="book-header">
         
-  <div class="flex align-center justify-between">
+<div class="flex align-center justify-between">
   <label for="menu-control">
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
@@ -185,31 +188,37 @@ https://github.com/alex-shpak/hugo-book
 </div>
 
 
+
+<aside class="hidden clearfix">
   
-  <aside class="hidden clearfix">
-    
-  
+
 <nav id="TableOfContents"></nav>
 
 
 
-  </aside>
-  
+</aside>
+
  
       </header>
 
       
       
-  <article class="markdown"><h2 id="error-mitigated-digital-quantum-simulation-of-thermalization">
+<article class="markdown"><h2 id="error-mitigated-digital-quantum-simulation-of-thermalization">
   <em><strong>Error-mitigated digital quantum simulation of thermalization</strong></em>
   <a class="anchor" href="#error-mitigated-digital-quantum-simulation-of-thermalization">#</a>
 </h2>
-<p>Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a <em><strong>practical</strong></em> experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. As a key ingredient, we show that it is possible to study thermalization even with a relatively coarse Trotter decomposition of the Hamiltonian evolution of interest. The so-called <em><strong>prethermal</strong></em> dynamics closely resemble the thermalization of the model underlying the Trotterization up to long times. Also, We extend the reach of our approach by developing an <em><strong>error mitigation scheme</strong></em> based on measurement and rescaling of survival probabilities.</p>
+<hr>
+<p>Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:</p>
+<ol>
+<li>The trotterization of Hamiltonian can be viewed as a Floquet driving. Thus the <em><strong>prethermalization</strong></em> phenomenon can be taken into consideration, which resembles the thermalization of the model underlying the Trotterization up to long times independent of the system size.</li>
+<li>We propose an error mitigation scheme that based on the measurement and rescaling of survival probabilities. For noises that can be written as Krause operators, we prove that this strategy works up to a constant circuit depth, also independent of the system size.</li>
+</ol>
 <center><figure><img src="/img/research_PEVP.png" width="55%"/>
 </figure>
  </center>
+<hr>
 <ul>
-<li>Simulating prethermalization using near-term quantum computers, <em><strong>Yilun Yang</strong></em>, <em>Arthur Christianen, Sandra Coll-Vinent, Vadim Smelyanskiy, Mari Carmen Bañuls, Thomas E. O&rsquo;Brien, Dominik S. Wild, J. Ignacio Cirac</em>, <a href="https://arxiv.org/abs/2303.08461">arXiv:2303.08461</a></li>
+<li>Simulating prethermalization using near-term quantum computers, <span style="color: salmon"><em><strong>Yilun Yang</strong></em></span>, <em>Arthur Christianen, Sandra Coll-Vinent, Vadim Smelyanskiy, Mari Carmen Bañuls, Thomas E. O&rsquo;Brien, Dominik S. Wild, J. Ignacio Cirac</em>, <a href="https://arxiv.org/abs/2303.08461">arXiv:2303.08461</a></li>
 </ul>
 </article>
  
@@ -217,29 +226,28 @@ https://github.com/alex-shpak/hugo-book
 
       <footer class="book-footer">
         
-  <div class="flex flex-wrap justify-between">
+<div class="flex flex-wrap justify-between">
 
+  
 
-
-
+  
 
 </div>
 
 
 
-  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
-
+<script>{ { . | safeJS } }</script>
 
  
         
       </footer>
 
       
-  
-  <div class="book-comments">
+
+<div class="book-comments">
 
 </div>
-  
+
  
 
       <label for="menu-control" class="hidden book-menu-overlay"></label>
@@ -249,7 +257,7 @@ https://github.com/alex-shpak/hugo-book
     <aside class="book-toc">
       <div class="book-toc-content">
         
-  
+
 <nav id="TableOfContents"></nav>
 
 
@@ -261,8 +269,8 @@ https://github.com/alex-shpak/hugo-book
 
   
 </body>
-</html>
 
+</html>
 
 
 
