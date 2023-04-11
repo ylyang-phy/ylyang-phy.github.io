@@ -20,9 +20,6 @@ We provide a technique for ***spectral analysis*** of quantum many body systems 
 - Classical algorithms for many-body quantum systems at finite energies, <span style="color: salmon">***Yilun Yang***</span>, *J. Ignacio Cirac, and Mari Carmen Bañuls*, [PhysRevB.106.024307(Editor's suggestion)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307)
 
 >*Related works*
->- Algorithms for Quantum Simulation at Finite Energies
-, *Sirui Lu, Mari Carmen Bañuls, and J. Ignacio Cirac*, [PRX Quantum 2, 020321](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020321)
->- Approximating the long time average of the density operator: Diagonal ensemble
-, *Aslı Çakan, J. Ignacio Cirac, and Mari Carmen Bañuls
-*, [Phys. Rev. B 103, 115113](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.115113)
+>- Algorithms for Quantum Simulation at Finite Energies, *Sirui Lu, Mari Carmen Bañuls, and J. Ignacio Cirac*, [PRX Quantum 2, 020321](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020321)
+>- Approximating the long time average of the density operator: Diagonal ensemble, *Aslı Çakan, J. Ignacio Cirac, and Mari Carmen Bañuls*, [Phys. Rev. B 103, 115113](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.115113)
 
