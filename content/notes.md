@@ -16,9 +16,7 @@ weight: 30
 
 [Computation of Energy Bands](/files/notes/DFT.pdf)
 
-[Wess-Zumino-Witten Model as a Conformal Field Theory (Report of Seminar on Geometry, Physics and Relevant Mathematics, UCAS 2017 Spring)](/files/notes/intro_WZW.pdf)
-
-[Clifford Algebras and Spin Groups (term paper of Lie Groups, UCAS 2017 Spring)](/files/notes/Clifford_Algebras_and_Spin_Groups.pdf)
+[Wess-Zumino-Witten Model as a Conformal Field Theory (Seminar notes, UCAS 2017 Spring)](/files/notes/intro_WZW.pdf)
 
 - - -
 
