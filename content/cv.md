@@ -30,12 +30,12 @@ weight: 20
 > <p style="text-align:left;">
 >	BSc Physics @ University of Chinese Academy of Sciences
 >    <span style="float:right;">
->         09.2014 - 06.2018
+>          09.2014 - 06.2018
 >    </span>
 > </p>
 >
 
-> [<img src="/icons/oxford.png" style="width:12em;vertical-align:middle">](https://www.ox.ac.uk/) 
+> [<img src="/icons/oxford.png" style="width:12em;vertical-align:middle">](https://www.ox.ac.uk/) [<img src="/icons/teddy-hall.svg" style="width:3em;vertical-align:middle">](https://www.seh.ox.ac.uk/) 
 > <p style="text-align:left;">
 >	Visiting student @ St Edmund Hall, University of Oxford
 >    <span style="float:right;">
