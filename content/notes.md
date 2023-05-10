@@ -4,7 +4,8 @@ weight: 30
 ---
 
 
-## ***Some lecture notes / course projects***
+## Some lecture notes / course projects
+- - -
 
 [Ultracold Quantum Gases (LMU WS2020/21)](/files/notes/UCQG.pdf)
  
@@ -19,10 +20,10 @@ weight: 30
 [Wess-Zumino-Witten Model as a Conformal Field Theory (Seminar notes, UCAS 2017 Spring)](/files/notes/intro_WZW.pdf)
 
 <br>
+<br>
 
+## Online seminars
 - - -
-
-## ***Online seminars***
 
 [Quantum Science Seminar](https://quantumscienceseminar.com/)  [(Youtube)](https://www.youtube.com/channel/UCYfq48NHj6zbudywnLW3aYw)
 

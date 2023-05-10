@@ -4,6 +4,7 @@ weight: 20
 ---
 
 ## **Education**
+- - -
 
 <table width="100%" cellspacing="15" >
   <tr>
@@ -32,9 +33,9 @@ weight: 20
 <br>
 <br>
 
-- - -
 
 ## **Awards**
+- - -
 
 <table width="100%" cellspacing="15" >
   <tr>
