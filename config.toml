@@ -48,7 +48,7 @@ math = true
 	"""
 	profilePicture = "img/Yang_Yilun.jpg"
 	displayMode = "light"
-
+	contentratio = 0.75
 
 
 [[params.socialIcons]]
