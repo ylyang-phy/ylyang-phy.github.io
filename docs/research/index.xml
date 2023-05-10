@@ -1,29 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Research on Yilun Yang&#39; Homepage</title>
-    <link>https://yangsos123.github.io/research/</link>
-    <description>Recent content in Research on Yilun Yang&#39; Homepage</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://yangsos123.github.io/research/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Error-mitigated digital quantum simulation of thermalization</title>
-      <link>https://yangsos123.github.io/research/pevp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yangsos123.github.io/research/pevp/</guid>
-      <description>Error-mitigated digital quantum simulation of thermalization#Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:</description>
-    </item>
-    
-    <item>
-      <title>Thermalization probes of many body systems by filtering</title>
-      <link>https://yangsos123.github.io/research/filter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yangsos123.github.io/research/filter/</guid>
-      <description>Thermalization probes of many body systems by filtering#The thermal properties of many body systems at finite energies, or microcanonical ensemble, have subtle differences from those at finite temperatures, or the canonical ensemble, when the eigenstate thermalization hypothesis does not hold. They can help to detect the out of equilibrium behaviors of given Hamiltonians, which could be difficult due to the growing entanglement entropy during time evolution.
-We provide a technique for spectral analysis of quantum many body systems using filters that can be applied to both fixed initial states and the whole spectrum.</description>
-    </item>
-    
-  </channel>
-</rss>

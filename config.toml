@@ -3,8 +3,6 @@ publishDir = "docs"
 
 
 enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
-googleAnalytics = "UA-FAKE"
 hasCJKLanguage = true
 
 languageCode = "en-us"
@@ -12,7 +10,6 @@ title = "Yilun Yang 杨逸伦"
 theme = "anatole"
 author = "Yilun Yang"
 
-math = true
 
 
 [menu]
@@ -50,9 +47,6 @@ math = true
 	displayMode = "light"
 	contentratio = 0.75
 
-[params.math]
-enable = true
-use = "katex"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"
@@ -86,21 +80,6 @@ url = "https://orcid.org/0000-0002-1039-4432"
 		verbose = false
 		workingFolderCurrent = false
 		[markup.asciidocExt.attributes]
-  	[markup.blackFriday]
-		angledQuotes = false
-		footnoteAnchorPrefix = ""
-		footnoteReturnLinkContents = ""
-		fractions = true
-		hrefTargetBlank = false
-		latexDashes = true
-		nofollowLinks = false
-		noreferrerLinks = false
-		plainIDAnchors = true
-		skipHTML = false
-		smartDashes = true
-		smartypants = true
-		smartypantsQuotesNBSP = false
-		taskLists = true
   	[markup.goldmark]
     	[markup.goldmark.extensions]
 			definitionList = true
@@ -132,7 +111,3 @@ url = "https://orcid.org/0000-0002-1039-4432"
 		noClasses = true
 		style = "monokai"
 		tabWidth = 4
-  	[markup.tableOfContents]
-		endLevel = 1
-		ordered = false
-		startLevel = 2
