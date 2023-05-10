@@ -50,6 +50,9 @@ math = true
 	displayMode = "light"
 	contentratio = 0.75
 
+[params.math]
+enable = true
+use = "katex"
 
 [[params.socialIcons]]
 icon = "fas fa-envelope"

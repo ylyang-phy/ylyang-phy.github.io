@@ -18,7 +18,8 @@ title: " "
 
 The thermal properties of many body systems at finite energies, or microcanonical ensemble, have subtle differences from those at finite temperatures, or the canonical ensemble, when the eigenstate thermalization hypothesis does not hold. They can help to detect the out of equilibrium behaviors of given Hamiltonians, which could be difficult due to the growing entanglement entropy during time evolution.
 
-We provide a technique for ***spectral analysis*** of quantum many body systems using filters that can be applied to both fixed initial states and the whole spectrum. A (Gaussian) filter {{< katex >}} P_{\delta} (E) = \exp[-(E-H)^2 / 2\delta^2] {{< /katex >}} as a energy projector can filter out irrelevant energy eigenstates and thus obtain the microcanonical ensemble. Such filters can be efficiently implemented with tensor networks in one-dimensional systems, by expanding it with the Chebyshev or Fourier series.
+We provide a technique for ***spectral analysis*** of quantum many body systems using filters that can be applied to both fixed initial states and the whole spectrum. A (Gaussian) filter
+{{< katex >}} P_{\delta} (E) = \exp[-(E-H)^2 / 2\delta^2] {{< /katex >}} as a energy projector can filter out irrelevant energy eigenstates and thus obtain the microcanonical ensemble. Such filters can be efficiently implemented with tensor networks in one-dimensional systems, by expanding it with the Chebyshev or Fourier series.
 
 <center>
 <div class="image">
