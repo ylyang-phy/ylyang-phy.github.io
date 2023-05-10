@@ -1,5 +1,5 @@
 ---
-title: "Miscellaneous"
+title: " "
 weight: 30
 ---
 
@@ -17,6 +17,8 @@ weight: 30
 [Computation of Energy Bands](/files/notes/DFT.pdf)
 
 [Wess-Zumino-Witten Model as a Conformal Field Theory (Seminar notes, UCAS 2017 Spring)](/files/notes/intro_WZW.pdf)
+
+<br>
 
 - - -
 

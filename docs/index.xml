@@ -1,54 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yilun Yang&#39; Homepage</title>
-    <link>https://yangsos123.github.io/</link>
-    <description>Recent content on Yilun Yang&#39; Homepage</description>
+    <title>Yilun Yang 杨逸伦</title>
+    <link>https://ylyang-phy.github.io/</link>
+    <description>Recent content on Yilun Yang 杨逸伦</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://yangsos123.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ylyang-phy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Curriculum Vitae</title>
-      <link>https://yangsos123.github.io/cv/</link>
+      <title> </title>
+      <link>https://ylyang-phy.github.io/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yangsos123.github.io/cv/</guid>
-      <description>Education#PhD Student @ Max Planck Institute of Quantum Optics05.2021 - PresentMSc Theoretical and Mathematical Physics (with high distinction, Thesis) @
-Ludwig-Maximilian University of Munich and Technical University of Munich10.2019 - 04.2021BSc Physics @ University of Chinese Academy of Sciences09.2014 - 06.2018Visiting student @ St Edmund Hall, University of Oxford10.2017 - 03.2018Awards#Name Year Outstanding Undergraduate Thesis University of Chinese Academy of Sciences 2018 China National Scholarship Ministry of Education of People’s Republic of China 2017 Gold Medals ACM International Collegiate Programming Contest, Dalian/Qingdao Regional 2016 </description>
+      <guid>https://ylyang-phy.github.io/cv/</guid>
+      
+        <description>Education PhD Student @ Max Planck Institute of Quantum Optics 05.2021 - Present MSc Theoretical and Mathematical Physics (with high distinction, Thesis) @ &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Ludwig-Maximilian University of Munich and Technical University of Munich10.2019 - 04.2021BSc Physics @ University of Chinese Academy of Sciences (UCAS)09.2014 - 06.2018Visiting student @ St Edmund Hall, University of Oxford10.2017 - 03.2018Awards Name Year Outstanding Undergraduate Thesis, UCAS2018China National Scholarship, Ministry of Education of People’s Republic of China2017Gold Medals, ACM ICPC Asia Regional , Dalian/Qingdao Regional2016</description>
+      
     </item>
     
     <item>
-      <title>Miscellaneous</title>
-      <link>https://yangsos123.github.io/notes/</link>
+      <title> </title>
+      <link>https://ylyang-phy.github.io/notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yangsos123.github.io/notes/</guid>
-      <description>Some lecture notes / course projects#Ultracold Quantum Gases (LMU WS2020/21)
+      <guid>https://ylyang-phy.github.io/notes/</guid>
+      
+        <description>Some lecture notes / course projects Ultracold Quantum Gases (LMU WS2020/21)
 Introduction to Modern Cryptography (LMU WS2020/21)
 Mathematical Statistical Physics (LMU SS2020)
 Quantum Information (TUM WS2019/20)
 Computation of Energy Bands
 Wess-Zumino-Witten Model as a Conformal Field Theory (Seminar notes, UCAS 2017 Spring)
-Online seminars#Quantum Science Seminar (Youtube)
+Online seminars Quantum Science Seminar (Youtube)
 European Tensor Network (Youtube)</description>
+      
     </item>
     
     <item>
-      <title>Error-mitigated digital quantum simulation of thermalization</title>
-      <link>https://yangsos123.github.io/research/pevp/</link>
+      <title> </title>
+      <link>https://ylyang-phy.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yangsos123.github.io/research/pevp/</guid>
-      <description>Error-mitigated digital quantum simulation of thermalization#Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:</description>
-    </item>
-    
-    <item>
-      <title>Thermalization probes of many body systems by filtering</title>
-      <link>https://yangsos123.github.io/research/filter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ylyang-phy.github.io/research/</guid>
       
-      <guid>https://yangsos123.github.io/research/filter/</guid>
-      <description>Thermalization probes of many body systems by filtering#The thermal properties of many body systems at finite energies, or microcanonical ensemble, have subtle differences from those at finite temperatures, or the canonical ensemble, when the eigenstate thermalization hypothesis does not hold. They can help to detect the out of equilibrium behaviors of given Hamiltonians, which could be difficult due to the growing entanglement entropy during time evolution.
-We provide a technique for spectral analysis of quantum many body systems using filters that can be applied to both fixed initial states and the whole spectrum.</description>
+        <description>Thermalization probes of many body systems by filtering Probing Thermalization through Spectral Analysis with Matrix Product Operators Yilun Yang, Sofyan Iblisdir, J. Ignacio Cirac, and Mari Carmen Bañuls , Phys. Rev. Lett. 124, 100602 (poster)
+Classical algorithms for many-body quantum systems at finite energies Yilun Yang, J. Ignacio Cirac, and Mari Carmen Bañuls, Phys. Rev. B 106, 024307(Editor&amp;rsquo;s suggestion)
+The thermal properties of many body systems at finite energies, or microcanonical ensemble, have subtle differences from those at finite temperatures, or the canonical ensemble, when the eigenstate thermalization hypothesis does not hold.</description>
+      
     </item>
     
   </channel>

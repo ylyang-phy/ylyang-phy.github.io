@@ -1,4 +1,4 @@
-baseURL = "https://yangsos123.github.io/"
+baseURL = "https://ylyang-phy.github.io/"
 publishDir = "docs"
 
 
@@ -8,25 +8,65 @@ googleAnalytics = "UA-FAKE"
 hasCJKLanguage = true
 
 languageCode = "en-us"
-title = "Yilun Yang' Homepage"
-theme = "hugo-book"
+title = "Yilun Yang 杨逸伦"
+theme = "anatole"
 author = "Yilun Yang"
 
 math = true
-bookCollapseSection = true
 
-
-[social]
-	github="http://github.com/ylyang-phy"
-	mail = "mailto:yilun.yang@mpq.mpg.de"
 
 [menu]
+	[[menu.main]]
+	name = "Home"
+	identifier = "home"
+	weight = 100
+	url = "/"
+
+	[[menu.main]]
+	name = "Research"
+	weight = 200
+	identifier = "research"
+	url = "/research"
+	
+	[[menu.main]]
+	name = "Curriculum Vitae"
+	weight = 300
+	identifier = "cv"
+	url = "/cv"
+
+	[[menu.main]]
+	name = "Miscellaneous"
+	weight = 300
+	identifier = "misc"
+	url = "/notes"
 
 
 [params]
-	BookTheme = 'light'
-	BookSearch = false
-	BookSection = '*'
+	title = "Yilun Yang's Homepage"
+	author = "Yilun Yang"
+	description = """杨逸伦
+	"""
+	profilePicture = "img/Yang_Yilun.jpg"
+	displayMode = "light"
+
+
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:yilun.yang@mpq.mpg.de"
+
+[[params.socialIcons]]
+icon = "fas fa-location-dot"
+title = "Address"
+url = "https://www.mpq.mpg.de/theory"
+
+[[params.socialIcons]]
+icon = "fab fa-orcid"
+title = "ORCiD"
+url = "https://orcid.org/0000-0002-1039-4432"
+
+
 
 
 [markup]

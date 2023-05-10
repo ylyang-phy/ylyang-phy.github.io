@@ -1,55 +1,56 @@
 ---
-title: "Curriculum Vitae"
+title: " "
 weight: 20
 ---
 
-# **Education**
+## **Education**
 
-> [<img src="/icons/MPI__QuantenOptics_kompakt_blue_dark.png" style="width:12em;vertical-align:middle">](https://www.mpq.mpg.de/en)
->
-> <p style="text-align:left;">
->	PhD Student @ Max Planck Institute of Quantum Optics
->    <span style="float:right;">
->         05.2021 - Present
->    </span>
-> </p>
+<table width="100%" cellspacing="15" >
+  <tr>
+    <td>  <b>PhD Student </b> @ <a href="https://www.mpq.mpg.de/en"> Max Planck Institute of Quantum Optics </a> </td>
+    <td> 05.2021 - Present </td>
+  </tr>
+  <tr>
+    <td><b>MSc </b> <a href="https://www.theorie.physik.uni-muenchen.de/TMP/">Theoretical and Mathematical Physics</a> (with high distinction, <a href="/files/master_thesis.pdf">Thesis</a>) @ </td>
+    <td> </td>
+  </tr>
+  <tr>
+    <td>&nbsp; &nbsp; &nbsp; &nbsp; <a href="https://www.lmu.de/en/index.html">Ludwig-Maximilian University of Munich </a> and <a href="https://www.tum.de/en/">Technical University of Munich</a></td>
+    <td>10.2019 - 04.2021</td>
+  </tr>
+  <tr>
+    <td><b>BSc Physics </b> @ <a href="https://ucas.ac.cn/">University of Chinese Academy of Sciences (UCAS)</a></td>
+    <td>09.2014 - 06.2018</td>
+  </tr>
+  <tr>
+    <td><b>Visiting student </b> @ <a href="https://www.seh.ox.ac.uk/">St Edmund Hall</a>, <a href="https://www.ox.ac.uk/">University of Oxford</a></td>
+    <td>10.2017 - 03.2018</td>
+  </tr>
+</table>
 
 
-> [<img src="/icons/lmu.svg" style="width:8em;vertical-align:middle">](https://www.lmu.de/en/index.html)[<img src="/icons/tum.svg" style="width:5em;vertical-align:middle">](https://www.tum.de/en/) 
->
-> MSc [Theoretical and Mathematical Physics](https://www.theorie.physik.uni-muenchen.de/TMP/) (with high distinction, [Thesis](/files/master_thesis.pdf)) @ 
-> 
-> <p style="text-align:left;">
->	Ludwig-Maximilian University of Munich and Technical University of Munich
->    <span style="float:right;">
->         10.2019 - 04.2021
->    </span>
-> </p> 
-
-> [<img src="/icons/ucas.png" style="width:12em;vertical-align:middle">](https://ucas.ac.cn/) 
-> <p style="text-align:left;">
->	BSc Physics @ University of Chinese Academy of Sciences
->    <span style="float:right;">
->          09.2014 - 06.2018
->    </span>
-> </p>
->
-
-> [<img src="/icons/oxford.png" style="width:12em;vertical-align:middle">](https://www.ox.ac.uk/) [<img src="/icons/teddy-hall.svg" style="width:3em;vertical-align:middle">](https://www.seh.ox.ac.uk/) 
-> <p style="text-align:left;">
->	Visiting student @ St Edmund Hall, University of Oxford
->    <span style="float:right;">
->         10.2017 - 03.2018
->    </span>
-> </p>
->
+<br>
+<br>
 
 - - -
 
-# **Awards**
+## **Awards**
 
- | Name                             |                                                                           | Year  |
- | :------------------------------- | :------------------------------------------------------------------------ | :---: |
- | Outstanding Undergraduate Thesis | University of Chinese Academy of Sciences                                 | 2018  |
- | China National Scholarship       | Ministry of Education of People’s Republic of China                       | 2017  |
- | Gold Medals                      | ACM International Collegiate Programming Contest, Dalian/Qingdao Regional | 2016  |
+<table width="100%" cellspacing="15" >
+  <tr>
+    <td> <b> Name </b></td>
+    <td> <b> Year </b></td>
+  </tr>
+  <tr>
+    <td>Outstanding Undergraduate Thesis, UCAS</td>
+    <td>2018</td>
+  </tr>
+  <tr>
+    <td>China National Scholarship, Ministry of Education of People’s Republic of China</td>
+    <td>2017</td>
+  </tr>
+  <tr>
+    <td>Gold Medals, <a href="https://icpc.global/"> ACM ICPC Asia Regional </a>, Dalian/Qingdao Regional</td>
+    <td>2016</td>
+  </tr>
+</table>
