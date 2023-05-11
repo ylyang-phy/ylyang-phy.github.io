@@ -46,6 +46,7 @@ author = "Yilun Yang"
 	profilePicture = "img/Yang_Yilun.jpg"
 	displayMode = "light"
 	contentratio = 0.75
+	doNotLoadAnimations = true
 
 	[params.math]
 		enable = true

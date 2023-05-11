@@ -3,7 +3,6 @@ title: " "
 ---
 
 
-
 ## Thermalization probes of many body systems by filtering
 - - - 
 
@@ -54,6 +53,6 @@ Quantum simulation is one of the most promising scientific applications of quant
 2. We propose an error mitigation scheme that based on the measurement and rescaling of survival probabilities. For noises that can be written as Krause operators, we prove that this strategy works up to a constant circuit depth, also independent of the system size.
 
 
-<center>{{< figure src="/img/research_PEVP.png" width="55%" >}} </center>
+<center>{{< figure src="/img/research_PEVP.png" width="400" >}} </center>
 
 
