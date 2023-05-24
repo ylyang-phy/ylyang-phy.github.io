@@ -31,12 +31,6 @@ author = "Yilun Yang"
 		identifier = "cv"
 		url = "/cv"
 
-	[[menu.main]]
-		name = "Miscellaneous"
-		weight = 300
-		identifier = "misc"
-		url = "/notes"
-
 
 [params]
 	title = "Yilun Yang's Homepage"
