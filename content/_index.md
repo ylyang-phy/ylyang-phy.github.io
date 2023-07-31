@@ -4,6 +4,6 @@ Hi! I am Yilun, a PhD student in the group of Prof. J. Ignacio Cirac at the Max-
 
 My research interest focuses on 
 - tensor network algorithms and applications, especially to dynamics and equilibration of many body systems;
-- quantum simulation.
+- quantum simulation on NISQ devices.
 
-You can see my previous projects on page "research".
+You can see my previous projects on page &Prime;research&Prime;.

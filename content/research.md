@@ -13,7 +13,7 @@ title: " "
 
 - Classical algorithms for many-body quantum systems at finite energies
   <br />
-  <span style="color: salmon">***Yilun Yang***</span>, *J. Ignacio Cirac, and Mari Carmen Bañuls*, [Phys. Rev. B <b>106</b>, 024307(Editor's suggestion)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307)
+  <span style="color: salmon">***Yilun Yang***</span>, *J. Ignacio Cirac, and Mari Carmen Bañuls*, [Phys. Rev. B <b>106</b>, 024307(Editor&prime;s suggestion)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307)
 
 The thermal properties of many body systems at finite energies, or microcanonical ensemble, have subtle differences from those at finite temperatures, or the canonical ensemble, when the eigenstate thermalization hypothesis does not hold. They can help to detect the out of equilibrium behaviors of given Hamiltonians, which could be difficult due to the growing entanglement entropy during time evolution.
 
@@ -40,12 +40,15 @@ We provide a technique for ***spectral analysis*** of quantum many body systems 
 <br>
 <br>
 
+
+
+
 ## Error-mitigated digital quantum simulation of thermalization
 - - -
 
 - Simulating prethermalization using near-term quantum computers
 <br />
-<span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Sandra Coll-Vinent, Vadim Smelyanskiy, Mari Carmen Bañuls, Thomas E. O'Brien, Dominik S. Wild, J. Ignacio Cirac*, [arXiv:2303.08461](https://arxiv.org/abs/2303.08461)
+<span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Sandra Coll-Vinent, Vadim Smelyanskiy, Mari Carmen Bañuls, Thomas E. O&prime;Brien, Dominik S. Wild, J. Ignacio Cirac*, [arXiv:2303.08461, to appear in PRX Quantum](https://arxiv.org/abs/2303.08461)
 
 Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:
 
@@ -56,3 +59,5 @@ Quantum simulation is one of the most promising scientific applications of quant
 <center>{{< figure src="/img/research_PEVP.png" width="400" >}} </center>
 
 
+<br>
+<br>

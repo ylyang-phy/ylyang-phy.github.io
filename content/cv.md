@@ -47,7 +47,7 @@ weight: 20
     <td>2018</td>
   </tr>
   <tr>
-    <td>China National Scholarship, Ministry of Education of People’s Republic of China</td>
+    <td>China National Scholarship, Ministry of Education of People&prime;s Republic of China</td>
     <td>2017</td>
   </tr>
   <tr>
