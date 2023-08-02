@@ -35,7 +35,7 @@ author = "Yilun Yang"
 [params]
 	title = "Yilun Yang's Homepage"
 	author = "Yilun Yang"
-	description = """杨逸伦
+	description = """
 	"""
 	profilePicture = "img/Yang_Yilun.jpg"
 	displayMode = "light"
