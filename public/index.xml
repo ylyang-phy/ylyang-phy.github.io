@@ -24,9 +24,7 @@
       
       <guid>https://ylyang-phy.github.io/research/</guid>
       
-        <description>Thermalization probes of many body systems by filtering Probing Thermalization through Spectral Analysis with Matrix Product Operators Yilun Yang, Sofyan Iblisdir, J. Ignacio Cirac, and Mari Carmen Bañuls , Phys. Rev. Lett. 124, 100602 (poster)
-Classical algorithms for many-body quantum systems at finite energies Yilun Yang, J. Ignacio Cirac, and Mari Carmen Bañuls, Phys. Rev. B 106, 024307(Editor′s suggestion)
-The microcanonical ensembles at finite energy densities have many applications in many body physics.</description>
+        <description>Ancilla-free estimation of quantum phases Phase-Sensitive Quantum Measurement without Controlled Operations Yilun Yang, Arthur Christianen, Mari Carmen Bañuls, Dominik S. Wild, J. Ignacio Cirac, arXiv:2308.10796 The Loschmidt amplitude \( \mathcal{G}(t) = \langle \psi&amp;rsquo; | e^{-iH t} | \psi \rangle \) including the complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations.</description>
       
     </item>
     

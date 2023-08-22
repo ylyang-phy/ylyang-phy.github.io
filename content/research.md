@@ -2,6 +2,46 @@
 title: " "
 ---
 
+## Ancilla-free estimation of quantum phases
+- - -
+
+- Phase-Sensitive Quantum Measurement without Controlled Operations
+<br />
+<span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Mari Carmen Bañuls, Dominik S. Wild, J. Ignacio Cirac*, [arXiv:2308.10796](https://arxiv.org/abs/2308.10796)
+
+
+The Loschmidt amplitude \\( \mathcal{G}(t) =  \langle \psi' | e^{-iH t} | \psi \rangle \\) including the complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem. Namely, on the complex plane of variable \\( z = t - i \beta\\), using Cauchy-Riemann equations, the real time derivative of the phase will correspond to the imaginary time derivative of the absolute value \\( | \mathcal{G}(z) | \\). Thus our method only requires the implementation of real-time evolution and a shallow circuit that approximates a short imaginary-time evolution. We show that the method outperforms the Hadamard test in terms of circuit depth when only local operations are available.
+
+<center>{{< figure src="/img/research_PSQM.png" width="500" >}} </center>
+
+
+
+<br>
+<br>
+
+
+
+
+## Error-mitigated digital quantum simulation of thermalization
+- - -
+
+- Simulating prethermalization using near-term quantum computers
+<br />
+<span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Sandra Coll-Vinent, Vadim Smelyanskiy, Mari Carmen Bañuls, Thomas E. O&prime;Brien, Dominik S. Wild, J. Ignacio Cirac*, [PRX Quantum <b>4</b>, 030320](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.030320)
+
+Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:
+
+1. The trotterization of Hamiltonian can be viewed as a Floquet driving. Thus the ***prethermalization*** phenomenon can be taken into consideration, which resembles the thermalization of the model underlying the Trotterization up to long times independent of the system size.
+2. We propose an ***error mitigation*** scheme that based on the measurement and rescaling of survival probabilities. For noises that can be written as Kraus operators, we prove that this strategy works up to a constant circuit depth, also independent of the system size.
+
+
+<center>{{< figure src="/img/research_PEVP.png" width="400" >}} </center>
+
+
+<br>
+<br>
+
+
 
 ## Thermalization probes of many body systems by filtering
 - - - 
@@ -43,21 +83,3 @@ We develop a technique to solve this problem using ***energy filters*** that can
 
 
 
-## Error-mitigated digital quantum simulation of thermalization
-- - -
-
-- Simulating prethermalization using near-term quantum computers
-<br />
-<span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Sandra Coll-Vinent, Vadim Smelyanskiy, Mari Carmen Bañuls, Thomas E. O&prime;Brien, Dominik S. Wild, J. Ignacio Cirac*, [arXiv:2303.08461, to appear in PRX Quantum](https://arxiv.org/abs/2303.08461)
-
-Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:
-
-1. The trotterization of Hamiltonian can be viewed as a Floquet driving. Thus the ***prethermalization*** phenomenon can be taken into consideration, which resembles the thermalization of the model underlying the Trotterization up to long times independent of the system size.
-2. We propose an ***error mitigation*** scheme that based on the measurement and rescaling of survival probabilities. For noises that can be written as Kraus operators, we prove that this strategy works up to a constant circuit depth, also independent of the system size.
-
-
-<center>{{< figure src="/img/research_PEVP.png" width="400" >}} </center>
-
-
-<br>
-<br>
