@@ -2,15 +2,15 @@
 title: " "
 ---
 
-## Ancilla-free estimation of quantum phases
+## Ancilla-free phase estimation of complex quantum amplitudes
 - - -
 
 - Phase-Sensitive Quantum Measurement without Controlled Operations
 <br />
-<span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Mari Carmen Bañuls, Dominik S. Wild, J. Ignacio Cirac*, [arXiv:2308.10796](https://arxiv.org/abs/2308.10796)
+<span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Mari Carmen Bañuls, Dominik S. Wild, and J. Ignacio Cirac*, [arXiv:2308.10796](https://arxiv.org/abs/2308.10796)
 
 
-The Loschmidt amplitude \\( \mathcal{G}(t) =  \langle \psi' | e^{-iH t} | \psi \rangle \\) including the complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem. Namely, on the complex plane of variable \\( z = t - i \beta\\), using Cauchy-Riemann equations, the real time derivative of the phase will correspond to the imaginary time derivative of the absolute value \\( | \mathcal{G}(z) | \\). Thus our method only requires the implementation of real-time evolution and a shallow circuit that approximates a short imaginary-time evolution. We show that the method outperforms the Hadamard test in terms of circuit depth when only local operations are available.
+The Loschmidt amplitude \\( \mathcal{G}(t) =  \langle \psi^{\prime} | e^{-iH t} | \psi \rangle \\) including the complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: ***no*** ancillary qubits, ***no*** control operations, only time evolution required.
 
 <center>{{< figure src="/img/research_PSQM.png" width="500" >}} </center>
 
@@ -25,11 +25,11 @@ The Loschmidt amplitude \\( \mathcal{G}(t) =  \langle \psi' | e^{-iH t} | \psi \
 ## Error-mitigated digital quantum simulation of thermalization
 - - -
 
-- Simulating prethermalization using near-term quantum computers
+- Simulating Prethermalization Using Near-Term Quantum Computers
 <br />
-<span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Sandra Coll-Vinent, Vadim Smelyanskiy, Mari Carmen Bañuls, Thomas E. O&prime;Brien, Dominik S. Wild, J. Ignacio Cirac*, [PRX Quantum <b>4</b>, 030320](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.030320)
+<span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Sandra Coll-Vinent, Vadim Smelyanskiy, Mari Carmen Bañuls, Thomas E. O&prime;Brien, Dominik S. Wild, and J. Ignacio Cirac*, [PRX Quantum <b>4</b>, 030320](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.030320)
 
-Quantum simulation is one of the most promising scientific applications of quantum computers. Due to decoherence and noise in current devices, it is however challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:
+Due to decoherence and noise in current devices, it is currently challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:
 
 1. The trotterization of Hamiltonian can be viewed as a Floquet driving. Thus the ***prethermalization*** phenomenon can be taken into consideration, which resembles the thermalization of the model underlying the Trotterization up to long times independent of the system size.
 2. We propose an ***error mitigation*** scheme that based on the measurement and rescaling of survival probabilities. For noises that can be written as Kraus operators, we prove that this strategy works up to a constant circuit depth, also independent of the system size.
@@ -55,7 +55,7 @@ Quantum simulation is one of the most promising scientific applications of quant
   <br />
   <span style="color: salmon">***Yilun Yang***</span>, *J. Ignacio Cirac, and Mari Carmen Bañuls*, [Phys. Rev. B <b>106</b>, 024307(Editor&prime;s suggestion)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307)
 
-The ***microcanonical ensembles*** at finite energy densities have many applications in many body physics. It enables studying the long time behaviors of given initial states, which could be otherwise difficult due to the growing entanglement entropy during time evolution. Also, when a given system does not thermalize, it helps to probe the out-of-equilibrium phenomena. Unlike the canonical ensembles, no standard algorithm exists for computing microcanonical ensemble properties.
+The ***microcanonical ensembles*** at finite energy densities have many applications in many body physics. It enables studying the long time behaviors of given initial states and helps to probe the out-of-equilibrium phenomena. Unlike the canonical ensembles, no standard algorithm exists for computing microcanonical ensemble properties.
 
 We develop a technique to solve this problem using ***energy filters*** that can be applied to both fixed initial states and the whole spectrum. A (Gaussian) filter
 \\(P_{\delta} (E) = \exp[-(E-H)^2 / 2\delta^2]\\) as a energy projector can filter out irrelevant energy eigenstates and thus obtain the microcanonical ensemble. Such filters can be efficiently implemented with tensor networks in one-dimensional systems, by expanding it with the Chebyshev or Fourier series.
