@@ -64,6 +64,9 @@ The Loschmidt amplitude \\( \mathcal{G}(t) =  \langle \psi^{\prime} | e^{-iH t} 
 - - - 
 
 
+{{% container %}}
+{{% columns %}}
+
 - Probing Thermalization through Spectral Analysis with Matrix Product Operators
   <br />
   <span style="color: salmon">***Yilun Yang***</span>, *Sofyan Iblisdir, J. Ignacio Cirac, and Mari Carmen Bañuls* , [Phys. Rev. Lett. <b>124</b>, 100602](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.100602) ([poster](/files/posters/slides_VaQuM_Yilun_Yang.pdf))
@@ -77,18 +80,30 @@ The ***microcanonical ensembles*** at finite energy densities have many applicat
 We develop a technique to solve this problem using ***energy filters*** that can be applied to both fixed initial states and the whole spectrum. A (Gaussian) filter
 \\(P_{\delta} (E) = \exp[-(E-H)^2 / 2\delta^2]\\) as a energy projector can filter out irrelevant energy eigenstates and thus obtain the microcanonical ensemble. Such filters can be efficiently implemented with tensor networks in one-dimensional systems, by expanding it with the Chebyshev or Fourier series.
 
+
+{{% /columns %}}
+
+<br>
+<br>
 <center>
 <div class="image">
     <div style="display:inline-block;">
-        <img src="/img/research_filtering_state.png"  width="350"  />
+        <img src="/img/research_filtering_state.png"  width="400"  />
         <p style="text-align:center;">filtering a state</p>
     </div>
     <div style="display:inline-block;">
-        <img src="/img/research_filtering_trace.png"  width="350" />
+        <img src="/img/research_filtering_trace.png"  width="400" />
         <p style="text-align:center;">filtering the whole spectrum</p>
     </div>
 </div>
 </center>
+
+
+{{% /container %}}
+
+<p class="clearboth">
+	&nbsp;
+</p>
 
 >*Related works*
 >- Algorithms for Quantum Simulation at Finite Energies, *Sirui Lu, Mari Carmen Bañuls, and J. Ignacio Cirac*, [PRX Quantum <b>2</b>, 020321](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020321)
