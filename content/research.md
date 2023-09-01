@@ -1,23 +1,33 @@
 ---
 title: " "
+
 ---
 
+<style>       
+    p.clearboth { 
+        clear: both; 
+    } 
+</style> 
+  
 ## Ancilla-free phase estimation of complex quantum amplitudes
 - - -
-
+{{% container %}}
+{{% columns %}}
 - Phase-Sensitive Quantum Measurement without Controlled Operations
-<br />
-<span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Mari Carmen Bañuls, Dominik S. Wild, and J. Ignacio Cirac*, [arXiv:2308.10796](https://arxiv.org/abs/2308.10796)
+<br /> <span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Mari Carmen Bañuls, Dominik S. Wild, and J. Ignacio Cirac*, [arXiv:2308.10796](https://arxiv.org/abs/2308.10796)
+   
+ 
+The Loschmidt amplitude \\( \mathcal{G}(t) =  \langle \psi^{\prime} | e^{-iH t} | \psi \rangle \\) including the complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: ***no*** ancillary qubits, ***no*** control operations, only time evolution required.  
+{{% /columns %}}
+<br>
+<center>{{< figure src="/img/research_PSQM.png" width="400" >}} </center>
 
-
-The Loschmidt amplitude \\( \mathcal{G}(t) =  \langle \psi^{\prime} | e^{-iH t} | \psi \rangle \\) including the complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: ***no*** ancillary qubits, ***no*** control operations, only time evolution required.
-
-<center>{{< figure src="/img/research_PSQM.png" width="500" >}} </center>
-
-
+{{% /container %}}
 
 <br>
-<br>
+<p class="clearboth">
+	&nbsp;
+</p>
 
 
 
@@ -25,22 +35,29 @@ The Loschmidt amplitude \\( \mathcal{G}(t) =  \langle \psi^{\prime} | e^{-iH t} 
 ## Error-mitigated digital quantum simulation of thermalization
 - - -
 
+{{% container %}}
+{{% columns %}}
+
 - Simulating Prethermalization Using Near-Term Quantum Computers
 <br />
 <span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Sandra Coll-Vinent, Vadim Smelyanskiy, Mari Carmen Bañuls, Thomas E. O&prime;Brien, Dominik S. Wild, and J. Ignacio Cirac*, [PRX Quantum <b>4</b>, 030320](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.030320)
 
-Due to decoherence and noise in current devices, it is currently challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers. The key ingredients are:
+ Due to decoherence and noise in current devices, it is currently challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers, based on the ***prethermalization*** phenomenon and a proposed ***error mitigation*** scheme.
 
-1. The trotterization of Hamiltonian can be viewed as a Floquet driving. Thus the ***prethermalization*** phenomenon can be taken into consideration, which resembles the thermalization of the model underlying the Trotterization up to long times independent of the system size.
-2. We propose an ***error mitigation*** scheme that based on the measurement and rescaling of survival probabilities. For noises that can be written as Kraus operators, we prove that this strategy works up to a constant circuit depth, also independent of the system size.
+{{% /columns %}}
 
-
+<br>
+<br>
 <center>{{< figure src="/img/research_PEVP.png" width="400" >}} </center>
 
+{{% /container %}}
+
+
 
 <br>
-<br>
-
+<p class="clearboth">
+	&nbsp;
+</p>
 
 
 ## Thermalization probes of many body systems by filtering
