@@ -15,7 +15,7 @@ title: " "
 {{% columns %}}
 - Phase-Sensitive Quantum Measurement without Controlled Operations
 <br /> <span style="color: salmon">***Yilun Yang***</span>, *Arthur Christianen, Mari Carmen Bañuls, Dominik S. Wild, and J. Ignacio Cirac*, [arXiv:2308.10796](https://arxiv.org/abs/2308.10796)
-   
+    
  
 The Loschmidt amplitude \\( \mathcal{G}(t) =  \langle \psi^{\prime} | e^{-iH t} | \psi \rangle \\) including the complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: ***no*** ancillary qubits, ***no*** control operations, only time evolution required.  
 {{% /columns %}}
