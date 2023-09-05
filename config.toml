@@ -10,8 +10,6 @@ title = "Yilun Yang 杨逸伦"
 theme = "anatole"
 author = "Yilun Yang"
 
-
-
 [menu]
 	[[menu.main]]
 		name = "Home"
@@ -33,7 +31,7 @@ author = "Yilun Yang"
 
 
 [params]
-	title = "Yilun Yang's Homepage"
+	title = "Yilun's Homepage"
 	author = "Yilun Yang"
 	description = """
 	"""
@@ -42,9 +40,14 @@ author = "Yilun Yang"
 	contentratio = 0.75
 	doNotLoadAnimations = true
 
+	customCss = ["css/academicons.css"]
+	favicon = "favicons/"
+
+
+
 	[params.math]
 		enable = true
-		use = "katex" 
+		use = "katex"
 
 	[[params.socialIcons]]
 		icon = "fas fa-envelope"
@@ -57,9 +60,9 @@ author = "Yilun Yang"
 		url = "https://www.mpq.mpg.de/theory"
 
 	[[params.socialIcons]]
-		icon = "fab fa-orcid"
-		title = "ORCiD"
-		url = "https://orcid.org/0000-0002-1039-4432"
+		icon = "ai ai-google-scholar-square ai-3x"
+		title = "Google Scholar"
+		url = "https://scholar.google.com/citations?hl=en&user=WjY5YRYAAAAJ"
 
 
 

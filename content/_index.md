@@ -1,5 +1,5 @@
 
-Hi! I am Yilun (杨逸伦), a PhD student in the group of Prof. Dr. J. Ignacio Cirac at the Max-Planck Institute of Quantum Optics, in Garching near Munich.  
+Hi! I am Yilun (杨逸伦 Yáng Yì Lún), a PhD student in the group of Prof. Dr. J. Ignacio Cirac at the Max-Planck Institute of Quantum Optics, in Garching near Munich.  
 
 My research interest focuses on 
 - tensor network algorithms and applications, especially to in-and-out-of equilibrium properties of many body systems;
