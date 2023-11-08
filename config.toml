@@ -23,21 +23,16 @@ author = "Yilun Yang"
 		identifier = "research"
 		url = "/research"
 	
-	[[menu.main]]
-		name = "Curriculum Vitae"
-		weight = 300
-		identifier = "cv"
-		url = "/cv"
 
 
 [params]
-	title = "Yilun's Homepage"
+	title = "Yilun Yang"
 	author = "Yilun Yang"
 	description = """
 	"""
 	profilePicture = "img/Yang_Yilun.jpg"
 	displayMode = "light"
-	contentratio = 0.75
+	contentratio = 0.8
 	doNotLoadAnimations = true
 
 	customCss = ["css/academicons.css"]
