@@ -13,7 +13,7 @@
       
       <guid>https://ylyang-phy.github.io/research/</guid>
       
-        <description>p.clearboth { clear: both; }  Ancilla-free phase measurement of complex quantum amplitudes   div.col { float: left; width: 600px; max-width: 100%; }   Phase-Sensitive Quantum Measurement without Controlled Operations Yilun Yang, Arthur Christianen, Mari Carmen Bañuls, Dominik S. Wild, and J. Ignacio Cirac, Phys. Rev. Lett. 132, 220601  The Loschmidt amplitude \( \mathcal{G}(t) = \langle \psi^{\prime} | e^{-iH t} | \psi \rangle \) including the complex phase has broad applications in quantum computation, study of quantum chaos and so on.</description>
+        <description>Ancilla-free phase measurement of complex quantum amplitudes Phase-Sensitive Quantum Measurement without Controlled Operations Y. Yang, A. Christianen, M. C. Bañuls, D. S. Wild, and J. I. Cirac, Phys. Rev. Lett. 132, 220601 The Loschmidt amplitude \( \mathcal{G}(t) = \langle \psi^{\prime} | e^{-iH t} | \psi \rangle \) including the complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations.</description>
       
     </item>
     
