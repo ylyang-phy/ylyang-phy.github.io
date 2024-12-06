@@ -1,11 +1,16 @@
 <style>
-	div.col {
+	#left{
 		float: left;
-		width: 660px;
+		width: 450px;
+		max-width: 100%;
+	}
+	#right{
+		float: right;
+		width: 450px;
 		max-width: 100%;
 	}
 </style>
 
-<div class="col">
+<div id="{{ .Get "float" }}">
 	{{ .Inner }}
 </div>
