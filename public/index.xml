@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yilun Yang 杨逸伦</title>
-    <link>http://localhost:1313/</link>
+    <link>https://ylyang-phy.github.io/</link>
     <description>Recent content on Yilun Yang 杨逸伦</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://ylyang-phy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> </title>
-      <link>http://localhost:1313/research/</link>
+      <link>https://ylyang-phy.github.io/research/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/research/</guid>
+      <guid>https://ylyang-phy.github.io/research/</guid>
       
         <description>&lt;div style=&#34;max-width: 1300px&#34;&gt; 
 &lt;style&gt;       
@@ -36,7 +36,7 @@
 &lt;/style&gt;
 &lt;div id=&#34;right&#34;&gt;
 	&lt;br&gt;
-&lt;center&gt;&lt;figure&gt;&lt;img src=&#34;http://localhost:1313/img/research_PSQM.png&#34; width=&#34;400&#34;&gt;
+&lt;center&gt;&lt;figure&gt;&lt;img src=&#34;https://ylyang-phy.github.io/img/research_PSQM.png&#34; width=&#34;400&#34;&gt;
 &lt;/figure&gt;
  &lt;/center&gt;
 &lt;/div&gt;

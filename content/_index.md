@@ -3,9 +3,9 @@
 
 # About
 
-Hi! I am Yilun (杨逸伦), a PhD student under supervision of Prof. Dr. J. Ignacio Cirac and Dr. Mari Carmen Bañuls at the [Max Planck Institute of Quantum Optics](https://www.mpq.mpg.de/theory), in Garching near Munich.   
+Hi! I am Yilun (杨逸伦), a postdoctoral scholar at UC Berkeley, hosted by Prof. Lin Lin. 
 
-I attended the Master program [*Theoretical and Mathematical Physics*](https://www.theorie.physik.uni-muenchen.de/TMP/) in Ludwig Maximilian University of Munich and Technical University of Munich ([thesis](/files/master_thesis.pdf)). Before moving to Germany, I did my bachelor in the [University of Chinese Academy of Sciences](https://www.ucas.ac.cn/) in Beijing. I was also a visiting student at St Edmund Hall, University of Oxford.
+I obtained my PhD degree under supervision of Prof. J. Ignacio Cirac and Dr. Mari Carmen Bañuls at the Max Planck Institute of Quantum Optics, in Garching near Munich. Before that, I attended the Master program *Theoretical and Mathematical Physics* in LMU and TU Munich, and bachelor courses in the University of Chinese Academy of Sciences in Beijing. I was also a visiting student at St Edmund Hall, University of Oxford.
 
 
 <br>
@@ -13,7 +13,6 @@ I attended the Master program [*Theoretical and Mathematical Physics*](https://w
 ---
 
 <br>
-
 
 My research currently focuses on developing techniques to study thermal and dynamical properties of quantum many body systems, including 
 
