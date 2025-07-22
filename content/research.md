@@ -27,7 +27,7 @@ title: " "
 <br /> [Phys. Rev. Lett. **132**, 220601](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.220601)
     
  
-The Loschmidt amplitude \\( \mathcal{G}(t) =  \langle \psi^{\prime} | e^{-iH t} | \psi \rangle \\) including the complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: ***no*** ancillary qubits, ***no*** control operations, only time evolution required.  
+The Loschmidt amplitude \( \mathcal{G}(t) =  \langle \psi^{\prime} | e^{-iH t} | \psi \rangle \) including the complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: ***no*** ancillary qubits, ***no*** control operations, only time evolution required.  
 
 {{% /container %}}
 
@@ -95,7 +95,7 @@ The Loschmidt amplitude \\( \mathcal{G}(t) =  \langle \psi^{\prime} | e^{-iH t} 
 The ***microcanonical ensembles*** at finite energy densities have many applications in many body physics. It enables studying the long time behaviors of given initial states and helps to probe the out-of-equilibrium phenomena. Unlike the canonical ensembles, no standard algorithm previously exists for computing microcanonical ensemble properties.
 
 We develop a technique to solve this problem using ***energy filters*** that can be applied to both fixed initial states and the whole spectrum. A (Gaussian) filter
-\\(P_{\delta} (E) = \exp[-(E-H)^2 / 2\delta^2]\\) as a energy projector can filter out irrelevant energy eigenstates and thus obtain the microcanonical ensemble. Such filters can be efficiently implemented with tensor networks in one-dimensional systems, by expanding it with the Chebyshev or Fourier series.
+\(P_{\delta} (E) = \exp[-(E-H)^2 / 2\delta^2]\) as a energy projector can filter out irrelevant energy eigenstates and thus obtain the microcanonical ensemble. Such filters can be efficiently implemented with tensor networks in one-dimensional systems, by expanding it with the Chebyshev or Fourier series.
 
 {{% /container %}}
 
