@@ -127,7 +127,6 @@ body {
 }
 .nav__list-item {
   padding: 16px 0;
-  text-transform: uppercase;
   text-align: center;
   white-space: nowrap;
 }
@@ -346,7 +345,6 @@ body {
   border-radius: 50%;
 }
 .sidebar__introduction-title {
-  text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 2px;
   line-height: 1;

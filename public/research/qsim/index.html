@@ -1,0 +1,491 @@
+<!doctype html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme="light"
+  
+    class="html theme--light"
+  
+><head>
+  <meta charset="utf-8" />
+  <title>
+    Yilun Yang
+        |
+        Quantum simulation methods
+      
+
+    
+
+  </title>
+
+  <meta name="generator" content="Hugo 0.147.4"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Yilun Yang" />
+  <meta
+    name="description"
+    content="	"
+  />
+  
+  
+        <link rel="stylesheet" href="/css/anatole.min.9ca050808c1373664e861047d0b4d96847fa5d15fe43b4b1019e5deecc05e269.css" integrity="sha256-nKBQgIwTc2ZOhhBH0LTZaEf6XRX&#43;Q7SxAZ5d7swF4mk=" crossorigin="anonymous" />
+      
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/css/academicons.min.f6abb61f6b9b2e784eba22dfb93cd399ce30ee01825791830a2737d6bfcd2be9.css"
+      integrity="sha256-9qu2H2ubLnhOuiLfuTzTmc4w7gGCV5GDCic31r/NK&#43;k="
+      crossorigin="anonymous"
+      media="screen"
+    />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.137b1cf3cea9a8adb7884343a9a5ddddf4280f59153f74dc782fb7f7bf0d0519.css"
+    integrity="sha256-E3sc886pqK23iENDqaXd3fQoD1kVP3TceC&#43;3978NBRk="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.e65dc5b48fb5f39b142360c57c3a215744c94e56c755c929cc3e88fe12aab4d3.css"
+    integrity="sha256-5l3FtI&#43;185sUI2DFfDohV0TJTlbHVckpzD6I/hKqtNM="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.6f4f16d58da1c82c0c3a3436e021a3d39b4742f741192c546e73e947eacfd92f.css"
+    integrity="sha256-b08W1Y2hyCwMOjQ24CGj05tHQvdBGSxUbnPpR&#43;rP2S8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.e10425ad768bc98ff1fb272a0ac8420f9d1ba22f0612c08ff1010c95080ffe7e.css"
+    integrity="sha256-4QQlrXaLyY/x&#43;ycqCshCD50boi8GEsCP8QEMlQgP/n4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://ylyang-phy.github.io/research/qsim/" />
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.8724ddf9268dee451060f191961647573c7f592fbccc6d858746236b3f915813.js"
+      integrity="sha256-hyTd&#43;SaN7kUQYPGRlhZHVzx/WS&#43;8zG2Fh0Yjaz&#43;RWBM="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+  
+
+  
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Quantum simulation methods">
+  <meta name="twitter:description" content="Ancilla-free phase measurement of complex quantum amplitudes Phase-Sensitive Quantum Measurement without Controlled Operations Y. Yang, A. Christianen, M. C. Bañuls, D. S. Wild, and J. I. Cirac, Phys. Rev. Lett. 132, 220601 (2024) The Loschmidt amplitude including its complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: no ancillary qubits, no control operations, only time evolution required.">
+
+
+
+  
+  <meta property="og:url" content="https://ylyang-phy.github.io/research/qsim/">
+  <meta property="og:site_name" content="Yilun Yang">
+  <meta property="og:title" content="Quantum simulation methods">
+  <meta property="og:description" content="Ancilla-free phase measurement of complex quantum amplitudes Phase-Sensitive Quantum Measurement without Controlled Operations Y. Yang, A. Christianen, M. C. Bañuls, D. S. Wild, and J. I. Cirac, Phys. Rev. Lett. 132, 220601 (2024) The Loschmidt amplitude including its complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: no ancillary qubits, no control operations, only time evolution required.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2024-05-28T00:00:00+00:00">
+    <meta property="article:modified_time" content="2024-05-28T00:00:00+00:00">
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "research",
+        "name": "Quantum simulation methods",
+        "headline": "Quantum simulation methods",
+        "alternativeHeadline": "",
+        "description": "
+      
+        \u003cdiv style=\u0022max-width: 1000px\u0022\u003e \n\u003cstyle\u003e       \n    p.clearboth { \n        clear: both; \n    } \n\u003c\/style\u003e \n\u003ch2 id=\u0022ancilla-free-phase-measurement-of-complex-quantum-amplitudes\u0022\u003eAncilla-free phase measurement of complex quantum amplitudes\u003c\/h2\u003e\n\u003chr\u003e\n\u003cdiv class=\u0022container\u0022\u003e\n\u003cstyle\u003e\n\t#left{\n\t\tfloat: left;\n\t\twidth: 450px;\n\t\tmax-width: 100%;\n\t}\n\t#right{\n\t\tfloat: right;\n\t\twidth: 450px;\n\t\tmax-width: 100%;\n\t}\n\u003c\/style\u003e\n\u003cdiv id=\u0022right\u0022\u003e\n\t\u003cbr\u003e\n\u003ccenter\u003e\u003cfigure\u003e\u003cimg src=\u0022\/img\/research_PSQM.png\u0022 width=\u0022400\u0022\u003e\n\u003c\/figure\u003e\n \u003c\/center\u003e\n\u003c\/div\u003e\n\u003cul\u003e\n\u003cli\u003e\u003cstrong\u003ePhase-Sensitive Quantum Measurement without Controlled Operations\u003c\/strong\u003e\n\u003cbr \/\u003e \u003cspan style=\u0022color: salmon\u0022\u003e\u003cem\u003e\u003cstrong\u003eY. Yang\u003c\/strong\u003e\u003c\/em\u003e\u003c\/span\u003e, \u003cem\u003eA. Christianen, M. C. Bañuls, D. S. Wild, and J. I. Cirac\u003c\/em\u003e,\n\u003cbr \/\u003e \u003ca href=\u0022https:\/\/journals.aps.org\/prl\/abstract\/10.1103\/PhysRevLett.132.220601\u0022\u003ePhys. Rev. Lett. \u003cstrong\u003e132\u003c\/strong\u003e, 220601 (2024)\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\u003cp\u003eThe Loschmidt amplitude including its complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: \u003cem\u003e\u003cstrong\u003eno\u003c\/strong\u003e\u003c\/em\u003e ancillary qubits, \u003cem\u003e\u003cstrong\u003eno\u003c\/strong\u003e\u003c\/em\u003e control operations, only time evolution required.\u003c\/p\u003e
+
+
+      
+
+
+    ",
+        "license": "",
+        
+        "inLanguage": "en-us",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/ylyang-phy.github.io\/research\/qsim\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Yilun Yang"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Yilun Yang"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Yilun Yang"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Yilun Yang"
+        },
+        "dateCreated": "2024-05-28T00:00:00.00Z",
+        "datePublished": "2024-05-28T00:00:00.00Z",
+        "dateModified": "2024-05-28T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Yilun Yang",
+            "url": "https://ylyang-phy.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/ylyang-phy.github.io\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/ylyang-phy.github.io\/research\/qsim\/",
+        "wordCount" : "198",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
+
+  
+  
+  
+</head><body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    .
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Yilun Yang&#39;s homepage</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>	</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:ylyang@berkeley.edu"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://scholar.google.com/citations?hl=en&amp;user=WjY5YRYAAAAJ"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Google Scholar"
+            title="Google Scholar"
+          >
+            <i class="ai ai-google-scholar-square ai-3x fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Yilun Yang
+        2025
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    .
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+        
+        
+
+          <li class="nav__list-item">
+            <div class="optionswitch">
+              <input class="optionswitch__picker" type="checkbox" id="1" hidden />
+
+              
+              
+                
+
+              
+                
+
+              
+
+
+              <label class="optionswitch__label" for="1"
+                >Research <i class="fa fa-angle-down" aria-hidden="true"></i
+              ></label>
+
+              <div class="optionswitch__triangle"></div>
+              <ul class="optionswitch__list">
+                
+                  <li class="optionswitch__list-item">
+                    
+                    <a
+                      href="/research/filter"
+                      
+                      title=""
+                      >Spectral filters</a
+                    >
+                  </li>
+                
+                  <li class="optionswitch__list-item">
+                    
+                    <a
+                      href="/research/qsim"
+                      
+                      title=""
+                      >Quantum simulation methods</a
+                    >
+                  </li>
+                
+              </ul>
+            </div>
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      .
+    "
+  >
+    
+    <div class="post__content">
+      
+        <h1>Quantum Simulation Methods</h1>
+      
+      <div style="max-width: 1000px"> 
+<style>       
+    p.clearboth { 
+        clear: both; 
+    } 
+</style> 
+<h2 id="ancilla-free-phase-measurement-of-complex-quantum-amplitudes">Ancilla-free phase measurement of complex quantum amplitudes</h2>
+<hr>
+<div class="container">
+<style>
+	#left{
+		float: left;
+		width: 450px;
+		max-width: 100%;
+	}
+	#right{
+		float: right;
+		width: 450px;
+		max-width: 100%;
+	}
+</style>
+<div id="right">
+	<br>
+<center><figure><img src="/img/research_PSQM.png" width="400">
+</figure>
+ </center>
+</div>
+<ul>
+<li><strong>Phase-Sensitive Quantum Measurement without Controlled Operations</strong>
+<br /> <span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>A. Christianen, M. C. Bañuls, D. S. Wild, and J. I. Cirac</em>,
+<br /> <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.220601">Phys. Rev. Lett. <strong>132</strong>, 220601 (2024)</a></li>
+</ul>
+<p>The Loschmidt amplitude including its complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: <em><strong>no</strong></em> ancillary qubits, <em><strong>no</strong></em> control operations, only time evolution required.</p>
+</div>
+<br>
+<p class="clearboth">
+	&nbsp;
+</p>
+<h2 id="error-mitigated-digital-quantum-simulation-of-thermalization">Error-mitigated digital quantum simulation of thermalization</h2>
+<hr>
+<div class="container">
+<style>
+	#left{
+		float: left;
+		width: 450px;
+		max-width: 100%;
+	}
+	#right{
+		float: right;
+		width: 450px;
+		max-width: 100%;
+	}
+</style>
+<div id="right">
+	<br>
+<center><figure><img src="/img/research_PEVP.png" width="400">
+</figure>
+ </center>
+</div>
+<ul>
+<li><strong>Simulating Prethermalization Using Near-Term Quantum Computers</strong>
+<br />
+<span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>A. Christianen, S. Coll-Vinent, V. Smelyanskiy, M. C. Bañuls, T. E. O′Brien, D. S. Wild, and J. I. Cirac</em>,
+<br /> <a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.030320">PRX Quantum <strong>4</strong>, 030320 (2023)</a></li>
+</ul>
+<p>Due to decoherence and noise in current devices, it is currently challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers, based on the <em><strong>prethermalization</strong></em> phenomenon and a proposed <em><strong>error mitigation</strong></em> scheme.</p>
+</div>
+</div></div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Yilun Yang
+        2025
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>

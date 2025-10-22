@@ -6,7 +6,7 @@ enableInlineShortcodes = true
 hasCJKLanguage = true
 
 languageCode = "en-us"
-title = "Yilun Yang 杨逸伦"
+title = "Yilun Yang"
 theme = "anatole"
 author = "Yilun Yang"
 
@@ -16,21 +16,30 @@ author = "Yilun Yang"
 		identifier = "about"
 		weight = 100
 		url = "/"
-
+    
 	[[menu.main]]
 		name = "Research"
 		weight = 200
 		identifier = "research"
-		url = "/research"
-	
 
+	[[menu.main]]
+        name = "Spectral filters"
+        weight = 500
+        url = "/research/filter"
+        parent = "research"  
+
+    [[menu.main]]
+        name = "Quantum simulation methods"
+        weight = 600
+        url = "/research/qsim"
+        parent = "research"  
 
 [params]
-	title = "Yilun Yang"
+    capitalizeListTitles = false
+	title = "Yilun Yang's homepage"
 	author = "Yilun Yang"
 	description = """
 	"""
-	profilePicture = "img/Yang_Yilun.jpg"
 	displayMode = "light"
 	contentratio = 0.8
 	doNotLoadAnimations = true
@@ -38,27 +47,17 @@ author = "Yilun Yang"
 	customCss = ["css/academicons.css"]
 	favicon = "favicons/"
 
-
-
-	[params.math]
-		enable = true
-		use = "katex"
+    mainSections = []
 
 	[[params.socialIcons]]
 		icon = "fas fa-envelope"
 		title = "e-mail"
-		url = "mailto:yilun.yang@mpq.mpg.de"
-
-	[[params.socialIcons]]
-		icon = "fas fa-location-dot"
-		title = "Address"
-		url = "https://www.mpq.mpg.de/theory"
+		url = "mailto:ylyang@berkeley.edu"
 
 	[[params.socialIcons]]
 		icon = "ai ai-google-scholar-square ai-3x"
 		title = "Google Scholar"
 		url = "https://scholar.google.com/citations?hl=en&user=WjY5YRYAAAAJ"
-
 
 
 

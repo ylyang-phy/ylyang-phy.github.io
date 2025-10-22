@@ -1,0 +1,532 @@
+<!doctype html>
+<html
+  dir="ltr"
+  lang="en"
+  data-theme="light"
+  
+    class="html theme--light"
+  
+><head>
+  <meta charset="utf-8" />
+  <title>
+    Yilun Yang
+        |
+        Spectral analysis with energy filters
+      
+
+    
+
+  </title>
+
+  <meta name="generator" content="Hugo 0.147.4"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="author" content="Yilun Yang" />
+  <meta
+    name="description"
+    content="	"
+  />
+  
+  
+        <link rel="stylesheet" href="/css/anatole.min.9ca050808c1373664e861047d0b4d96847fa5d15fe43b4b1019e5deecc05e269.css" integrity="sha256-nKBQgIwTc2ZOhhBH0LTZaEf6XRX&#43;Q7SxAZ5d7swF4mk=" crossorigin="anonymous" />
+      
+  <link
+    rel="stylesheet"
+    href="/css/markupHighlight.min.73ccfdf28df555e11009c13c20ced067af3cb021504cba43644c705930428b00.css"
+    integrity="sha256-c8z98o31VeEQCcE8IM7QZ688sCFQTLpDZExwWTBCiwA="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+    
+    
+    <link
+      rel="stylesheet"
+      href="/css/academicons.min.f6abb61f6b9b2e784eba22dfb93cd399ce30ee01825791830a2737d6bfcd2be9.css"
+      integrity="sha256-9qu2H2ubLnhOuiLfuTzTmc4w7gGCV5GDCic31r/NK&#43;k="
+      crossorigin="anonymous"
+      media="screen"
+    />
+  
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/fontawesome.min.137b1cf3cea9a8adb7884343a9a5ddddf4280f59153f74dc782fb7f7bf0d0519.css"
+    integrity="sha256-E3sc886pqK23iENDqaXd3fQoD1kVP3TceC&#43;3978NBRk="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/solid.min.e65dc5b48fb5f39b142360c57c3a215744c94e56c755c929cc3e88fe12aab4d3.css"
+    integrity="sha256-5l3FtI&#43;185sUI2DFfDohV0TJTlbHVckpzD6I/hKqtNM="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/regular.min.6f4f16d58da1c82c0c3a3436e021a3d39b4742f741192c546e73e947eacfd92f.css"
+    integrity="sha256-b08W1Y2hyCwMOjQ24CGj05tHQvdBGSxUbnPpR&#43;rP2S8="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link
+    rel="stylesheet"
+    href="/fontawesome/css/brands.min.e10425ad768bc98ff1fb272a0ac8420f9d1ba22f0612c08ff1010c95080ffe7e.css"
+    integrity="sha256-4QQlrXaLyY/x&#43;ycqCshCD50boi8GEsCP8QEMlQgP/n4="
+    crossorigin="anonymous"
+    type="text/css"
+  />
+  
+  <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png" />
+
+  <link rel="canonical" href="https://ylyang-phy.github.io/research/filter/" />
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
+    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
+    crossorigin="anonymous"
+  ></script>
+
+  
+    
+    
+    <script
+      type="text/javascript"
+      src="/js/anatole-theme-switcher.min.8724ddf9268dee451060f191961647573c7f592fbccc6d858746236b3f915813.js"
+      integrity="sha256-hyTd&#43;SaN7kUQYPGRlhZHVzx/WS&#43;8zG2Fh0Yjaz&#43;RWBM="
+      crossorigin="anonymous"
+    ></script>
+  
+
+  
+
+  
+
+  
+
+
+  
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Spectral analysis with energy filters">
+  <meta name="twitter:description" content="Thermalization probes [1] Probing Thermalization through Spectral Analysis with Matrix Product Operators Y. Yang, S. Iblisdir, J. I. Cirac, and M. C. Bañuls Phys. Rev. Lett. 124, 100602 (2020)
+[2] Classical algorithms for many-body quantum systems at finite energies Y. Yang, J. I. Cirac, and M. C. Bañuls Phys. Rev. B 106, 024307 (2022) (Editor′s suggestion)">
+
+
+
+  
+  <meta property="og:url" content="https://ylyang-phy.github.io/research/filter/">
+  <meta property="og:site_name" content="Yilun Yang">
+  <meta property="og:title" content="Spectral analysis with energy filters">
+  <meta property="og:description" content="Thermalization probes [1] Probing Thermalization through Spectral Analysis with Matrix Product Operators Y. Yang, S. Iblisdir, J. I. Cirac, and M. C. Bañuls Phys. Rev. Lett. 124, 100602 (2020)
+[2] Classical algorithms for many-body quantum systems at finite energies Y. Yang, J. I. Cirac, and M. C. Bañuls Phys. Rev. B 106, 024307 (2022) (Editor′s suggestion)">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="research">
+    <meta property="article:published_time" content="2025-10-08T00:00:00+00:00">
+    <meta property="article:modified_time" content="2025-10-08T00:00:00+00:00">
+
+
+
+  
+  
+  
+  
+  <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "articleSection": "research",
+        "name": "Spectral analysis with energy filters",
+        "headline": "Spectral analysis with energy filters",
+        "alternativeHeadline": "",
+        "description": "
+      
+        \u003cdiv style=\u0022max-width: 1000px\u0022\u003e \n\u003cstyle\u003e       \n    p.clearboth { \n        clear: both; \n    } \n\u003c\/style\u003e \n\u003cdiv class=\u0022container\u0022\u003e\n\u003cstyle\u003e       \n    p.clearboth { \n        clear: both; \n    } \n\u003c\/style\u003e \n\u003ch2 id=\u0022thermalization-probes\u0022\u003eThermalization probes\u003c\/h2\u003e\n\u003chr\u003e\n\u003cstyle\u003e\n\t#left{\n\t\tfloat: left;\n\t\twidth: 450px;\n\t\tmax-width: 100%;\n\t}\n\t#right{\n\t\tfloat: right;\n\t\twidth: 450px;\n\t\tmax-width: 100%;\n\t}\n\u003c\/style\u003e\n\u003cdiv id=\u0022right\u0022\u003e\n\t\u003cbr\u003e\n\u003ccenter\u003e\u003cfigure\u003e\u003cimg src=\u0022\/img\/research_filtering_state.png\u0022 width=\u0022400\u0022\u003e\n\u003c\/figure\u003e\n \u003c\/center\u003e\n\u003ccenter\u003e\u003cfigure\u003e\u003cimg src=\u0022\/img\/research_filtering_trace.png\u0022 width=\u0022400\u0022\u003e\n\u003c\/figure\u003e\n \u003c\/center\u003e\n\u003c\/div\u003e\n\u003cul\u003e\n\u003cli\u003e\n\u003cp\u003e[1] \u003cstrong\u003eProbing Thermalization through Spectral Analysis with Matrix Product Operators\u003c\/strong\u003e\n\u003cbr \/\u003e\n\u003cspan style=\u0022color: salmon\u0022\u003e\u003cem\u003e\u003cstrong\u003eY. Yang\u003c\/strong\u003e\u003c\/em\u003e\u003c\/span\u003e, \u003cem\u003eS. Iblisdir, J. I. Cirac, and M. C. Bañuls\u003c\/em\u003e\n\u003cbr \/\u003e \u003ca href=\u0022https:\/\/journals.aps.org\/prl\/abstract\/10.1103\/PhysRevLett.124.100602\u0022\u003ePhys. Rev. Lett. \u003cstrong\u003e124\u003c\/strong\u003e, 100602 (2020)\u003c\/a\u003e\u003c\/p\u003e\n\u003c\/li\u003e\n\u003cli\u003e\n\u003cp\u003e[2] \u003cstrong\u003eClassical algorithms for many-body quantum systems at finite energies\u003c\/strong\u003e\n\u003cbr \/\u003e\n\u003cspan style=\u0022color: salmon\u0022\u003e\u003cem\u003e\u003cstrong\u003eY. Yang\u003c\/strong\u003e\u003c\/em\u003e\u003c\/span\u003e, \u003cem\u003eJ. I. Cirac, and M. C. Bañuls\u003c\/em\u003e\n\u003cbr \/\u003e \u003ca href=\u0022https:\/\/journals.aps.org\/prb\/abstract\/10.1103\/PhysRevB.106.024307\u0022\u003ePhys. Rev. B \u003cstrong\u003e106\u003c\/strong\u003e, 024307 (2022) (\u003cstrong\u003eEditor′s suggestion\u003c\/strong\u003e)\u003c\/a\u003e\u003c\/p\u003e
+
+
+      
+
+
+    ",
+        "license": "",
+        
+        "inLanguage": "en-us",
+        "isFamilyFriendly": "true",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/ylyang-phy.github.io\/research\/filter\/"
+        },
+        "author" : {
+            "@type": "Person",
+            "name": "Yilun Yang"
+        },
+        "creator" : {
+            "@type": "Person",
+            "name": "Yilun Yang"
+        },
+        "accountablePerson" : {
+            "@type": "Person",
+            "name": "Yilun Yang"
+        },
+        "copyrightHolder" : {
+            "@type": "Person",
+            "name": "Yilun Yang"
+        },
+        "dateCreated": "2025-10-08T00:00:00.00Z",
+        "datePublished": "2025-10-08T00:00:00.00Z",
+        "dateModified": "2025-10-08T00:00:00.00Z",
+        "publisher":{
+            "@type":"Organization",
+            "name": "Yilun Yang",
+            "url": "https://ylyang-phy.github.io/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https:\/\/ylyang-phy.github.io\/favicons\/favicon-32x32.png",
+                "width":"32",
+                "height":"32"
+            }
+        },
+        "image": 
+      [
+      ]
+
+    ,
+        "url" : "https:\/\/ylyang-phy.github.io\/research\/filter\/",
+        "wordCount" : "361",
+        "genre" : [ ],
+        "keywords" : [ ]
+    }
+  </script>
+
+
+
+
+  
+  
+  
+</head><body class="body">
+    <div class="wrapper">
+      <aside
+        
+          class="wrapper__sidebar"
+        
+      ><div
+  class="sidebar
+    .
+  "
+>
+  <div class="sidebar__content">
+    <div class="sidebar__introduction">
+      
+        <div class="sidebar__introduction-title">
+          <a href="/">Yilun Yang&#39;s homepage</a>
+        </div>
+      
+      <div class="sidebar__introduction-description">
+        <p>	</p>
+      </div>
+    </div>
+    <ul class="sidebar__list">
+      
+        <li class="sidebar__list-item">
+          <a
+            href="mailto:ylyang@berkeley.edu"
+            target="_blank"
+            rel="noopener me"
+            aria-label="e-mail"
+            title="e-mail"
+          >
+            <i class="fas fa-envelope fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+        <li class="sidebar__list-item">
+          <a
+            href="https://scholar.google.com/citations?hl=en&amp;user=WjY5YRYAAAAJ"
+            target="_blank"
+            rel="noopener me"
+            aria-label="Google Scholar"
+            title="Google Scholar"
+          >
+            <i class="ai ai-google-scholar-square ai-3x fa-2x" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+    </ul>
+  </div><footer class="footer footer__sidebar">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Yilun Yang
+        2025
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></div>
+</aside>
+      <main
+        
+          class="wrapper__main"
+        
+      >
+        <header class="header"><div
+  class="
+    .
+  "
+>
+  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+    <span aria-hidden="true" class="navbar-burger__line"></span>
+  </a>
+  <nav class="nav">
+    <ul class="nav__list" id="navMenu">
+      
+      
+        
+        
+          <li class="nav__list-item">
+            
+            <a
+              
+              href="/"
+              
+              title=""
+              >About</a
+            >
+          </li>
+        
+
+      
+        
+        
+
+          <li class="nav__list-item">
+            <div class="optionswitch">
+              <input class="optionswitch__picker" type="checkbox" id="1" hidden />
+
+              
+              
+                
+
+              
+                
+
+              
+
+
+              <label class="optionswitch__label" for="1"
+                >Research <i class="fa fa-angle-down" aria-hidden="true"></i
+              ></label>
+
+              <div class="optionswitch__triangle"></div>
+              <ul class="optionswitch__list">
+                
+                  <li class="optionswitch__list-item">
+                    
+                    <a
+                      href="/research/filter"
+                      
+                      title=""
+                      >Spectral filters</a
+                    >
+                  </li>
+                
+                  <li class="optionswitch__list-item">
+                    
+                    <a
+                      href="/research/qsim"
+                      
+                      title=""
+                      >Quantum simulation methods</a
+                    >
+                  </li>
+                
+              </ul>
+            </div>
+          </li>
+        
+
+      
+    </ul>
+    <ul class="nav__list nav__list--end">
+      
+      
+        <li class="nav__list-item">
+          <div class="themeswitch">
+            <a title="Switch Theme">
+              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+          </div>
+        </li>
+      
+    </ul>
+  </nav>
+</div>
+</header>
+  <div
+    class="post 
+      .
+    "
+  >
+    
+    <div class="post__content">
+      
+        <h1>Spectral Analysis With Energy Filters</h1>
+      
+      <div style="max-width: 1000px"> 
+<style>       
+    p.clearboth { 
+        clear: both; 
+    } 
+</style> 
+<div class="container">
+<style>       
+    p.clearboth { 
+        clear: both; 
+    } 
+</style> 
+<h2 id="thermalization-probes">Thermalization probes</h2>
+<hr>
+<style>
+	#left{
+		float: left;
+		width: 450px;
+		max-width: 100%;
+	}
+	#right{
+		float: right;
+		width: 450px;
+		max-width: 100%;
+	}
+</style>
+<div id="right">
+	<br>
+<center><figure><img src="/img/research_filtering_state.png" width="400">
+</figure>
+ </center>
+<center><figure><img src="/img/research_filtering_trace.png" width="400">
+</figure>
+ </center>
+</div>
+<ul>
+<li>
+<p>[1] <strong>Probing Thermalization through Spectral Analysis with Matrix Product Operators</strong>
+<br />
+<span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>S. Iblisdir, J. I. Cirac, and M. C. Bañuls</em>
+<br /> <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.100602">Phys. Rev. Lett. <strong>124</strong>, 100602 (2020)</a></p>
+</li>
+<li>
+<p>[2] <strong>Classical algorithms for many-body quantum systems at finite energies</strong>
+<br />
+<span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>J. I. Cirac, and M. C. Bañuls</em>
+<br /> <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307">Phys. Rev. B <strong>106</strong>, 024307 (2022) (<strong>Editor′s suggestion</strong>)</a></p>
+</li>
+<li>
+<p>[3] <strong>How thermal is a filtered state?</strong>
+<br />
+<em>In preparation.</em></p>
+</li>
+</ul>
+<p>The <em><strong>microcanonical ensemble</strong></em> at finite energy density plays a central role in many-body physics, enabling the study of long-time dynamics and nonequilibrium phenomena. Unlike canonical ensembles, however, few algorithm previously existed for computing microcanonical properties.</p>
+<p>This challenge can be addressed by applying energy filters to the entire Hamiltonian spectrum<sup>[1,2]</sup>. By suppressing irrelevant eigenstates, such filters yield the microcanonical ensemble. In one-dimensional systems, these filters can be efficiently implemented within tensor networks via Chebyshev or Fourier expansions.</p>
+<p>Moreover, applying the filter directly to a quantum state produces a state approximating thermal equilibrium under the eigenstate thermalization hypothesis (ETH)<sup>[3]</sup>.</p>
+<br>
+<p class="clearboth">
+	&nbsp;
+</p>
+<h2 id="measuring-eigenvalue-degeneracies">Measuring Eigenvalue degeneracies</h2>
+<hr>
+<style>
+	#left{
+		float: left;
+		width: 450px;
+		max-width: 100%;
+	}
+	#right{
+		float: right;
+		width: 450px;
+		max-width: 100%;
+	}
+</style>
+<div id="right">
+	<br>
+<center><figure><img src="/img/QFAMES_flowchart.png" width="500">
+</figure>
+ </center>
+</div>
+<ul>
+<li><strong>Quantum Filtering and Analysis of Multiplicities in Eigenvalue Spectra</strong>
+<br />
+<em>Z. Ding, L. Lin</em>, <span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>R. Zhang</em>
+<br /> <a href="https://arxiv.org/abs/2510.07439">arXiv:2510.07439 (2025) [quant-ph]</a></li>
+</ul>
+<p>By scanning over different filter centers, one can reconstruct the local density of states corresponding to a chosen set of initial states, thereby estimating the underlying energy eigenvalues. Remarkably, when multiple initial states are available, this approach also enables the estimation of eigenvalue <em><strong>degeneracies</strong></em></sup>, which is missing in conventional quantum phase estimation algorithms.</p>
+</div>
+<br>
+<p class="clearboth">
+	&nbsp;
+</p>
+<h2 id="related-works">Related works</h2>
+<hr>
+<ul>
+<li><strong>Algorithms for Quantum Simulation at Finite Energies</strong>, <em>S. Lu, M. C. Bañuls, and J. I. Cirac</em>, <a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020321">PRX Quantum <strong>2</strong>, 020321 (2021)</a></li>
+<li><strong>Approximating the long time average of the density operator: Diagonal ensemble</strong>, <em>A. Çakan, J. I. Cirac, and M. C. Bañuls</em>, <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.115113">Phys. Rev. B <strong>103</strong>, 115113 (2021)</a></li>
+<li><strong>Probing off-diagonal eigenstate thermalization with tensor networks</strong>, <em>M. Luo, R. Trivedi, M. C. Bañuls, and J. I. Cirac</em>, <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.134304">Phys. Rev. B <strong>109</strong>, 134304 (2024)</a></li>
+<li><strong>Measuring the Loschmidt Amplitude for Finite-Energy Properties of the Fermi-Hubbard Model on an Ion-Trap Quantum Computer</strong>, <em>K. Hémery, et al.</em>, <a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.030323">PRX Quantum <strong>5</strong>, 030323 (2024)</a></li>
+<li><strong>Quantum Multiple Eigenvalue Gaussian filtered Search: an efficient and versatile quantum phase estimation method</strong>, <em>Z. Ding, et al.</em>, <a href="https://quantum-journal.org/papers/q-2024-10-02-1487/">Quantum 8, 1487 (2024)</a></li>
+</ul>
+<br>
+<p class="clearboth">
+	&nbsp;
+</p>
+</div></div>
+    <div class="post__footer">
+      
+
+      
+    </div>
+
+    
+  </div>
+
+      </main>
+    </div><footer class="footer footer__base">
+  <ul class="footer__list">
+    <li class="footer__item">
+      &copy;
+      
+        Yilun Yang
+        2025
+      
+    </li>
+    
+  </ul>
+</footer>
+  
+  <script
+    type="text/javascript"
+    src="/js/medium-zoom.min.1248fa75275e5ef0cbef27e8c1e27dc507c445ae3a2c7d2ed0be0809555dac64.js"
+    integrity="sha256-Ekj6dSdeXvDL7yfoweJ9xQfERa46LH0u0L4ICVVdrGQ="
+    crossorigin="anonymous"
+  ></script></body>
+</html>
