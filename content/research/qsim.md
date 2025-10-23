@@ -1,5 +1,5 @@
 ---
-title: "Quantum simulation methods"
+title: "Methods for quantum simulation"
 date: 2024-05-28
 
 ---
@@ -13,6 +13,7 @@ date: 2024-05-28
     } 
 </style> 
 
+Quantum simulation is among the most promising frontiers of quantum computing. We aim to design methods that lead to practical applications on current and near-term quantum devices.
 
 
 ## Ancilla-free phase measurement of complex quantum amplitudes
@@ -31,7 +32,7 @@ date: 2024-05-28
 <br /> [Phys. Rev. Lett. **132**, 220601 (2024)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.220601)
     
  
-The Loschmidt amplitude including its complex phase has broad applications in quantum computation, study of quantum chaos and so on. The standard way to extract the phase information is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: ***no*** ancillary qubits, ***no*** control operations, only time evolution required.  
+The Loschmidt amplitude, a complex number of the form  \( \langle \psi' | e^{-iHt} |\psi \rangle \), occurs naturally in various quantum algorithms, study of quantum chaos, and so on. Compared with its absolute value, the complex phase is relatively hard to extract on quantum computers. The standard method is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: ***no*** ancillary qubits, ***no*** control operations, only time evolution required.  
 
 {{% /container %}}
 

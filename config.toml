@@ -1,8 +1,6 @@
 baseURL = "https://ylyang-phy.github.io/"
 publishDir = "public"
 
-
-enableInlineShortcodes = true
 hasCJKLanguage = true
 
 languageCode = "en-us"
@@ -29,7 +27,7 @@ author = "Yilun Yang"
         parent = "research"  
 
     [[menu.main]]
-        name = "Quantum simulation methods"
+        name = "Quantum simulation"
         weight = 600
         url = "/research/qsim"
         parent = "research"  
@@ -43,6 +41,7 @@ author = "Yilun Yang"
 	displayMode = "light"
 	contentratio = 0.8
 	doNotLoadAnimations = true
+    math = true
 
 	customCss = ["css/academicons.css"]
 	favicon = "favicons/"
@@ -87,7 +86,7 @@ author = "Yilun Yang"
 			[markup.goldmark.extensions.passthrough]
 				enable = true
 				[markup.goldmark.extensions.passthrough.delimiters]
-				block = [['\[', '\]'], ['$$', '$$']]
+				block = [['$$', '$$']]
 				inline = [['\(', '\)']]
     	[markup.goldmark.parser]
 			autoHeadingID = true

@@ -5,24 +5,11 @@ date: 2025-10-08
 
 <div style="max-width: 1000px"> 
 
+In these series of works, we probe spectral properties of quantum many-body systems with Gaussian energy filters of the form
 
-<style>       
-    p.clearboth { 
-        clear: both; 
-    } 
-</style> 
-
+$$ P_{\delta}(E) = \exp\left[ - \frac{(E-H)^2}{2\delta^2}\right]. $$
 
 {{% container %}}
-
-
-
-<style>       
-    p.clearboth { 
-        clear: both; 
-    } 
-</style> 
-
 
 ## Thermalization probes
 
@@ -55,10 +42,9 @@ date: 2025-10-08
     
 The ***microcanonical ensemble*** at finite energy density plays a central role in many-body physics, enabling the study of long-time dynamics and nonequilibrium phenomena. Unlike canonical ensembles, however, few algorithm previously existed for computing microcanonical properties.
 
-This challenge can be addressed by applying energy filters to the entire Hamiltonian spectrum<sup>[1,2]</sup>. By suppressing irrelevant eigenstates, such filters yield the microcanonical ensemble. In one-dimensional systems, these filters can be efficiently implemented within tensor networks via Chebyshev or Fourier expansions.
+This challenge can be addressed by applying energy filters to the entire Hamiltonian spectrum<sup>[1,2]</sup>. By suppressing irrelevant eigenstates, such filters yield the microcanonical ensemble \( \rho_E \approx P_{\delta}(E) / \mathrm{tr} \left[ P_{\delta}(E)\right] \). In one-dimensional systems, these filters can be efficiently implemented using tensor networks via Chebyshev or Fourier expansions.
 
 Moreover, applying the filter directly to a quantum state produces a state approximating thermal equilibrium under the eigenstate thermalization hypothesis (ETH)<sup>[3]</sup>.
-
 
 <br>
 <p class="clearboth">
@@ -87,7 +73,7 @@ Moreover, applying the filter directly to a quantum state produces a state appro
   <br /> [arXiv:2510.07439 (2025) [quant-ph]](https://arxiv.org/abs/2510.07439)
 
 
-By scanning over different filter centers, one can reconstruct the local density of states corresponding to a chosen set of initial states, thereby estimating the underlying energy eigenvalues. Remarkably, when multiple initial states are available, this approach also enables the estimation of eigenvalue ***degeneracies***</sup>, which is missing in conventional quantum phase estimation algorithms.
+By scanning over different filter centers, one can reconstruct the local density of states of a chosen initial state, thereby estimating the underlying energy eigenvalues. Remarkably, when multiple initial states are available, this approach also enables the estimation of eigenvalue ***degeneracies***</sup>, which is missing in conventional quantum phase estimation algorithms.
 
 {{% /container %}}
 
