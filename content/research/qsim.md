@@ -4,7 +4,7 @@ date: 2024-05-28
 
 ---
 
-<div style="max-width: 1000px"> 
+<div style="max-width: 800px"> 
 
 
 <style>       

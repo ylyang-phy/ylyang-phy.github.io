@@ -149,7 +149,7 @@
         "alternativeHeadline": "",
         "description": "
       
-        \u003cdiv style=\u0022max-width: 1000px\u0022\u003e \n\u003cp\u003eThermal properties of quantum many-body systems are often closely tied to states with low energy variance, such as energy eigenstates in the framework of the eigenstate thermalization hypothesis (ETH). However, states that are easy to prepare, such as product states, typically have extensive energy variance. A natural way to reduce energy fluctuations is to apply spectral filters, which suppress contributions from undesired energy eigenstates. In this series of works, we use Gaussian energy filters of the form\n\u003c\/p\u003e
+        \u003cdiv style=\u0022max-width: 800px\u0022\u003e \n\u003cp\u003eThermal properties of quantum many-body systems are often closely tied to states with low energy variance, such as energy eigenstates in the framework of the eigenstate thermalization hypothesis (ETH). However, states that are easy to prepare, such as product states, typically have extensive energy variance. A natural way to reduce energy fluctuations is to apply spectral filters, which suppress contributions from undesired energy eigenstates. In this series of works, we use Gaussian energy filters of the form\n\u003c\/p\u003e
 
 
       
@@ -200,7 +200,7 @@
 
     ,
         "url" : "https:\/\/ylyang-phy.github.io\/research\/filter\/",
-        "wordCount" : "479",
+        "wordCount" : "484",
         "genre" : [ ],
         "keywords" : [ ]
     }
@@ -417,47 +417,26 @@
       
         <h1>Spectral Analysis With Energy Filters</h1>
       
-      <div style="max-width: 1000px"> 
+      <div style="max-width: 800px"> 
 <p>Thermal properties of quantum many-body systems are often closely tied to states with low energy variance, such as energy eigenstates in the framework of the eigenstate thermalization hypothesis (ETH). However, states that are easy to prepare, such as product states, typically have extensive energy variance. A natural way to reduce energy fluctuations is to apply spectral filters, which suppress contributions from undesired energy eigenstates. In this series of works, we use Gaussian energy filters of the form
 </p>
 $$ P_{\delta}(E) = \exp\left[ - \frac{(E-H)^2}{2\delta^2}\right] $$<p>
 to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.</p>
-<div class="container">
+<br />
 <h2 id="thermalization-probes">Thermalization probes</h2>
 <hr>
-<style>
-	#left{
-		float: left;
-		width: 450px;
-		max-width: 100%;
-	}
-	#right{
-		float: right;
-		width: 450px;
-		max-width: 100%;
-	}
-</style>
-<div id="right">
-	<br>
-<center><figure><img src="/img/research_filtering_state.png" width="400">
-</figure>
- </center>
-<center><figure><img src="/img/research_filtering_trace.png" width="400">
-</figure>
- </center>
-</div>
 <ul>
 <li>
 <p>[1] <strong>Probing Thermalization through Spectral Analysis with Matrix Product Operators</strong>
 <br />
-<span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>S. Iblisdir, J. I. Cirac, and M. C. Bañuls</em>
-<br /> <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.100602">Phys. Rev. Lett. <strong>124</strong>, 100602 (2020)</a></p>
+<span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>S. Iblisdir, J. I. Cirac, and M. C. Bañuls</em>,
+<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.100602">Phys. Rev. Lett. <strong>124</strong>, 100602 (2020)</a></p>
 </li>
 <li>
 <p>[2] <strong>Classical algorithms for many-body quantum systems at finite energies</strong>
 <br />
-<span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>J. I. Cirac, and M. C. Bañuls</em>
-<br /> <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307">Phys. Rev. B <strong>106</strong>, 024307 (2022) (<strong>Editor′s suggestion</strong>)</a></p>
+<span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>J. I. Cirac, and M. C. Bañuls</em>,
+<a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307">Phys. Rev. B <strong>106</strong>, 024307 (2022) (<strong>Editor′s suggestion</strong>)</a></p>
 </li>
 <li>
 <p>[3] <strong>How thermal is a filtered state?</strong>
@@ -465,41 +444,28 @@ to probe spectral properties of quantum many-body systems. This approach provide
 <em>In preparation.</em></p>
 </li>
 </ul>
+<center><figure><img src="/img/research_filtering.jpg" width="700">
+</figure>
+  </center>
 <p>The <em><strong>microcanonical ensemble</strong></em> at finite energy density plays a central role in many-body physics, enabling the study of long-time dynamics and nonequilibrium phenomena. Unlike canonical ensembles, however, few algorithm previously existed for computing microcanonical properties.</p>
 <p>This challenge can be addressed by applying energy filters to the entire Hamiltonian spectrum<sup>[1,2]</sup>. By suppressing irrelevant eigenstates, such filters yield the microcanonical ensemble \( \rho_E \approx P_{\delta}(E) / \mathrm{tr} \left[ P_{\delta}(E)\right] \). In one-dimensional systems, these filters can be efficiently implemented using tensor networks via Chebyshev or Fourier expansions.</p>
-<p>Moreover, applying the filter directly to a quantum state produces a state approximating thermal equilibrium under the eigenstate thermalization hypothesis (ETH)<sup>[3]</sup>.</p>
+<p>Moreover, applying the filter directly to a quantum state produces a state approximating thermal equilibrium under the assumption of ETH<sup>[3]</sup>.</p>
 <br>
 <p class="clearboth">
 	&nbsp;
 </p>
 <h2 id="measuring-eigenvalue-degeneracies">Measuring eigenvalue degeneracies</h2>
 <hr>
-<style>
-	#left{
-		float: left;
-		width: 450px;
-		max-width: 100%;
-	}
-	#right{
-		float: right;
-		width: 450px;
-		max-width: 100%;
-	}
-</style>
-<div id="right">
-	<br>
+<ul>
+<li>[4] <strong>Quantum Filtering and Analysis of Multiplicities in Eigenvalue Spectra</strong>
+<br />
+<em>Z. Ding, L. Lin</em>, <span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>R. Zhang</em>,
+<a href="https://journals.aps.org/prxquantum/abstract/10.1103/jch7-734h?__cf_chl_f_tk=sKJFkP7ctrMyXMAHiWL0JBW7sEzwVUovutH5RnDyLIE-1782840710-1.0.1.1-PCGfAPr3GKGzD.V6eOoV.INx8hcBmtzVE3hfLfgSlI4">PRX Quantum <strong>7</strong>, 020318 (2026)</a></li>
+</ul>
 <center><figure><img src="/img/QFAMES_flowchart.png" width="500">
 </figure>
  </center>
-</div>
-<ul>
-<li><strong>Quantum Filtering and Analysis of Multiplicities in Eigenvalue Spectra</strong>
-<br />
-<em>Z. Ding, L. Lin</em>, <span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>R. Zhang</em>
-<br /> <a href="https://journals.aps.org/prxquantum/abstract/10.1103/jch7-734h?__cf_chl_f_tk=sKJFkP7ctrMyXMAHiWL0JBW7sEzwVUovutH5RnDyLIE-1782840710-1.0.1.1-PCGfAPr3GKGzD.V6eOoV.INx8hcBmtzVE3hfLfgSlI4">PRX Quantum <strong>7</strong>, 020318 (2026)</a></li>
-</ul>
-<p>By scanning over different filter centers, one can reconstruct the local density of states of a chosen initial state, thereby estimating the underlying energy eigenvalues. Remarkably, when multiple initial states are available, this approach also enables the estimation of eigenvalue <em><strong>degeneracies</strong></em></sup>, which is missing in conventional quantum phase estimation algorithms.</p>
-</div>
+<p>By scanning over different filter centers, one can reconstruct the local density of states of a chosen initial state, thereby estimating the underlying energy eigenvalues<sup>[9]</sup>. Remarkably, when multiple initial states are available, this approach also enables the estimation of eigenvalue <em><strong>degeneracies</strong></em>, which is missing in conventional quantum phase estimation algorithms.</p>
 <br>
 <p class="clearboth">
 	&nbsp;
@@ -507,11 +473,11 @@ to probe spectral properties of quantum many-body systems. This approach provide
 <h2 id="related-works">Related works</h2>
 <hr>
 <ul>
-<li><strong>Algorithms for Quantum Simulation at Finite Energies</strong>, <em>S. Lu, M. C. Bañuls, and J. I. Cirac</em>, <a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020321">PRX Quantum <strong>2</strong>, 020321 (2021)</a></li>
-<li><strong>Approximating the long time average of the density operator: Diagonal ensemble</strong>, <em>A. Çakan, J. I. Cirac, and M. C. Bañuls</em>, <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.115113">Phys. Rev. B <strong>103</strong>, 115113 (2021)</a></li>
-<li><strong>Probing off-diagonal eigenstate thermalization with tensor networks</strong>, <em>M. Luo, R. Trivedi, M. C. Bañuls, and J. I. Cirac</em>, <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.134304">Phys. Rev. B <strong>109</strong>, 134304 (2024)</a></li>
-<li><strong>Measuring the Loschmidt Amplitude for Finite-Energy Properties of the Fermi-Hubbard Model on an Ion-Trap Quantum Computer</strong>, <em>K. Hémery, et al.</em>, <a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.030323">PRX Quantum <strong>5</strong>, 030323 (2024)</a></li>
-<li><strong>Quantum Multiple Eigenvalue Gaussian filtered Search: an efficient and versatile quantum phase estimation method</strong>, <em>Z. Ding, et al.</em>, <a href="https://quantum-journal.org/papers/q-2024-10-02-1487/">Quantum 8, 1487 (2024)</a></li>
+<li>[5] <strong>Algorithms for Quantum Simulation at Finite Energies</strong> <br /><em>S. Lu, M. C. Bañuls, and J. I. Cirac</em>, <a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020321">PRX Quantum <strong>2</strong>, 020321 (2021)</a></li>
+<li>[6] <strong>Approximating the long time average of the density operator: Diagonal ensemble</strong> <br /> <em>A. Çakan, J. I. Cirac, and M. C. Bañuls</em>, <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.115113">Phys. Rev. B <strong>103</strong>, 115113 (2021)</a></li>
+<li>[7] <strong>Probing off-diagonal eigenstate thermalization with tensor networks</strong> <br /> <em>M. Luo, R. Trivedi, M. C. Bañuls, and J. I. Cirac</em> <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.134304">Phys. Rev. B <strong>109</strong>, 134304 (2024)</a></li>
+<li>[8] <strong>Measuring the Loschmidt Amplitude for Finite-Energy Properties of the Fermi-Hubbard Model on an Ion-Trap Quantum Computer</strong> <br /> <em>K. Hémery, et al.</em>, <a href="https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.030323">PRX Quantum <strong>5</strong>, 030323 (2024)</a></li>
+<li>[9] <strong>Quantum Multiple Eigenvalue Gaussian filtered Search: an efficient and versatile quantum phase estimation method</strong> <br /> <em>Z. Ding, et al.</em>, <a href="https://quantum-journal.org/papers/q-2024-10-02-1487/">Quantum 8, 1487 (2024)</a></li>
 </ul>
 <br>
 <p class="clearboth">
