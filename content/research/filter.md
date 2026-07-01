@@ -5,9 +5,9 @@ date: 2025-10-08
 
 <div style="max-width: 1000px"> 
 
-In these series of works, we probe spectral properties of quantum many-body systems with Gaussian energy filters of the form
-
-$$ P_{\delta}(E) = \exp\left[ - \frac{(E-H)^2}{2\delta^2}\right]. $$
+Thermal properties of quantum many-body systems are often closely tied to states with low energy variance, such as energy eigenstates in the framework of the eigenstate thermalization hypothesis (ETH). However, states that are easy to prepare, such as product states, typically have extensive energy variance. A natural way to reduce energy fluctuations is to apply spectral filters, which suppress contributions from undesired energy eigenstates. In this series of works, we use Gaussian energy filters of the form
+$$ P_{\delta}(E) = \exp\left[ - \frac{(E-H)^2}{2\delta^2}\right] $$
+to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.
 
 {{% container %}}
 
@@ -53,7 +53,7 @@ Moreover, applying the filter directly to a quantum state produces a state appro
 
 
 
-## Measuring Eigenvalue degeneracies
+## Measuring eigenvalue degeneracies
 
 ---
 
@@ -70,7 +70,7 @@ Moreover, applying the filter directly to a quantum state produces a state appro
 - **Quantum Filtering and Analysis of Multiplicities in Eigenvalue Spectra**
   <br />
   *Z. Ding, L. Lin*, <span style="color: salmon">***Y. Yang***</span>, *R. Zhang*
-  <br /> [arXiv:2510.07439 (2025) [quant-ph]](https://arxiv.org/abs/2510.07439)
+  <br /> [PRX Quantum **7**, 020318 (2026)](https://journals.aps.org/prxquantum/abstract/10.1103/jch7-734h?__cf_chl_f_tk=sKJFkP7ctrMyXMAHiWL0JBW7sEzwVUovutH5RnDyLIE-1782840710-1.0.1.1-PCGfAPr3GKGzD.V6eOoV.INx8hcBmtzVE3hfLfgSlI4)
 
 
 By scanning over different filter centers, one can reconstruct the local density of states of a chosen initial state, thereby estimating the underlying energy eigenvalues. Remarkably, when multiple initial states are available, this approach also enables the estimation of eigenvalue ***degeneracies***</sup>, which is missing in conventional quantum phase estimation algorithms.

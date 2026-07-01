@@ -6,7 +6,29 @@
     <description>Recent content in Researches on Yilun Yang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ylyang-phy.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ylyang-phy.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spectral analysis with energy filters</title>
+      <link>https://ylyang-phy.github.io/research/dissipative/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://ylyang-phy.github.io/research/dissipative/</guid>
+      
+        <description>&lt;div style=&#34;max-width: 1000px&#34;&gt; 
+&lt;h2 id=&#34;dissipative-cooling-algorithms-in-a-realistic-setup&#34;&gt;Dissipative cooling algorithms in a realistic setup&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Dissipative phase decision without ground-state preparation&lt;/strong&gt;
+&lt;br&gt; &lt;em&gt;HE Li&lt;/em&gt;, &lt;span style=&#34;color: salmon&#34;&gt; &lt;em&gt;&lt;strong&gt;Y. Yang&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;, &lt;em&gt;L. Lin&lt;/em&gt;, &lt;a href=&#34;https://arxiv.org/abs/2606.28750&#34;&gt;arXiv:2606.28750&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;center&gt;&lt;figure&gt;&lt;img src=&#34;https://ylyang-phy.github.io/img/research_dissipative_phase.png&#34; width=&#34;500&#34;&gt;
+&lt;/figure&gt;
+ &lt;/center&gt;
+&lt;p&gt;Dissipative dynamics offers a promising route for preparing thermal and ground states of quantum many-body systems, and has seen rapid development in recent years. However, many proposed algorithms are designed for the fault-tolerant regime and remain beyond the reach of near-term quantum devices. Here, we focus on a more realistic setting and ask what can be achieved using quasi-local, short-time dissipative cooling protocols. We find that, although such protocols do not prepare the exact ground state, they can rapidly access a low-energy manifold that retains rich physical information, including signatures of quantum phases. Notably, this includes Berezinskii-Kosterlitz-Thouless (BKT) transitions with exponentially small spectral gaps, as well as topological phase transitions in Chern insulators.&lt;/p&gt;</description>
+      
+    </item>
+    
     <item>
       <title>Spectral analysis with energy filters</title>
       <link>https://ylyang-phy.github.io/research/filter/</link>
@@ -15,37 +37,8 @@
       <guid>https://ylyang-phy.github.io/research/filter/</guid>
       
         <description>&lt;div style=&#34;max-width: 1000px&#34;&gt; 
-&lt;p&gt;In these series of works, we probe spectral properties of quantum many-body systems with Gaussian energy filters of the form&lt;/p&gt;
-$$ P_{\delta}(E) = \exp\left[ - \frac{(E-H)^2}{2\delta^2}\right]. $$&lt;div class=&#34;container&#34;&gt;
-&lt;h2 id=&#34;thermalization-probes&#34;&gt;Thermalization probes&lt;/h2&gt;
-&lt;hr&gt;
-&lt;style&gt;
-	#left{
-		float: left;
-		width: 450px;
-		max-width: 100%;
-	}
-	#right{
-		float: right;
-		width: 450px;
-		max-width: 100%;
-	}
-&lt;/style&gt;
-&lt;div id=&#34;right&#34;&gt;
-	&lt;br&gt;
-&lt;center&gt;&lt;figure&gt;&lt;img src=&#34;https://ylyang-phy.github.io/img/research_filtering_state.png&#34; width=&#34;400&#34;&gt;
-&lt;/figure&gt;
- &lt;/center&gt;
-&lt;center&gt;&lt;figure&gt;&lt;img src=&#34;https://ylyang-phy.github.io/img/research_filtering_trace.png&#34; width=&#34;400&#34;&gt;
-&lt;/figure&gt;
- &lt;/center&gt;
-&lt;/div&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;[1] &lt;strong&gt;Probing Thermalization through Spectral Analysis with Matrix Product Operators&lt;/strong&gt;
-&lt;br /&gt;
-&lt;span style=&#34;color: salmon&#34;&gt;&lt;em&gt;&lt;strong&gt;Y. Yang&lt;/strong&gt;&lt;/em&gt;&lt;/span&gt;, &lt;em&gt;S. Iblisdir, J. I. Cirac, and M. C. Bañuls&lt;/em&gt;
-&lt;br /&gt; &lt;a href=&#34;https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.124.100602&#34;&gt;Phys. Rev. Lett. &lt;strong&gt;124&lt;/strong&gt;, 100602 (2020)&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;Thermal properties of quantum many-body systems are often closely tied to states with low energy variance, such as energy eigenstates in the framework of the eigenstate thermalization hypothesis (ETH). However, states that are easy to prepare, such as product states, typically have extensive energy variance. A natural way to reduce energy fluctuations is to apply spectral filters, which suppress contributions from undesired energy eigenstates. In this series of works, we use Gaussian energy filters of the form
+&lt;/p&gt;</description>
       
     </item>
     

@@ -21,6 +21,12 @@ author = "Yilun Yang"
 		identifier = "research"
 
 	[[menu.main]]
+        name = "Dissipative cooling"
+        weight = 500
+        url = "/research/dissipative"
+        parent = "research"  
+
+	[[menu.main]]
         name = "Spectral filters"
         weight = 500
         url = "/research/filter"

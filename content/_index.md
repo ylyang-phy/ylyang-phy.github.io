@@ -12,6 +12,7 @@ My research currently focuses on developing techniques to study thermal and dyna
 - quantum algorithms, especially for near-time devices. 
 
 Please refer to research page for my previous works on 
+- [dissipative cooling](research/dissipative/)
 - [spectral analysis with energy filters](research/filter/)
 - [methods for quantum simulation](research/qsim/)
 
