@@ -15,7 +15,7 @@ Dissipative dynamics offers a promising route for preparing thermal and ground s
 
 
 - **Dissipative phase decision without ground-state preparation**
-  <br> *HE Li**, <span style="color: salmon"> ***Y. Yang****</span>, *L. Lin*, [arXiv:2606.28750](https://arxiv.org/abs/2606.28750)
+  <br> *HE Li**, <span style="color: salmon"> ***Y. Yang****</span>, *L. Lin*, [arXiv:2606.28750 [quant-ph]](https://arxiv.org/abs/2606.28750)
 
 
 

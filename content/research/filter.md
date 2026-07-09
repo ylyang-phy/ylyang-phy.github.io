@@ -32,7 +32,8 @@ to probe spectral properties of quantum many-body systems. This approach provide
 
 - [3] **How thermal is a filtered state?**
   <br />
-  *In preparation.*
+  <span style="color: salmon">***Y. Yang***</span>, *J. I. Cirac, and M. C. Bañuls*, 
+  [arXiv:2607.06847 [quant-ph]](https://arxiv.org/abs/2607.06847)
 
 <center>{{< figure src="/img/research_filtering.jpg" width="700" >}}  </center>
     
@@ -40,7 +41,7 @@ The ***microcanonical ensemble*** at finite energy density plays a central role 
 
 This challenge can be addressed by applying energy filters to the entire Hamiltonian spectrum<sup>[1,2]</sup>. By suppressing irrelevant eigenstates, such filters yield the microcanonical ensemble \( \rho_E \approx P_{\delta}(E) / \mathrm{tr} \left[ P_{\delta}(E)\right] \). In one-dimensional systems, these filters can be efficiently implemented using tensor networks via Chebyshev or Fourier expansions.
 
-Moreover, applying the filter directly to a quantum state produces a state approximating thermal equilibrium under the assumption of ETH<sup>[3]</sup>.
+Moreover, applying the filter directly to a quantum state produces a state approximating thermal equilibrium under the assumption of ETH<sup>[3]</sup>. By establishing a mapping between Hamiltonian- and Floquet- filtered states, we show that for local observables, the errors from thermal values are upper bounded by \( \mathcal{O}(\sqrt{\delta}) \).
 
 <br>
 <p class="clearboth">
