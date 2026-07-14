@@ -75,7 +75,7 @@ We answer this question by extending the definition of spectral filters to Floqu
 <center>{{< figure src="/img/QFAMES_flowchart.png" width="500" >}} </center>
 
 
-By scanning over different filter centers, one can reconstruct the local density of states of a chosen initial state, thereby estimating the underlying energy eigenvalues<sup>[9]</sup>. Remarkably, when multiple initial states are available, this approach also enables the estimation of eigenvalue ***degeneracies***, which is missing in conventional quantum phase estimation algorithms.
+By scanning over different filter centers, one can reconstruct the local density of states of a chosen initial state, thereby estimating the underlying energy eigenvalues<sup>[6]</sup>. Remarkably, when multiple initial states are available, this approach also enables the estimation of eigenvalue ***degeneracies***, which is missing in conventional quantum phase estimation algorithms.
 
  
 
@@ -87,15 +87,11 @@ By scanning over different filter centers, one can reconstruct the local density
 
 
 
-## Related works
-
+### *References*
 ---
 
-- [5] **Algorithms for Quantum Simulation at Finite Energies** <br />*S. Lu, M. C. Bañuls, and J. I. Cirac*, [PRX Quantum **2**, 020321 (2021)](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020321)
-- [6] **Approximating the long time average of the density operator: Diagonal ensemble** <br /> *A. Çakan, J. I. Cirac, and M. C. Bañuls*, [Phys. Rev. B **103**, 115113 (2021)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.115113)
-- [7] **Probing off-diagonal eigenstate thermalization with tensor networks** <br /> *M. Luo, R. Trivedi, M. C. Bañuls, and J. I. Cirac* [Phys. Rev. B **109**, 134304 (2024)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.109.134304)
-- [8] **Measuring the Loschmidt Amplitude for Finite-Energy Properties of the Fermi-Hubbard Model on an Ion-Trap Quantum Computer** <br /> *K. Hémery, et al.*, [PRX Quantum **5**, 030323 (2024)](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.5.030323)
-- [9] **Quantum Multiple Eigenvalue Gaussian filtered Search: an efficient and versatile quantum phase estimation method** <br /> *Z. Ding, et al.*, [Quantum 8, 1487 (2024)](https://quantum-journal.org/papers/q-2024-10-02-1487/)
+- [5] *S. Lu, M. C. Bañuls, and J. I. Cirac*, [PRX Quantum **2**, 020321 (2021)](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.2.020321)
+- [6] *Z. Ding, et al.*, [Quantum 8, 1487 (2024)](https://quantum-journal.org/papers/q-2024-10-02-1487/)
 
 <br>
 <p class="clearboth">

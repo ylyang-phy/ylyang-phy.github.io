@@ -17,8 +17,13 @@ Quantum simulation is among the most promising frontiers of quantum computing. W
 
 <br>
 
-## Ancilla-free phase measurement of complex quantum amplitudes
+## Ancilla-free measurement of complex quantum amplitudes
 - - -
+
+
+- [1] **Phase-Sensitive Quantum Measurement without Controlled Operations**
+<br /> <span style="color: salmon">***Y. Yang***</span>, *A. Christianen, M. C. Bañuls, D. S. Wild, and J. I. Cirac*,  [Phys. Rev. Lett. **132**, 220601 (2024)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.220601)
+
 {{% container %}}
 
 
@@ -28,9 +33,6 @@ Quantum simulation is among the most promising frontiers of quantum computing. W
 
 {{% /columns %}}
 
-- **Phase-Sensitive Quantum Measurement without Controlled Operations**
-<br /> <span style="color: salmon">***Y. Yang***</span>, *A. Christianen, M. C. Bañuls, D. S. Wild, and J. I. Cirac*, 
-<br /> [Phys. Rev. Lett. **132**, 220601 (2024)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.220601)
     
  
 The Loschmidt amplitude, a complex number of the form  \( \langle \psi' | e^{-iHt} |\psi \rangle \), occurs naturally in various quantum algorithms, study of quantum chaos, and so on. Compared with its absolute value, the complex phase is relatively hard to extract on quantum computers. The standard method is the Hadamard test, which gives rise to large overheads due to the need for global controlled-unitary operations. We introduce a quantum algorithm based on complex analysis that overcomes this problem: ***no*** ancillary qubits, ***no*** control operations, only time evolution required.  
@@ -48,8 +50,12 @@ The Loschmidt amplitude, a complex number of the form  \( \langle \psi' | e^{-iH
 ## Error-mitigated digital quantum simulation of thermalization
 - - -
 
+- [2] **Simulating Prethermalization Using Near-Term Quantum Computers**
+<br />
+<span style="color: salmon">***Y. Yang***</span>, *A. Christianen, S. Coll-Vinent, V. Smelyanskiy, M. C. Bañuls, T. E. O&prime;Brien, D. S. Wild, and J. I. Cirac*, [PRX Quantum **4**, 030320 (2023)](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.030320)
+
 {{% container %}}
-{{% columns float=right %}}
+{{% columns float=left %}}
 
 <br>
 <center>{{< figure src="/img/research_PEVP.png" width="400" >}} </center>
@@ -57,10 +63,6 @@ The Loschmidt amplitude, a complex number of the form  \( \langle \psi' | e^{-iH
 {{% /columns %}}
 
 
-- **Simulating Prethermalization Using Near-Term Quantum Computers**
-<br />
-<span style="color: salmon">***Y. Yang***</span>, *A. Christianen, S. Coll-Vinent, V. Smelyanskiy, M. C. Bañuls, T. E. O&prime;Brien, D. S. Wild, and J. I. Cirac*, 
-<br /> [PRX Quantum **4**, 030320 (2023)](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.030320)
 
  Due to decoherence and noise in current devices, it is currently challenging to perform digital quantum simulation in a regime that is intractable with classical computers. In this work, we propose a practical experimental protocol for probing dynamics and equilibrium properties on near-term digital quantum computers, based on the ***prethermalization*** phenomenon and a proposed ***error mitigation*** scheme.
 

@@ -1,12 +1,12 @@
 baseURL = "https://ylyang-phy.github.io/"
 publishDir = "public"
 
-hasCJKLanguage = true
 
-languageCode = "en-us"
+locale = "en-us"
 title = "Yilun Yang"
 theme = "anatole"
 author = "Yilun Yang"
+
 
 [menu]
 	[[menu.main]]
@@ -22,19 +22,19 @@ author = "Yilun Yang"
 
 	[[menu.main]]
         name = "Dissipative cooling"
-        weight = 500
+        weight = 210
         url = "/research/dissipative"
         parent = "research"  
 
 	[[menu.main]]
         name = "Spectral filters"
-        weight = 500
+        weight = 220
         url = "/research/filter"
         parent = "research"  
 
     [[menu.main]]
         name = "Quantum simulation"
-        weight = 600
+        weight = 230
         url = "/research/qsim"
         parent = "research"  
 
@@ -44,13 +44,14 @@ author = "Yilun Yang"
 	author = "Yilun Yang"
 	description = """
 	"""
+    profilePicture = "img/favicon.png"
 	displayMode = "light"
-	contentratio = 0.8
+	contentratio = 0.7
 	doNotLoadAnimations = true
     math = true
 
 	customCss = ["css/academicons.css"]
-	favicon = "favicons/"
+	favicon = "favicons/favicon.ico"
 
     mainSections = []
 
