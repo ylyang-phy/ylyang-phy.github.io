@@ -7,10 +7,11 @@ date: 2026-06-30
 
 Dissipative dynamics offers a promising route for preparing thermal and ground states of quantum many-body systems, and has seen rapid development in recent years. Our goal is to develop more practical implementations of dissipative quantum algorithms and to identify near-term applications where they can provide useful physical insight.
 
+
+<br />
+
 ## Dissipative cooling in a realistic setting
 ---
-
-
 
 
 

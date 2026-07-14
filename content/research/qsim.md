@@ -15,6 +15,7 @@ date: 2024-05-28
 
 Quantum simulation is among the most promising frontiers of quantum computing. We aim to design methods that lead to practical applications on current and near-term quantum devices.
 
+<br>
 
 ## Ancilla-free phase measurement of complex quantum amplitudes
 - - -

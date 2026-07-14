@@ -118,7 +118,8 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Spectral analysis with energy filters">
-  <meta name="twitter:description" content="Thermal properties of quantum many-body systems are often closely tied to states with low energy variance, such as energy eigenstates in the framework of the eigenstate thermalization hypothesis (ETH). However, states that are easy to prepare, such as product states, typically have extensive energy variance. A natural way to reduce energy fluctuations is to apply spectral filters, which suppress contributions from undesired energy eigenstates. In this series of works, we use Gaussian energy filters of the form">
+  <meta name="twitter:description" content="Thermal properties of quantum many-body systems are often encoded in their “diagonal” part in the Hamiltonian eigenbasis. For example, in the framework of the eigenstate thermalization hypothesis (ETH), each individual energy eigenstate locally resembles a thermal state. States that are easy to prepare, such as pure product states or the maximally mixed state, typically have extensive energy variance that prohibits extraction of thermal properties.
+A natural way to reduce energy fluctuations and coherences is to apply spectral filters, which suppress contributions from undesired energy eigenstates away from the target energy. In this series of work, we apply Gaussian spectral filters to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.">
 
 
 
@@ -126,7 +127,8 @@
   <meta property="og:url" content="https://ylyang-phy.github.io/research/filter/">
   <meta property="og:site_name" content="Yilun Yang">
   <meta property="og:title" content="Spectral analysis with energy filters">
-  <meta property="og:description" content="Thermal properties of quantum many-body systems are often closely tied to states with low energy variance, such as energy eigenstates in the framework of the eigenstate thermalization hypothesis (ETH). However, states that are easy to prepare, such as product states, typically have extensive energy variance. A natural way to reduce energy fluctuations is to apply spectral filters, which suppress contributions from undesired energy eigenstates. In this series of works, we use Gaussian energy filters of the form">
+  <meta property="og:description" content="Thermal properties of quantum many-body systems are often encoded in their “diagonal” part in the Hamiltonian eigenbasis. For example, in the framework of the eigenstate thermalization hypothesis (ETH), each individual energy eigenstate locally resembles a thermal state. States that are easy to prepare, such as pure product states or the maximally mixed state, typically have extensive energy variance that prohibits extraction of thermal properties.
+A natural way to reduce energy fluctuations and coherences is to apply spectral filters, which suppress contributions from undesired energy eigenstates away from the target energy. In this series of work, we apply Gaussian spectral filters to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="article:section" content="research">
@@ -149,7 +151,7 @@
         "alternativeHeadline": "",
         "description": "
       
-        \u003cdiv style=\u0022max-width: 800px\u0022\u003e \n\u003cp\u003eThermal properties of quantum many-body systems are often closely tied to states with low energy variance, such as energy eigenstates in the framework of the eigenstate thermalization hypothesis (ETH). However, states that are easy to prepare, such as product states, typically have extensive energy variance. A natural way to reduce energy fluctuations is to apply spectral filters, which suppress contributions from undesired energy eigenstates. In this series of works, we use Gaussian energy filters of the form\n\u003c\/p\u003e
+        \u003cdiv style=\u0022max-width: 800px\u0022\u003e \n\u003cp\u003eThermal properties of quantum many-body systems are often encoded in their \u0026ldquo;diagonal\u0026rdquo; part in the Hamiltonian eigenbasis. For example, in the framework of the eigenstate thermalization hypothesis (ETH), each individual energy eigenstate locally resembles a thermal state. States that are easy to prepare, such as pure product states or the maximally mixed state, typically have extensive energy variance that prohibits extraction of thermal properties.\u003c\/p\u003e\n\u003cp\u003eA natural way to reduce energy fluctuations and coherences is to apply spectral filters, which suppress contributions from undesired energy eigenstates away from the target energy. In this series of work, we apply Gaussian spectral filters to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.\u003c\/p\u003e
 
 
       
@@ -200,7 +202,7 @@
 
     ,
         "url" : "https:\/\/ylyang-phy.github.io\/research\/filter\/",
-        "wordCount" : "521",
+        "wordCount" : "673",
         "genre" : [ ],
         "keywords" : [ ]
     }
@@ -418,12 +420,15 @@
         <h1>Spectral Analysis With Energy Filters</h1>
       
       <div style="max-width: 800px"> 
-<p>Thermal properties of quantum many-body systems are often closely tied to states with low energy variance, such as energy eigenstates in the framework of the eigenstate thermalization hypothesis (ETH). However, states that are easy to prepare, such as product states, typically have extensive energy variance. A natural way to reduce energy fluctuations is to apply spectral filters, which suppress contributions from undesired energy eigenstates. In this series of works, we use Gaussian energy filters of the form
-</p>
-$$ P_{\delta}(E) = \exp\left[ - \frac{(E-H)^2}{2\delta^2}\right] $$<p>
-to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.</p>
+<p>Thermal properties of quantum many-body systems are often encoded in their &ldquo;diagonal&rdquo; part in the Hamiltonian eigenbasis. For example, in the framework of the eigenstate thermalization hypothesis (ETH), each individual energy eigenstate locally resembles a thermal state. States that are easy to prepare, such as pure product states or the maximally mixed state, typically have extensive energy variance that prohibits extraction of thermal properties.</p>
+<p>A natural way to reduce energy fluctuations and coherences is to apply spectral filters, which suppress contributions from undesired energy eigenstates away from the target energy. In this series of work, we apply Gaussian spectral filters to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.</p>
+<center><figure><img src="/img/research_filtering.jpg" width="700">
+</figure>
+ 
+<p><strong>Left:</strong> filtering a pure state; <strong>Right:</strong> filtering the maximally mixed state</p>
+ </center>
 <br />
-<h2 id="thermalization-probes">Thermalization probes</h2>
+<h2 id="filtering-the-maximally-mixed-state-microcanonical-ensemble-as-thermalization-probe">Filtering the maximally mixed state: microcanonical ensemble as thermalization probe</h2>
 <hr>
 <ul>
 <li>
@@ -438,24 +443,28 @@ to probe spectral properties of quantum many-body systems. This approach provide
 <span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>J. I. Cirac, and M. C. Bañuls</em>,
 <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307">Phys. Rev. B <strong>106</strong>, 024307 (2022) (<strong>Editor′s suggestion</strong>)</a></p>
 </li>
-<li>
-<p>[3] <strong>How thermal is a filtered state?</strong>
+</ul>
+<p>The <em><strong>microcanonical ensemble</strong></em> at finite energy density plays a central role in many-body physics, enabling the study of long-time dynamics and nonequilibrium phenomena. For example, the comparison of microcanonical and canonical ensemble observable expectation values serves as a probe of whether a quantum many-body system thermalizes.</p>
+<p>Unlike canonical ensembles, however, few algorithm previously existed for computing microcanonical properties. This challenge can be addressed by applying spectral filters to a maximally mixed state. In one-dimensional systems, these filters can be efficiently implemented using tensor networks via Chebyshev or Fourier expansions. It also serves as an efficient quantum algorithm<sup>[5]</sup>.
+<br></p>
+<p class="clearboth">
+	&nbsp;
+</p>
+<h2 id="filtering-pure-states-what-is-the-required-filter-width">Filtering pure states: what is the required filter width?</h2>
+<hr>
+<ul>
+<li>[3] <strong>How thermal is a filtered state?</strong>
 <br />
 <span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>J. I. Cirac, and M. C. Bañuls</em>,
-<a href="https://arxiv.org/abs/2607.06847">arXiv:2607.06847 [quant-ph]</a></p>
-</li>
+<a href="https://arxiv.org/abs/2607.06847">arXiv:2607.06847 [quant-ph]</a></li>
 </ul>
-<center><figure><img src="/img/research_filtering.jpg" width="700">
-</figure>
-  </center>
-<p>The <em><strong>microcanonical ensemble</strong></em> at finite energy density plays a central role in many-body physics, enabling the study of long-time dynamics and nonequilibrium phenomena. Unlike canonical ensembles, however, few algorithm previously existed for computing microcanonical properties.</p>
-<p>This challenge can be addressed by applying energy filters to the entire Hamiltonian spectrum<sup>[1,2]</sup>. By suppressing irrelevant eigenstates, such filters yield the microcanonical ensemble \( \rho_E \approx P_{\delta}(E) / \mathrm{tr} \left[ P_{\delta}(E)\right] \). In one-dimensional systems, these filters can be efficiently implemented using tensor networks via Chebyshev or Fourier expansions.</p>
-<p>Moreover, applying the filter directly to a quantum state produces a state approximating thermal equilibrium under the assumption of ETH<sup>[3]</sup>. By establishing a mapping between Hamiltonian- and Floquet- filtered states, we show that for local observables, the errors from thermal values are upper bounded by \( \mathcal{O}(\sqrt{\delta}) \).</p>
+<p>In an extreme case when the filter width \(\delta\) is exponentially small in system size, applying the spectral filter to a pure initial state yields an energy eigenstate, which locally resembles thermal states if assuming ETH. Can the choice of \(\delta\) be relaxed?</p>
+<p>We answer this question by extending the definition of spectral filters to Floquet dynamics. This setting allows us to analytically compute the Rènyi-\(\alpha\) entanglement entropies of Floquet-filtered states, which are distinct for different \(\alpha\) and only logarithmic in \(1 / \delta\) when \( \alpha > 1\). Moreover, under the assumption of Floquet ETH, we show that for local observables, their errors from thermal values are upper bounded by \( \mathcal{O}(\sqrt{\delta}) \). Finally, by establishing a mapping between Hamiltonian- and Floquet- filtered states, the results can be generalized back to spectral filtered states in the normal Hamiltonian setting.</p>
 <br>
 <p class="clearboth">
 	&nbsp;
 </p>
-<h2 id="measuring-eigenvalue-degeneracies">Measuring eigenvalue degeneracies</h2>
+<h2 id="filtering-pure-states-measuring-eigenvalue-degeneracies">Filtering pure states: measuring eigenvalue degeneracies</h2>
 <hr>
 <ul>
 <li>[4] <strong>Quantum Filtering and Analysis of Multiplicities in Eigenvalue Spectra</strong>

@@ -5,18 +5,21 @@ date: 2025-10-08
 
 <div style="max-width: 800px"> 
 
-Thermal properties of quantum many-body systems are often closely tied to states with low energy variance, such as energy eigenstates in the framework of the eigenstate thermalization hypothesis (ETH). However, states that are easy to prepare, such as product states, typically have extensive energy variance. A natural way to reduce energy fluctuations is to apply spectral filters, which suppress contributions from undesired energy eigenstates. In this series of works, we use Gaussian energy filters of the form
-$$ P_{\delta}(E) = \exp\left[ - \frac{(E-H)^2}{2\delta^2}\right] $$
-to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.
+Thermal properties of quantum many-body systems are often encoded in their "diagonal" part in the Hamiltonian eigenbasis. For example, in the framework of the eigenstate thermalization hypothesis (ETH), each individual energy eigenstate locally resembles a thermal state. States that are easy to prepare, such as pure product states or the maximally mixed state, typically have extensive energy variance that prohibits extraction of thermal properties. 
 
+
+A natural way to reduce energy fluctuations and coherences is to apply spectral filters, which suppress contributions from undesired energy eigenstates away from the target energy. In this series of work, we apply Gaussian spectral filters to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.
+
+
+<center>{{< figure src="/img/research_filtering.jpg" width="700" >}} 
+
+**Left:** filtering a pure state; **Right:** filtering the maximally mixed state
+ </center>
 <br />
 
-## Thermalization probes
+## Filtering the maximally mixed state: microcanonical ensemble as thermalization probe
 
 - - - 
-
-
-
 
 
 - [1] **Probing Thermalization through Spectral Analysis with Matrix Product Operators**
@@ -28,20 +31,29 @@ to probe spectral properties of quantum many-body systems. This approach provide
   <br />
   <span style="color: salmon">***Y. Yang***</span>, *J. I. Cirac, and M. C. Bañuls*, 
   [Phys. Rev. B **106**, 024307 (2022) (**Editor&prime;s suggestion**)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307)
+    
+The ***microcanonical ensemble*** at finite energy density plays a central role in many-body physics, enabling the study of long-time dynamics and nonequilibrium phenomena. For example, the comparison of microcanonical and canonical ensemble observable expectation values serves as a probe of whether a quantum many-body system thermalizes.
 
+Unlike canonical ensembles, however, few algorithm previously existed for computing microcanonical properties. This challenge can be addressed by applying spectral filters to a maximally mixed state. In one-dimensional systems, these filters can be efficiently implemented using tensor networks via Chebyshev or Fourier expansions. It also serves as an efficient quantum algorithm<sup>[5]</sup>.
+<br>
+<p class="clearboth">
+	&nbsp;
+</p>
+
+
+
+## Filtering pure states: what is the required filter width?
+
+- - - 
 
 - [3] **How thermal is a filtered state?**
   <br />
   <span style="color: salmon">***Y. Yang***</span>, *J. I. Cirac, and M. C. Bañuls*, 
   [arXiv:2607.06847 [quant-ph]](https://arxiv.org/abs/2607.06847)
 
-<center>{{< figure src="/img/research_filtering.jpg" width="700" >}}  </center>
-    
-The ***microcanonical ensemble*** at finite energy density plays a central role in many-body physics, enabling the study of long-time dynamics and nonequilibrium phenomena. Unlike canonical ensembles, however, few algorithm previously existed for computing microcanonical properties.
+In an extreme case when the filter width \(\delta\) is exponentially small in system size, applying the spectral filter to a pure initial state yields an energy eigenstate, which locally resembles thermal states if assuming ETH. Can the choice of \(\delta\) be relaxed?
 
-This challenge can be addressed by applying energy filters to the entire Hamiltonian spectrum<sup>[1,2]</sup>. By suppressing irrelevant eigenstates, such filters yield the microcanonical ensemble \( \rho_E \approx P_{\delta}(E) / \mathrm{tr} \left[ P_{\delta}(E)\right] \). In one-dimensional systems, these filters can be efficiently implemented using tensor networks via Chebyshev or Fourier expansions.
-
-Moreover, applying the filter directly to a quantum state produces a state approximating thermal equilibrium under the assumption of ETH<sup>[3]</sup>. By establishing a mapping between Hamiltonian- and Floquet- filtered states, we show that for local observables, the errors from thermal values are upper bounded by \( \mathcal{O}(\sqrt{\delta}) \).
+We answer this question by extending the definition of spectral filters to Floquet dynamics. This setting allows us to analytically compute the Rènyi-\(\alpha\) entanglement entropies of Floquet-filtered states, which are distinct for different \(\alpha\) and only logarithmic in \(1 / \delta\) when \( \alpha > 1\). Moreover, under the assumption of Floquet ETH, we show that for local observables, their errors from thermal values are upper bounded by \( \mathcal{O}(\sqrt{\delta}) \). Finally, by establishing a mapping between Hamiltonian- and Floquet- filtered states, the results can be generalized back to spectral filtered states in the normal Hamiltonian setting.
 
 <br>
 <p class="clearboth">
@@ -50,7 +62,7 @@ Moreover, applying the filter directly to a quantum state produces a state appro
 
 
 
-## Measuring eigenvalue degeneracies
+## Filtering pure states: measuring eigenvalue degeneracies
 
 ---
 
