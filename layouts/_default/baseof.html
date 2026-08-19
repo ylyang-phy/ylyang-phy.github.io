@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang | default "en" }}" data-theme="{{ .Site.Params.displayMode | default "light" }}">
+  {{ partial "head.html" . }}
+  <body>
+    <div class="site-shell">
+      {{ partial "profile.html" . }}
+      {{ partial "navbar.html" . }}
+      <main class="site-main" id="main-content">
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

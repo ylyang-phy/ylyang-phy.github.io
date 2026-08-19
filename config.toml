@@ -4,8 +4,8 @@ publishDir = "public"
 
 locale = "en-us"
 title = "Yilun Yang"
-theme = "anatole"
 author = "Yilun Yang"
+pluralizeListTitles = false
 
 
 [menu]
@@ -39,29 +39,23 @@ author = "Yilun Yang"
         parent = "research"  
 
 [params]
-    capitalizeListTitles = false
 	title = "Yilun Yang's homepage"
 	author = "Yilun Yang"
 	description = """
 	"""
     profilePicture = "img/favicon.png"
 	displayMode = "light"
-	contentratio = 0.8
-	doNotLoadAnimations = true
     math = true
 
-	customCss = ["css/academicons.css", "css/homepage.css"]
 	favicon = "favicons/favicon.ico"
 
-    mainSections = []
-
 	[[params.socialIcons]]
-		icon = "fas fa-envelope"
+		icon = "email"
 		title = "e-mail"
 		url = "mailto:ylyang@berkeley.edu"
 
 	[[params.socialIcons]]
-		icon = "ai ai-google-scholar-square ai-3x"
+		icon = "google-scholar"
 		title = "Google Scholar"
 		url = "https://scholar.google.com/citations?hl=en&user=WjY5YRYAAAAJ"
 

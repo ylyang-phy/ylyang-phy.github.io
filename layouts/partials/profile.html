@@ -1,0 +1,21 @@
+<section class="profile" aria-label="Site identity">
+  <div class="profile__inner">
+    {{ with .Site.Params.profilePicture }}
+      <a class="profile__logo-link" href="{{ $.Site.Home.RelPermalink }}" aria-label="Home">
+        <img class="profile__logo" src="{{ . | relURL }}" alt="{{ $.Site.Params.author }} logo" />
+      </a>
+    {{ end }}
+    <div class="profile__identity">
+      {{ if .IsHome }}
+        <h1 class="profile__title">
+          <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.Title }}</a>
+        </h1>
+      {{ else }}
+        <a class="profile__title" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.Title }}</a>
+      {{ end }}
+      {{ with strings.TrimSpace .Site.Params.description }}
+        <p class="profile__description">{{ replace . "\n" "<br />" | safeHTML }}</p>
+      {{ end }}
+    </div>
+  </div>
+</section>

@@ -3,8 +3,9 @@
   <channel>
     <title>Categories on Yilun Yang</title>
     <link>https://ylyang-phy.github.io/categories/</link>
-    <description>Recent content in Categories on Yilun Yang</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://ylyang-phy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent content from Yilun Yang</description>
+    <generator>Hugo</generator>
+    <atom:link href="https://ylyang-phy.github.io/categories/index.xml" rel="self" type="application/rss&#43;xml" />
+    
   </channel>
 </rss>

@@ -13,8 +13,12 @@ Quantum simulation is among the most promising frontiers of quantum computing. W
 
 {{% container image="right" %}}
 
+{{% reference-list %}}
+
 - [1] **Phase-Sensitive Quantum Measurement without Controlled Operations**
 <br /> <span style="color: salmon">***Y. Yang***</span>, *A. Christianen, M. C. Bañuls, D. S. Wild, and J. I. Cirac*,  [Phys. Rev. Lett. **132**, 220601 (2024)](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.132.220601)
+
+{{% /reference-list %}}
 
 {{% columns float=right %}}
 {{< figure src="/img/research_PSQM.png" >}}
@@ -34,9 +38,13 @@ The Loschmidt amplitude, a complex number of the form  \( \langle \psi' | e^{-iH
 
 {{% container image="left" %}}
 
+{{% reference-list %}}
+
 - [2] **Simulating Prethermalization Using Near-Term Quantum Computers**
 <br />
 <span style="color: salmon">***Y. Yang***</span>, *A. Christianen, S. Coll-Vinent, V. Smelyanskiy, M. C. Bañuls, T. E. O&prime;Brien, D. S. Wild, and J. I. Cirac*, [PRX Quantum **4**, 030320 (2023)](https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.030320)
+
+{{% /reference-list %}}
 
 {{% columns float=left %}}
 {{< figure src="/img/research_PEVP.png" >}}

@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <section class="content">
+    {{ with .Content }}{{ . }}{{ end }}
+    <div class="page-list">
+      {{ range .Pages.ByDate.Reverse }}
+        <article class="page-list__item">
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ if not .Date.IsZero }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006" }}</time>{{ end }}
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

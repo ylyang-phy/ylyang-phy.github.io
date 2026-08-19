@@ -1,0 +1,53 @@
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="author" content="{{ .Site.Params.author }}" />
+  <meta
+    name="description"
+    content="{{ with .Description }}{{ . }}{{ else }}{{ strings.TrimSpace .Site.Params.description }}{{ end }}"
+  />
+  <title>{{ .Site.Params.author }}{{ with .Title }}{{ if not $.IsHome }} | {{ . }}{{ end }}{{ end }}</title>
+  {{ hugo.Generator }}
+
+  <script>
+    (() => {
+      try {
+        const stored = localStorage.getItem('theme');
+        const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = stored || preferred;
+      } catch (_) {}
+    })();
+  </script>
+
+  {{ $academicons := resources.Get "css/academicons.css" }}
+  {{ $siteStyles := resources.Get "css/homepage.css" }}
+  {{ with slice $academicons $siteStyles | resources.Concat "css/site.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" />
+  {{ end }}
+
+  <link rel="icon" href="{{ .Site.Params.favicon | relURL }}" sizes="any" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+  {{ with .OutputFormats.Get "rss" }}
+    <link rel="alternate" type="{{ .MediaType.Type }}" href="{{ .RelPermalink }}" title="{{ $.Site.Title }}" />
+  {{ end }}
+
+  {{ template "_internal/opengraph.html" . }}
+  {{ template "_internal/twitter_cards.html" . }}
+
+  {{ if .Param "math" }}
+    <script>
+      window.MathJax = {
+        tex: {
+          displayMath: [['\\[', '\\]'], ['$$', '$$']],
+          inlineMath: [['\\(', '\\)']]
+        },
+        loader: { load: ['ui/safe'] }
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  {{ end }}
+
+  {{ with resources.Get "js/site.js" | minify | fingerprint }}
+    <script defer src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+  {{ end }}
+</head>

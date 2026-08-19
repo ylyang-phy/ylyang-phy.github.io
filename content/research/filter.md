@@ -20,6 +20,8 @@ A natural way to reduce energy fluctuations and coherences is to apply spectral 
 - - - 
 
 
+{{% reference-list %}}
+
 - [1] **Probing Thermalization through Spectral Analysis with Matrix Product Operators**
   <br />
   <span style="color: salmon">***Y. Yang***</span>, *S. Iblisdir, J. I. Cirac, and M. C. Bañuls*, 
@@ -29,6 +31,8 @@ A natural way to reduce energy fluctuations and coherences is to apply spectral 
   <br />
   <span style="color: salmon">***Y. Yang***</span>, *J. I. Cirac, and M. C. Bañuls*, 
   [Phys. Rev. B **106**, 024307 (2022) (**Editor&prime;s suggestion**)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307)
+
+{{% /reference-list %}}
 
 {{% research-description %}}
 
@@ -49,10 +53,14 @@ Unlike canonical ensembles, however, few algorithm previously existed for comput
 
 - - - 
 
+{{% reference-list %}}
+
 - [3] **How thermal is a filtered state?**
   <br />
   <span style="color: salmon">***Y. Yang***</span>, *J. I. Cirac, and M. C. Bañuls*, 
   [arXiv:2607.06847 [quant-ph]](https://arxiv.org/abs/2607.06847)
+
+{{% /reference-list %}}
 
 {{% research-description %}}
 
@@ -74,10 +82,14 @@ We answer this question by extending the definition of spectral filters to Floqu
 ---
 
 
+{{% reference-list %}}
+
 - [4] **Quantum Filtering and Analysis of Multiplicities in Eigenvalue Spectra**
   <br />
   *Z. Ding, L. Lin*, <span style="color: salmon">***Y. Yang***</span>, *R. Zhang*, 
   [PRX Quantum **7**, 020318 (2026)](https://journals.aps.org/prxquantum/abstract/10.1103/jch7-734h?__cf_chl_f_tk=sKJFkP7ctrMyXMAHiWL0JBW7sEzwVUovutH5RnDyLIE-1782840710-1.0.1.1-PCGfAPr3GKGzD.V6eOoV.INx8hcBmtzVE3hfLfgSlI4)
+
+{{% /reference-list %}}
 
 <center>{{< figure src="/img/QFAMES_flowchart.png" width="500" >}} </center>
 

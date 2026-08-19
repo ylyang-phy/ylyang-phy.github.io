@@ -1,139 +1,36 @@
 <!doctype html>
-<html
-  dir="ltr"
-  lang="en"
-  data-theme="light"
-  
-    class="html theme--light"
-  
-><head>
+<html lang="en" data-theme="light">
+  <head>
   <meta charset="utf-8" />
-  <title>
-    Yilun Yang
-        |
-        Spectral analysis with energy filters
-      
-
-    
-
-  </title>
-
-  <meta name="generator" content="Hugo 0.164.0"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="author" content="Yilun Yang" />
   <meta
     name="description"
-    content="	"
+    content=""
   />
-  
-  
-        <link rel="stylesheet" href="/css/anatole.min.c020507fbbfa6c0b730e9234f8b107f238126f690eb78cf96b6786e3b30c0982.css" integrity="sha256-wCBQf7v6bAtzDpI0&#43;LEH8jgSb2kOt4z5a2eG47MMCYI=" crossorigin="anonymous" />
-      
-  <link
-    rel="stylesheet"
-    href="/css/markupHighlight.min.f8ba48d3fd92c731701d9634494275b2f2bc2ad0bea19b438feb41b25052f83b.css"
-    integrity="sha256-&#43;LpI0/2SxzFwHZY0SUJ1svK8KtC&#43;oZtDj&#43;tBslBS&#43;Ds="
-    crossorigin="anonymous"
-    type="text/css"
-  />
-  
-    
-    
-    <link
-      rel="stylesheet"
-      href="/css/academicons.min.f6abb61f6b9b2e784eba22dfb93cd399ce30ee01825791830a2737d6bfcd2be9.css"
-      integrity="sha256-9qu2H2ubLnhOuiLfuTzTmc4w7gGCV5GDCic31r/NK&#43;k="
-      crossorigin="anonymous"
-      media="screen"
-    />
-  
-    
-    
-    <link
-      rel="stylesheet"
-      href="/css/homepage.min.bbcc54e8d66cc0e79d2f181a656906a6925d15d1ebc2aaf8cebd5f148b2fd973.css"
-      integrity="sha256-u8xU6NZswOedLxgaZWkGppJdFdHrwqr4zr1fFIsv2XM="
-      crossorigin="anonymous"
-      media="screen"
-    />
-  
-  
-  <link
-    rel="stylesheet"
-    href="/fontawesome/css/fontawesome.min.137b1cf3cea9a8adb7884343a9a5ddddf4280f59153f74dc782fb7f7bf0d0519.css"
-    integrity="sha256-E3sc886pqK23iENDqaXd3fQoD1kVP3TceC&#43;3978NBRk="
-    crossorigin="anonymous"
-    type="text/css"
-  />
-  
-  <link
-    rel="stylesheet"
-    href="/fontawesome/css/solid.min.e65dc5b48fb5f39b142360c57c3a215744c94e56c755c929cc3e88fe12aab4d3.css"
-    integrity="sha256-5l3FtI&#43;185sUI2DFfDohV0TJTlbHVckpzD6I/hKqtNM="
-    crossorigin="anonymous"
-    type="text/css"
-  />
-  
-  <link
-    rel="stylesheet"
-    href="/fontawesome/css/regular.min.6f4f16d58da1c82c0c3a3436e021a3d39b4742f741192c546e73e947eacfd92f.css"
-    integrity="sha256-b08W1Y2hyCwMOjQ24CGj05tHQvdBGSxUbnPpR&#43;rP2S8="
-    crossorigin="anonymous"
-    type="text/css"
-  />
-  
-  <link
-    rel="stylesheet"
-    href="/fontawesome/css/brands.min.e10425ad768bc98ff1fb272a0ac8420f9d1ba22f0612c08ff1010c95080ffe7e.css"
-    integrity="sha256-4QQlrXaLyY/x&#43;ycqCshCD50boi8GEsCP8QEMlQgP/n4="
-    crossorigin="anonymous"
-    type="text/css"
-  />
-  
-  <link rel="shortcut icon" href="/favicons/favicon.icofavicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon.icoapple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon.icofavicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon.icofavicon-16x16.png" />
+  <title>Yilun Yang | Spectral analysis with energy filters</title>
+  <meta name="generator" content="Hugo 0.164.0">
 
+  <script>
+    (() => {
+      try {
+        const stored = localStorage.getItem('theme');
+        const preferred = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        document.documentElement.dataset.theme = stored || preferred;
+      } catch (_) {}
+    })();
+  </script>
+
+  
+  
+  
+    <link rel="stylesheet" href="/css/site.min.e6c39c5d4505ccf55173e30cf549831eaeb8dcd2777f72e7c2d99049bef955be.css" integrity="sha256-5sOcXUUFzPVRc&#43;MM9UmDHq643NJ3f3LnwtmQSb75Vb4=" crossorigin="anonymous" />
+  
+
+  <link rel="icon" href="/favicons/favicon.ico" sizes="any" />
   <link rel="canonical" href="https://ylyang-phy.github.io/research/filter/" />
   
-  
-  
-  
-  <script
-    type="text/javascript"
-    src="/js/anatole-header.min.f9132794301a01ff16550ed66763482bd848f62243d278f5e550229a158bfd32.js"
-    integrity="sha256-&#43;RMnlDAaAf8WVQ7WZ2NIK9hI9iJD0nj15VAimhWL/TI="
-    crossorigin="anonymous"
-  ></script>
 
-  
-    
-    
-    <script
-      type="text/javascript"
-      src="/js/anatole-theme-switcher.min.8724ddf9268dee451060f191961647573c7f592fbccc6d858746236b3f915813.js"
-      integrity="sha256-hyTd&#43;SaN7kUQYPGRlhZHVzx/WS&#43;8zG2Fh0Yjaz&#43;RWBM="
-      crossorigin="anonymous"
-    ></script>
-  
-
-  
-
-  
-
-  
-
-
-  
-  
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="Spectral analysis with energy filters">
-	<meta name="twitter:description" content="Thermal properties of quantum many-body systems are often encoded in their “diagonal” part in the Hamiltonian eigenbasis. For example, in the framework of the eigenstate thermalization hypothesis (ETH), each individual energy eigenstate locally resembles a thermal state. States that are easy to prepare, such as pure product states or the maximally mixed state, typically have extensive energy variance that prohibits extraction of thermal properties.
-A natural way to reduce energy fluctuations and coherences is to apply spectral filters, which suppress contributions from undesired energy eigenstates away from the target energy. In this series of work, we apply Gaussian spectral filters to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.">
-
-
-
-  
   <meta property="og:url" content="https://ylyang-phy.github.io/research/filter/">
 	<meta property="og:site_name" content="Yilun Yang">
 	<meta property="og:title" content="Spectral analysis with energy filters">
@@ -145,274 +42,166 @@ A natural way to reduce energy fluctuations and coherences is to apply spectral 
 		<meta property="article:published_time" content="2025-10-08T00:00:00+00:00">
 		<meta property="article:modified_time" content="2025-10-08T00:00:00+00:00">
 
+  
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Spectral analysis with energy filters">
+	<meta name="twitter:description" content="Thermal properties of quantum many-body systems are often encoded in their “diagonal” part in the Hamiltonian eigenbasis. For example, in the framework of the eigenstate thermalization hypothesis (ETH), each individual energy eigenstate locally resembles a thermal state. States that are easy to prepare, such as pure product states or the maximally mixed state, typically have extensive energy variance that prohibits extraction of thermal properties.
+A natural way to reduce energy fluctuations and coherences is to apply spectral filters, which suppress contributions from undesired energy eigenstates away from the target energy. In this series of work, we apply Gaussian spectral filters to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.">
 
 
   
-  
-  
-  
-  <script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "BlogPosting",
-        "articleSection": "research",
-        "name": "Spectral analysis with energy filters",
-        "headline": "Spectral analysis with energy filters",
-        "alternativeHeadline": "",
-        "description": "
-      
-        \u003cp\u003eThermal properties of quantum many-body systems are often encoded in their \u0026ldquo;diagonal\u0026rdquo; part in the Hamiltonian eigenbasis. For example, in the framework of the eigenstate thermalization hypothesis (ETH), each individual energy eigenstate locally resembles a thermal state. States that are easy to prepare, such as pure product states or the maximally mixed state, typically have extensive energy variance that prohibits extraction of thermal properties.\u003c\/p\u003e\n\u003cp\u003eA natural way to reduce energy fluctuations and coherences is to apply spectral filters, which suppress contributions from undesired energy eigenstates away from the target energy. In this series of work, we apply Gaussian spectral filters to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.\u003c\/p\u003e
-
-
-      
-
-
-    ",
-        "license": "",
-        
-        "inLanguage": "en-us",
-        "isFamilyFriendly": "true",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https:\/\/ylyang-phy.github.io\/research\/filter\/"
+    <script>
+      window.MathJax = {
+        tex: {
+          displayMath: [['\\[', '\\]'], ['$$', '$$']],
+          inlineMath: [['\\(', '\\)']]
         },
-        "author" : {
-            "@type": "Person",
-            "name": "Yilun Yang"
-        },
-        "creator" : {
-            "@type": "Person",
-            "name": "Yilun Yang"
-        },
-        "accountablePerson" : {
-            "@type": "Person",
-            "name": "Yilun Yang"
-        },
-        "copyrightHolder" : {
-            "@type": "Person",
-            "name": "Yilun Yang"
-        },
-        "dateCreated": "2025-10-08T00:00:00.00Z",
-        "datePublished": "2025-10-08T00:00:00.00Z",
-        "dateModified": "2025-10-08T00:00:00.00Z",
-        "publisher":{
-            "@type":"Organization",
-            "name": "Yilun Yang",
-            "url": "https://ylyang-phy.github.io/",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https:\/\/ylyang-phy.github.io\/favicons\/favicon.icofavicon-32x32.png",
-                "width":"32",
-                "height":"32"
-            }
-        },
-        "image": 
-      [
-      ]
-
-    ,
-        "url" : "https:\/\/ylyang-phy.github.io\/research\/filter\/",
-        "wordCount" : "573",
-        "genre" : [ ],
-        "keywords" : [ ]
-    }
-  </script>
-
-
-
+        loader: { load: ['ui/safe'] }
+      };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+  
 
   
+    <script defer src="/js/site.min.d2d4830224cb7140c590d462faaea77bb09718c0eea746924387bf1d6859fa28.js" integrity="sha256-0tSDAiTLcUDFkNRi&#43;q6ne7CXGMDup0aSQ4e/HWhZ&#43;ig=" crossorigin="anonymous"></script>
   
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+</head>
 
-<script>
-  MathJax = {
-    tex: {
-      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
-      inlineMath: [['\\(', '\\)']]                  
-    },
-    loader:{
-      load: ['ui/safe']
-    },
-  };
-</script>
-  
-</head><body class="body">
-    <div class="wrapper">
-      <aside
-        
-          class="wrapper__sidebar"
-        
-      ><div
-  class="sidebar
-    .
-  "
->
-  <div class="sidebar__content">
+  <body>
+    <div class="site-shell">
+      <section class="profile" aria-label="Site identity">
+  <div class="profile__inner">
     
-      <a class="sidebar__profile-link" href="/" aria-label="Home">
-        <img
-          class="sidebar__introduction-profileimage"
-          src="/img/favicon.png"
-          alt="Yilun Yang logo"
-        />
+      <a class="profile__logo-link" href="/" aria-label="Home">
+        <img class="profile__logo" src="/img/favicon.png" alt="Yilun Yang logo" />
       </a>
     
-    <div class="sidebar__introduction">
+    <div class="profile__identity">
       
-        <div class="sidebar__introduction-title">
-          <a href="/">Yilun Yang&#39;s homepage</a>
-        </div>
+        <a class="profile__title" href="/">Yilun Yang&#39;s homepage</a>
       
       
     </div>
   </div>
-</div>
-</aside>
-      <main
-        
-          class="wrapper__main"
-        
-      >
-        <header class="header"><div
-  class="
-    .
-  "
->
-  <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-    <span aria-hidden="true" class="navbar-burger__line"></span>
-    <span aria-hidden="true" class="navbar-burger__line"></span>
-    <span aria-hidden="true" class="navbar-burger__line"></span>
-  </a>
-  <nav class="nav">
-    <ul class="nav__list" id="navMenu">
+</section>
+
+      <header class="site-nav">
+  <button
+    class="menu-toggle"
+    type="button"
+    aria-controls="primary-navigation"
+    aria-expanded="false"
+    aria-label="Open navigation"
+  >
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+
+  <nav class="nav" id="primary-navigation" aria-label="Primary navigation">
+    <ul class="nav__primary">
       
       
         
-        
-          <li class="nav__list-item">
-            
-            <a
-              
-              href="/"
-              
-              title=""
-              >About</a
-            >
+          
+          <li class="nav__item">
+            <a class="nav__link" href="/">
+              About
+            </a>
           </li>
         
       
         
-        
-          <li class="nav__list-item">
-            <div class="optionswitch">
-              <input class="optionswitch__picker" type="checkbox" id="1" hidden />
-
+          
+          
+            
+          
+            
+          
+            
+          
+          <li class="nav__item nav__dropdown">
+            <button
+              class="nav__link nav__dropdown-toggle nav__link--active"
+              type="button"
+              aria-expanded="false"
+            >
+              Research <span class="nav__chevron" aria-hidden="true"></span>
+            </button>
+            <ul class="nav__dropdown-menu">
               
+                <li>
+                  <a href="/research/dissipative">
+                    Dissipative cooling
+                  </a>
+                </li>
               
-                
+                <li>
+                  <a href="/research/filter" aria-current="page">
+                    Spectral filters
+                  </a>
+                </li>
               
-                
+                <li>
+                  <a href="/research/qsim">
+                    Quantum simulation
+                  </a>
+                </li>
               
-                
-              
-
-              <label class="optionswitch__label" for="1"
-                >Research <i class="fa fa-angle-down" aria-hidden="true"></i
-              ></label>
-
-              <div class="optionswitch__triangle"></div>
-              <ul class="optionswitch__list">
-                
-                  <li class="optionswitch__list-item">
-                    
-                    <a
-                      href="/research/dissipative"
-                      
-                      title=""
-                      >Dissipative cooling</a
-                    >
-                  </li>
-                
-                  <li class="optionswitch__list-item">
-                    
-                    <a
-                      href="/research/filter"
-                      
-                      title=""
-                      >Spectral filters</a
-                    >
-                  </li>
-                
-                  <li class="optionswitch__list-item">
-                    
-                    <a
-                      href="/research/qsim"
-                      
-                      title=""
-                      >Quantum simulation</a
-                    >
-                  </li>
-                
-              </ul>
-            </div>
+            </ul>
           </li>
         
       
     </ul>
-    <ul class="nav__list nav__list--end">
+
+    <ul class="nav__controls" aria-label="Contact and display controls">
       
-        <li class="nav__list-item nav__social-item">
+        <li>
           <a
-            class="nav__social-link"
+            class="nav__icon-link"
             href="mailto:ylyang@berkeley.edu"
-            target="_blank"
+            
             rel="noopener me"
             aria-label="e-mail"
             title="e-mail"
           >
-            <i class="fas fa-envelope nav__social-icon" aria-hidden="true"></i>
+            
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 5h18v14H3V5Zm9 7.1L19 7H5l7 5.1Zm0 2.4L5 9.4V17h14V9.4l-7 5.1Z" />
+              </svg>
+            
           </a>
         </li>
       
-        <li class="nav__list-item nav__social-item">
+        <li>
           <a
-            class="nav__social-link"
+            class="nav__icon-link"
             href="https://scholar.google.com/citations?hl=en&amp;user=WjY5YRYAAAAJ"
             target="_blank"
             rel="noopener me"
             aria-label="Google Scholar"
             title="Google Scholar"
           >
-            <i class="ai ai-google-scholar-square ai-3x nav__social-icon" aria-hidden="true"></i>
+            
+              <i class="ai ai-google-scholar-square" aria-hidden="true"></i>
+            
           </a>
         </li>
       
-      
-      
-        <li class="nav__list-item">
-          <div class="themeswitch">
-            <a title="Switch Theme">
-              <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
-            </a>
-          </div>
-        </li>
-      
+      <li>
+        <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+          <span class="theme-toggle__icon" aria-hidden="true"></span>
+        </button>
+      </li>
     </ul>
   </nav>
-</div>
 </header>
-  <div
-    class="post 
-      .
-    "
-  >
-    
-    <div class="post__content">
-      
-        <h1>Spectral Analysis With Energy Filters</h1>
-      
-      <p>Thermal properties of quantum many-body systems are often encoded in their &ldquo;diagonal&rdquo; part in the Hamiltonian eigenbasis. For example, in the framework of the eigenstate thermalization hypothesis (ETH), each individual energy eigenstate locally resembles a thermal state. States that are easy to prepare, such as pure product states or the maximally mixed state, typically have extensive energy variance that prohibits extraction of thermal properties.</p>
+
+      <main class="site-main" id="main-content">
+        
+  <article class="content">
+    <h1>Spectral Analysis With Energy Filters</h1>
+    <p>Thermal properties of quantum many-body systems are often encoded in their &ldquo;diagonal&rdquo; part in the Hamiltonian eigenbasis. For example, in the framework of the eigenstate thermalization hypothesis (ETH), each individual energy eigenstate locally resembles a thermal state. States that are easy to prepare, such as pure product states or the maximally mixed state, typically have extensive energy variance that prohibits extraction of thermal properties.</p>
 <p>A natural way to reduce energy fluctuations and coherences is to apply spectral filters, which suppress contributions from undesired energy eigenstates away from the target energy. In this series of work, we apply Gaussian spectral filters to probe spectral properties of quantum many-body systems. This approach provides a useful framework for studying a range of questions, including thermalization and quantum phase transitions.</p>
 <center><figure><img src="/img/research_filtering.jpg" width="700">
 </figure>
@@ -422,6 +211,7 @@ A natural way to reduce energy fluctuations and coherences is to apply spectral 
 <br />
 <h2 id="filtering-the-maximally-mixed-state-microcanonical-ensemble-as-thermalization-probe">Filtering the maximally mixed state: microcanonical ensemble as thermalization probe</h2>
 <hr>
+<div class="top-references">
 <ul>
 <li>
 <p>[1] <strong>Probing Thermalization through Spectral Analysis with Matrix Product Operators</strong>
@@ -436,6 +226,7 @@ A natural way to reduce energy fluctuations and coherences is to apply spectral 
 <a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307">Phys. Rev. B <strong>106</strong>, 024307 (2022) (<strong>Editor′s suggestion</strong>)</a></p>
 </li>
 </ul>
+</div>
 <div class="research-description">
 <p>The <em><strong>microcanonical ensemble</strong></em> at finite energy density plays a central role in many-body physics, enabling the study of long-time dynamics and nonequilibrium phenomena. For example, the comparison of microcanonical and canonical ensemble observable expectation values serves as a probe of whether a quantum many-body system thermalizes.</p>
 <p>Unlike canonical ensembles, however, few algorithm previously existed for computing microcanonical properties. This challenge can be addressed by applying spectral filters to a maximally mixed state. In one-dimensional systems, these filters can be efficiently implemented using tensor networks via Chebyshev or Fourier expansions. It also serves as an efficient quantum algorithm<sup>[5]</sup>.</p>
@@ -446,12 +237,14 @@ A natural way to reduce energy fluctuations and coherences is to apply spectral 
 </p>
 <h2 id="filtering-pure-states-what-is-the-required-filter-width">Filtering pure states: what is the required filter width?</h2>
 <hr>
+<div class="top-references">
 <ul>
 <li>[3] <strong>How thermal is a filtered state?</strong>
 <br />
 <span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>J. I. Cirac, and M. C. Bañuls</em>,
 <a href="https://arxiv.org/abs/2607.06847">arXiv:2607.06847 [quant-ph]</a></li>
 </ul>
+</div>
 <div class="research-description">
 <p>In an extreme case when the filter width \(\delta\) is exponentially small in system size, applying the spectral filter to a pure initial state yields an energy eigenstate, which locally resembles thermal states if assuming ETH. Can the choice of \(\delta\) be relaxed?</p>
 <p>We answer this question by extending the definition of spectral filters to Floquet dynamics. This setting allows us to analytically compute the Rènyi-\(\alpha\) entanglement entropies of Floquet-filtered states, which are distinct for different \(\alpha\) and only logarithmic in \(1 / \delta\) when \( \alpha > 1\). Moreover, under the assumption of Floquet ETH, we show that for local observables, their errors from thermal values are upper bounded by \( \mathcal{O}(\sqrt{\delta}) \). Finally, by establishing a mapping between Hamiltonian- and Floquet- filtered states, the results can be generalized back to spectral filtered states in the normal Hamiltonian setting.</p>
@@ -462,12 +255,14 @@ A natural way to reduce energy fluctuations and coherences is to apply spectral 
 </p>
 <h2 id="filtering-pure-states-measuring-eigenvalue-degeneracies">Filtering pure states: measuring eigenvalue degeneracies</h2>
 <hr>
+<div class="top-references">
 <ul>
 <li>[4] <strong>Quantum Filtering and Analysis of Multiplicities in Eigenvalue Spectra</strong>
 <br />
 <em>Z. Ding, L. Lin</em>, <span style="color: salmon"><em><strong>Y. Yang</strong></em></span>, <em>R. Zhang</em>,
 <a href="https://journals.aps.org/prxquantum/abstract/10.1103/jch7-734h?__cf_chl_f_tk=sKJFkP7ctrMyXMAHiWL0JBW7sEzwVUovutH5RnDyLIE-1782840710-1.0.1.1-PCGfAPr3GKGzD.V6eOoV.INx8hcBmtzVE3hfLfgSlI4">PRX Quantum <strong>7</strong>, 020318 (2026)</a></li>
 </ul>
+</div>
 <center><figure><img src="/img/QFAMES_flowchart.png" width="500">
 </figure>
  </center>
@@ -488,34 +283,14 @@ A natural way to reduce energy fluctuations and coherences is to apply spectral 
 <p class="clearboth">
 	&nbsp;
 </p>
-</div>
-    <div class="post__footer">
-      
 
-      
-    </div>
-
-    
-  </div>
+  </article>
 
       </main>
-    </div><footer class="footer footer__base">
-  <ul class="footer__list">
-    <li class="footer__item">
-      &copy;
-      
-        Yilun Yang
-        2026
-      
-    </li>
-    
-  </ul>
+    </div>
+    <footer class="footer">
+  <p>&copy; Yilun Yang 2026</p>
 </footer>
-  
-  <script
-    type="text/javascript"
-    src="/js/medium-zoom.min.9531b4a2217a70c5a1fce89c1f81c9ebbdd586708fcd4130b417320c7230c8d6.js"
-    integrity="sha256-lTG0oiF6cMWh/OicH4HJ673VhnCPzUEwtBcyDHIwyNY="
-    crossorigin="anonymous"
-  ></script></body>
+
+  </body>
 </html>
