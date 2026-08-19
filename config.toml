@@ -50,7 +50,7 @@ author = "Yilun Yang"
 	doNotLoadAnimations = true
     math = true
 
-	customCss = ["css/academicons.css"]
+	customCss = ["css/academicons.css", "css/homepage.css"]
 	favicon = "favicons/favicon.ico"
 
     mainSections = []

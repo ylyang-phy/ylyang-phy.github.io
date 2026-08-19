@@ -3,8 +3,6 @@ title: "Spectral analysis with energy filters"
 date: 2025-10-08
 ---
 
-<div style="max-width: 800px"> 
-
 Thermal properties of quantum many-body systems are often encoded in their "diagonal" part in the Hamiltonian eigenbasis. For example, in the framework of the eigenstate thermalization hypothesis (ETH), each individual energy eigenstate locally resembles a thermal state. States that are easy to prepare, such as pure product states or the maximally mixed state, typically have extensive energy variance that prohibits extraction of thermal properties. 
 
 
@@ -31,10 +29,15 @@ A natural way to reduce energy fluctuations and coherences is to apply spectral 
   <br />
   <span style="color: salmon">***Y. Yang***</span>, *J. I. Cirac, and M. C. Bañuls*, 
   [Phys. Rev. B **106**, 024307 (2022) (**Editor&prime;s suggestion**)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.024307)
-    
+
+{{% research-description %}}
+
 The ***microcanonical ensemble*** at finite energy density plays a central role in many-body physics, enabling the study of long-time dynamics and nonequilibrium phenomena. For example, the comparison of microcanonical and canonical ensemble observable expectation values serves as a probe of whether a quantum many-body system thermalizes.
 
 Unlike canonical ensembles, however, few algorithm previously existed for computing microcanonical properties. This challenge can be addressed by applying spectral filters to a maximally mixed state. In one-dimensional systems, these filters can be efficiently implemented using tensor networks via Chebyshev or Fourier expansions. It also serves as an efficient quantum algorithm<sup>[5]</sup>.
+
+{{% /research-description %}}
+
 <br>
 <p class="clearboth">
 	&nbsp;
@@ -51,9 +54,13 @@ Unlike canonical ensembles, however, few algorithm previously existed for comput
   <span style="color: salmon">***Y. Yang***</span>, *J. I. Cirac, and M. C. Bañuls*, 
   [arXiv:2607.06847 [quant-ph]](https://arxiv.org/abs/2607.06847)
 
+{{% research-description %}}
+
 In an extreme case when the filter width \(\delta\) is exponentially small in system size, applying the spectral filter to a pure initial state yields an energy eigenstate, which locally resembles thermal states if assuming ETH. Can the choice of \(\delta\) be relaxed?
 
 We answer this question by extending the definition of spectral filters to Floquet dynamics. This setting allows us to analytically compute the Rènyi-\(\alpha\) entanglement entropies of Floquet-filtered states, which are distinct for different \(\alpha\) and only logarithmic in \(1 / \delta\) when \( \alpha > 1\). Moreover, under the assumption of Floquet ETH, we show that for local observables, their errors from thermal values are upper bounded by \( \mathcal{O}(\sqrt{\delta}) \). Finally, by establishing a mapping between Hamiltonian- and Floquet- filtered states, the results can be generalized back to spectral filtered states in the normal Hamiltonian setting.
+
+{{% /research-description %}}
 
 <br>
 <p class="clearboth">
@@ -74,10 +81,11 @@ We answer this question by extending the definition of spectral filters to Floqu
 
 <center>{{< figure src="/img/QFAMES_flowchart.png" width="500" >}} </center>
 
+{{% research-description %}}
 
 By scanning over different filter centers, one can reconstruct the local density of states of a chosen initial state, thereby estimating the underlying energy eigenvalues<sup>[6]</sup>. Remarkably, when multiple initial states are available, this approach also enables the estimation of eigenvalue ***degeneracies***, which is missing in conventional quantum phase estimation algorithms.
 
- 
+{{% /research-description %}}
 
 <br>
 <p class="clearboth">
@@ -97,7 +105,3 @@ By scanning over different filter centers, one can reconstruct the local density
 <p class="clearboth">
 	&nbsp;
 </p>
-
-  
-
-</div>

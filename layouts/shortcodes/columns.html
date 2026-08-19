@@ -1,16 +1,3 @@
-<style>
-	#left{
-		float: left;
-		width: 450px;
-		max-width: 100%;
-	}
-	#right{
-		float: right;
-		width: 450px;
-		max-width: 100%;
-	}
-</style>
-
-<div id="{{ .Get "float" }}">
-	{{ .Inner }}
+<div class="research-layout__figure research-layout__figure--{{ .Get "float" }}">
+  {{ .Inner }}
 </div>

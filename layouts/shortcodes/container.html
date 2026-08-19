@@ -1,3 +1,4 @@
-<div class="container">
-	{{ .Inner }}
+{{- $imageSide := .Get "image" | default "right" -}}
+<div class="research-layout research-layout--image-{{ $imageSide }}">
+  {{ .Inner }}
 </div>
