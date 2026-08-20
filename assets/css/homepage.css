@@ -1,3 +1,13 @@
+/* AR PL UKai CN, subset to the three Chinese glyphs in the site title. */
+@font-face {
+  font-family: "AR PL UKai CN";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/ar-pl-ukai/ar-pl-ukai-cn-title.ttf") format("truetype");
+  unicode-range: U+4F26, U+6768, U+9038;
+}
+
 :root {
   color-scheme: light;
   --background: #ffffff;
@@ -100,6 +110,8 @@ hr {
 .profile__title {
   display: block;
   margin: 0;
+  font-family:
+    "AR PL UKai CN", "PingHei", "PingFang SC", "Helvetica Neue", "Work Sans", "Hiragino Sans GB", sans-serif;
   font-size: 3.2rem;
   font-weight: 700;
   letter-spacing: 2px;

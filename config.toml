@@ -39,7 +39,7 @@ pluralizeListTitles = false
         parent = "research"  
 
 [params]
-	title = "Yilun Yang's homepage"
+	title = "Yilun Yang 杨逸伦"
 	author = "Yilun Yang"
 	description = """
 	"""
