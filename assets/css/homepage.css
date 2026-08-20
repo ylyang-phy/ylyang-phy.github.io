@@ -314,6 +314,11 @@ hr {
   text-align: center;
 }
 
+:root[data-theme="dark"] .content figure img {
+  filter: invert(1) hue-rotate(180deg);
+  mix-blend-mode: screen;
+}
+
 .content code,
 .content pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
