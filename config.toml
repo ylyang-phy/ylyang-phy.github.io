@@ -43,11 +43,11 @@ pluralizeListTitles = false
 	author = "Yilun Yang"
 	description = """
 	"""
-    profilePicture = "img/favicon.png"
+    profilePicture = "img/cat-braket.png"
 	displayMode = "light"
     math = true
 
-	favicon = "favicons/favicon.ico"
+	favicon = "favicons/cat-braket.ico"
 
 	[[params.socialIcons]]
 		icon = "email"
