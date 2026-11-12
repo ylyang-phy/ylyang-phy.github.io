@@ -1,2 +1,6 @@
 .DS_Store
 
+# Hugo build output and caches (the site is built by GitHub Actions)
+/public/
+/resources/
+.hugo_build.lock
