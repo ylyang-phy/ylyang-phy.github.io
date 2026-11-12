@@ -11,6 +11,8 @@ My research currently focuses on developing techniques to study thermal and dyna
 
 Please refer to research page for my previous works.
 
+{{< inline-svg src="img/research-overview.svg" class="research-overview" >}}
+
 <br>
 
 ### Short bio

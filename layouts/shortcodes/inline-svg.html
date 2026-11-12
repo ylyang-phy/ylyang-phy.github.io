@@ -1,0 +1,5 @@
+{{- /* Inline an SVG from static/ so it can follow the site's light/dark theme variables. */ -}}
+{{- $src := .Get "src" -}}
+<figure class="inline-svg{{ with .Get "class" }} {{ . }}{{ end }}">
+  {{ readFile (printf "static/%s" (strings.TrimPrefix "/" $src)) | safeHTML }}
+</figure>

@@ -326,6 +326,18 @@ hr {
   text-align: center;
 }
 
+/* Inlined SVG figures pick up the theme variables directly. */
+.content figure.inline-svg svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.content figure.research-overview {
+  max-width: 980px;
+  margin-block: 28px 12px;
+}
+
 :root[data-theme="dark"] .content figure img {
   filter: invert(1) hue-rotate(180deg);
   mix-blend-mode: screen;
